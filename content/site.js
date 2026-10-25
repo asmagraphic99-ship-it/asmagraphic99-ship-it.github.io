@@ -1,0 +1,90 @@
+/* =========================================================================
+   SITE SETTINGS — your name, contact links, CV, experience, tools.
+   Edit the values between quotes. Every text field has an English (en)
+   and Arabic (ar) version. Leave a link as "" to hide it on the site.
+   ========================================================================= */
+window.PORTFOLIO = window.PORTFOLIO || {};
+
+PORTFOLIO.site = {
+  name: { en: "Asma Othman", ar: "أسماء عثمان" },
+  role: { en: "Senior Graphic Designer · Art Direction", ar: "مصممة جرافيك أولى · إدارة فنية" },
+  location: { en: "Jeddah, Saudi Arabia", ar: "جدة، المملكة العربية السعودية" },
+  since: 2019, // first year of professional work (used in the hero slug line)
+
+  // The website address after you publish it (used for social sharing previews).
+  // Example for GitHub Pages: "https://your-username.github.io"
+  url: "",
+
+  // ---- Contact --------------------------------------------------------------
+  email: "asmastudio33@gmail.com",
+  links: {
+    behance: "https://www.behance.net/AsmaaOthman",
+    instagram: "https://www.instagram.com/asmaothman.creative/",
+    linkedin: "https://www.linkedin.com/in/asmaaothman/",
+  },
+
+  // ---- CV -------------------------------------------------------------------
+  // Put your PDF in assets/cv/ and write its path here, e.g. "assets/cv/Asma-Othman-CV.pdf".
+  // While this is "", the About page shows a "CV available on request" note instead of a broken link.
+  cv: "assets/cv/Asmaa-Othman-CV.pdf",
+
+  // ---- Home page copy -------------------------------------------------------
+  headline: {
+    en: "Brand identities and campaigns, art‑directed from the first sketch to the final frame.",
+    ar: "هويات بصرية وحملات إعلانية، بإدارة فنية من أول اسكتش حتى آخر فريم.",
+  },
+  intro: {
+    en: "I’m a graphic designer with seven years across Saudi Arabia, the Gulf, Egypt and Turkey. I shape how brands look, speak and move, from logo and system to campaign and motion.",
+    ar: "مصممة جرافيك بخبرة سبع سنوات بين السعودية والخليج ومصر وتركيا. أصمّم كيف تبدو العلامات التجارية وكيف تتحدث وتتحرك، من الشعار والنظام البصري إلى الحملة والموشن.",
+  },
+
+  // ---- About page -----------------------------------------------------------
+  about: {
+    en: [
+      "I design brand identities, advertising and social campaigns, print, and motion for companies across Saudi Arabia and the Gulf. My work starts with the brief and the audience, and only then with the visuals.",
+      "Over seven years I have moved from agency production to leading the visual direction of brands: building identity systems, setting campaign looks, and keeping every touchpoint consistent. I work comfortably in Arabic and English, and I use AI tools to explore ideas faster while keeping the final craft in my own hands.",
+    ],
+    ar: [
+      "أصمّم الهويات البصرية والحملات الإعلانية وحملات السوشيال ميديا والمطبوعات والموشن لشركات في السعودية والخليج. شغلي يبدأ من البريف والجمهور، وبعدها يجي الشكل.",
+      "خلال سبع سنوات انتقلت من التنفيذ داخل الوكالات إلى قيادة الاتجاه البصري للعلامات: بناء أنظمة الهوية، وتحديد شكل الحملات، والحفاظ على اتساق كل نقطة تواصل. أشتغل بالعربي والإنجليزي بنفس الراحة، وأستخدم أدوات الذكاء الاصطناعي لاستكشاف الأفكار أسرع، مع إبقاء الحرفة النهائية بين يديّ.",
+    ],
+  },
+  quote: {
+    en: "Good design is not just seen. It is felt.",
+    ar: "التصميم الجيد لا يُرى فقط، بل يُحَسّ.",
+  },
+
+  services: [
+    { en: "Brand identity & visual systems", ar: "الهوية البصرية والأنظمة البصرية" },
+    { en: "Art direction", ar: "الإدارة الفنية" },
+    { en: "Advertising & social media campaigns", ar: "الحملات الإعلانية وحملات السوشيال ميديا" },
+    { en: "Editorial, print & company profiles", ar: "التصميم التحريري والمطبوعات وملفات الشركات" },
+    { en: "Motion graphics & video editing", ar: "الموشن جرافيك والمونتاج" },
+    { en: "Packaging design", ar: "تصميم التغليف" },
+    { en: "UI/UX design", ar: "تصميم واجهات وتجربة المستخدم" },
+    { en: "Infographics & information design", ar: "الإنفوجرافيك وتصميم المعلومات" },
+    { en: "AI‑assisted creative workflows", ar: "سير عمل إبداعي بمساعدة الذكاء الاصطناعي" },
+  ],
+
+  // Most recent first. Dates and cities from your CV.
+  experience: [
+    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } },
+    { years: "Jun 2023 — Jun 2025", company: "Happenize", place: { en: "Dubai, UAE", ar: "دبي، الإمارات" }, role: { en: "Senior Graphic Designer · UI/UX Designer", ar: "مصممة جرافيك أولى · مصممة UI/UX" } }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+    { years: "Oct 2021 — Dec 2022", company: "Montasher Sa", place: { en: "Riyadh, Saudi Arabia", ar: "الرياض، السعودية" }, role: { en: "Branding Designer", ar: "مصممة هويات" } },
+    { years: "Oct 2020 — Jan 2021", company: "Ektsap", place: { en: "Istanbul, Turkey", ar: "إسطنبول، تركيا" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+    { years: "Jul 2020 — Nov 2020", company: "Emedia", place: { en: "Al Ain, UAE", ar: "العين، الإمارات" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+    { years: "Apr 2020 — Sep 2021", company: "Joury Media", place: { en: "Mansoura, Egypt", ar: "المنصورة، مصر" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+    { years: "Nov 2019 — Mar 2020", company: "Hunter", place: { en: "Mansoura, Egypt", ar: "المنصورة، مصر" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+  ],
+
+  education: {
+    years: "2017 — 2022",
+    title: { en: "Bachelor of Applied Arts", ar: "بكالوريوس الفنون التطبيقية" },
+    detail: { en: "Graphic & Advertising Department", ar: "قسم الجرافيك والإعلان" },
+  },
+
+  tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premiere Pro", "Figma", "ChatGPT", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI"],
+
+  portrait: "assets/work/about/portrait.webp",
+  heroPhoto: "assets/work/about/hero.webp", // large photo on the home page
+};
