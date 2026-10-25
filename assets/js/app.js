@@ -10,7 +10,7 @@
   const SITE = P.site || {};
   const PROJECTS = (P.projects || []).filter((p) => p && p.slug);
   const CATS = P.categories || {};
-  const POSTS = (P.journal || []).filter((a) => a && a.slug).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const POSTS = (P.journal || []).filter((a) => a && a.slug && !a.draft) // drafts stay hidden until draft: false.slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const UI = P.ui || {};
 
   const $main = document.getElementById("main");
@@ -140,9 +140,9 @@
   const NAV = [
     { href: "#/work", key: "nav_work", match: /^\/work/ },
     { href: "#/about", key: "nav_about", match: /^\/about/ },
-    { href: "#/journal", key: "nav_journal", match: /^\/journal/ },
+    POSTS.length && { href: "#/journal", key: "nav_journal", match: /^\/journal/ },
     { href: "#/contact", key: "nav_contact", match: /^\/contact/ },
-  ];
+  ].filter(Boolean);
   function navLinks(path) {
     return NAV.map((n) => `<a href="${n.href}"${n.match.test(path) ? ' aria-current="page"' : ""}>${esc(t(n.key))}</a>`).join("");
   }
@@ -265,6 +265,7 @@
             <div class="cta-row">
               <a class="btn btn--proof" href="#/work">${esc(t("see_work"))} ${ARROW}</a>
               <a class="btn" href="#/contact">${esc(t("start_project"))}</a>
+              ${SITE.cv ? `<a class="btn" href="${esc(SITE.cv)}" target="_blank" rel="noopener">${esc(t("cv"))} <span aria-hidden="true">↓</span></a>` : ""}
             </div>
             ${yearsExp > 0 ? `<div class="hero-meta"><span class="stat"><b class="grain">+${num(yearsExp)}</b><span class="slug">${esc(t("years_exp"))}</span></span><span class="stat"><b class="grain">${num(PROJECTS.length)}</b><span class="slug">${esc(t("projects_label"))}</span></span></div>` : ""}
           </div>
@@ -375,7 +376,7 @@
     const prev = PROJECTS[(i - 1 + PROJECTS.length) % PROJECTS.length];
     const next = PROJECTS[(i + 1) % PROJECTS.length];
     const s = p.sections || {};
-    const order = ["brief", "concept", "strategy", "visual", "development"];
+    const order = ["brief", "audience", "concept", "strategy", "visual", "development", "role"];
     const rows = [];
     order.filter((k) => L(s[k]).trim()).forEach((k) => {
       rows.push({ label: t("s_" + k), body: `<p class="body">${esc(L(s[k]))}</p>` });
