@@ -26,6 +26,64 @@ PORTFOLIO.categories = {
 };
 
 PORTFOLIO.projects = [
+  /* ---------------------------------------------------- ICON REAL ESTATE */
+  {
+    slug: "icon-real-estate",
+    featured: true,
+    category: "real-estate",
+    year: "2026",
+    title: { en: "ICON Real Estate", ar: "ايكون العقارية" },
+    client: { en: "Icon Real Estate, Jeddah", ar: "ايكون العقارية، جدة" },
+    summary: {
+      en: "A social media visual system and project-launch campaigns for a Saudi developer, including ICON 19 and ICON 21 in Al Safa, Jeddah.",
+      ar: "نظام بصري للسوشيال ميديا وحملات إطلاق مشاريع لمطوّر عقاري سعودي، منها ايكون 19 وايكون 21 في حي الصفا بجدة.",
+    },
+    cover: "assets/work/icon-real-estate/cover.webp",
+    coverAlt: { en: "Collage of ICON Real Estate social posts with night-lit towers", ar: "مجموعة من منشورات ايكون العقارية بأبراج مضاءة ليلًا" },
+    services: [{ en: "Visual direction", ar: "الاتجاه البصري" }, { en: "Social campaigns", ar: "حملات السوشيال" }, { en: "Posts, stories & reels", ar: "منشورات وستوريز وريلز" }],
+    palette: [],
+    sections: {
+      brief: {
+        en: "Launch and sustain interest in new residential projects, and give the brand one recognisable look across every post, story and reel.",
+        ar: "إطلاق مشاريع سكنية جديدة والمحافظة على الاهتمام بها، ومنح العلامة شكلًا واحدًا يمكن التعرف عليه في كل منشور وستوري وريل.",
+      },
+      concept: {
+        en: "Night-blue skies, warm window light and gold type: the projects are always shown at the moment they look most like a home worth owning.",
+        ar: "سماء زرقاء ليلية، وإضاءة نوافذ دافئة، وخط ذهبي: تظهر المشاريع دائمًا في اللحظة التي تبدو فيها بيتًا يستحق الامتلاك.",
+      },
+      strategy: {
+        en: "Content is split into four roles (promotion, education, engagement and brand awareness) so the feed sells projects without feeling like a stream of ads.",
+        ar: "قسّمت المحتوى إلى أربعة أدوار (ترويج، وتوعية، وتفاعل، ووعي بالعلامة) حتى يبيع الحساب المشاريع دون أن يبدو سلسلة إعلانات.",
+      },
+      visual: {
+        en: "A fixed grid for the logo, headline and feature icons; Arabic display type set large in gold and white; architecture photographed or generated at dusk.",
+        ar: "شبكة ثابتة لمكان الشعار والعنوان وأيقونات المميزات، وخط عربي كبير بالذهبي والأبيض، وصور معمارية وقت الغروب.",
+      },
+      development: {
+        en: "Templates were built for project features, investment messages and Q&A posts, then extended into reels and motion for each launch.",
+        ar: "تم بناء قوالب لمميزات المشاريع ورسائل الاستثمار ومنشورات الأسئلة، ثم تطويرها إلى ريلز وموشن لكل إطلاق.",
+      },
+      audience: {
+        en: "Two audiences in Jeddah: families looking for a home in a sought-after district, and investors looking for long-term value. Every post speaks to one of them.",
+        ar: "جمهوران في جدة: عائلات تبحث عن بيت في حي مطلوب، ومستثمرون يبحثون عن قيمة طويلة المدى. كل منشور يخاطب واحدًا منهما.",
+      },
+      role: {
+        en: "As Senior Graphic Designer at Icon Real Estate I lead the design of the brand's marketing materials and project launches across digital and print, working with the marketing and sales teams, and I design the sales presentations and collateral.",
+        ar: "بصفتي مصممة جرافيك أولى في ايكون العقارية، أقود تصميم المواد التسويقية وإطلاقات المشاريع على المنصات الرقمية والمطبوعات، بالتعاون مع فريقي التسويق والمبيعات، وأصمم عروض المبيعات والمواد الداعمة.",
+      },
+    },
+    deliverables: [
+      { en: "Social media visual system", ar: "النظام البصري للسوشيال ميديا" },
+      { en: "Launch campaigns for ICON 19 & ICON 21", ar: "حملات إطلاق ايكون 19 وايكون 21" },
+      { en: "Feed posts, stories & carousels", ar: "منشورات وستوريز وكاروسيل" },
+      { en: "Reels & motion highlights", ar: "ريلز ومقاطع موشن" },
+    ],
+    gallery: [
+      { src: "assets/work/icon-real-estate/system.webp", wide: true, caption: { en: "Social media system: promotional, educational and engagement posts", ar: "النظام البصري: منشورات ترويجية وتوعوية وتفاعلية" } },
+      { src: "assets/work/icon-reels/cover.webp", wide: true, caption: { en: "Reels for the ICON 21 launch", ar: "ريلز إطلاق ايكون 21" } },
+    ],
+  },
+
   /* ---------------------------------------------------------------- RASHF */
   {
     slug: "rashf",
@@ -74,56 +132,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/rashf/logos.webp", caption: { en: "Logo in three colourways", ar: "الشعار في ثلاث تركيبات لونية" } },
       { src: "assets/work/rashf/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
       { src: "assets/work/rashf/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
-    ],
-  },
-
-  /* ---------------------------------------------------- ICON REAL ESTATE */
-  {
-    slug: "icon-real-estate",
-    featured: true,
-    category: "real-estate",
-    year: "2026",
-    title: { en: "ICON Real Estate", ar: "ايكون العقارية" },
-    client: { en: "Icon Real Estate, Jeddah", ar: "ايكون العقارية، جدة" },
-    summary: {
-      en: "A social media visual system and project-launch campaigns for a Saudi developer, including ICON 19 and ICON 21 in Al Safa, Jeddah.",
-      ar: "نظام بصري للسوشيال ميديا وحملات إطلاق مشاريع لمطوّر عقاري سعودي، منها ايكون 19 وايكون 21 في حي الصفا بجدة.",
-    },
-    cover: "assets/work/icon-real-estate/cover.webp",
-    coverAlt: { en: "Collage of ICON Real Estate social posts with night-lit towers", ar: "مجموعة من منشورات ايكون العقارية بأبراج مضاءة ليلًا" },
-    services: [{ en: "Visual direction", ar: "الاتجاه البصري" }, { en: "Social campaigns", ar: "حملات السوشيال" }, { en: "Posts, stories & reels", ar: "منشورات وستوريز وريلز" }],
-    palette: [],
-    sections: {
-      brief: {
-        en: "Launch and sustain interest in new residential projects, and give the brand one recognisable look across every post, story and reel.",
-        ar: "إطلاق مشاريع سكنية جديدة والمحافظة على الاهتمام بها، ومنح العلامة شكلًا واحدًا يمكن التعرف عليه في كل منشور وستوري وريل.",
-      },
-      concept: {
-        en: "Night-blue skies, warm window light and gold type: the projects are always shown at the moment they look most like a home worth owning.",
-        ar: "سماء زرقاء ليلية، وإضاءة نوافذ دافئة، وخط ذهبي: تظهر المشاريع دائمًا في اللحظة التي تبدو فيها بيتًا يستحق الامتلاك.",
-      },
-      strategy: {
-        en: "Content is split into four roles (promotion, education, engagement and brand awareness) so the feed sells projects without feeling like a stream of ads.",
-        ar: "قسّمت المحتوى إلى أربعة أدوار (ترويج، وتوعية، وتفاعل، ووعي بالعلامة) حتى يبيع الحساب المشاريع دون أن يبدو سلسلة إعلانات.",
-      },
-      visual: {
-        en: "A fixed grid for the logo, headline and feature icons; Arabic display type set large in gold and white; architecture photographed or generated at dusk.",
-        ar: "شبكة ثابتة لمكان الشعار والعنوان وأيقونات المميزات، وخط عربي كبير بالذهبي والأبيض، وصور معمارية وقت الغروب.",
-      },
-      development: {
-        en: "Templates were built for project features, investment messages and Q&A posts, then extended into reels and motion for each launch.",
-        ar: "تم بناء قوالب لمميزات المشاريع ورسائل الاستثمار ومنشورات الأسئلة، ثم تطويرها إلى ريلز وموشن لكل إطلاق.",
-      },
-    },
-    deliverables: [
-      { en: "Social media visual system", ar: "النظام البصري للسوشيال ميديا" },
-      { en: "Launch campaigns for ICON 19 & ICON 21", ar: "حملات إطلاق ايكون 19 وايكون 21" },
-      { en: "Feed posts, stories & carousels", ar: "منشورات وستوريز وكاروسيل" },
-      { en: "Reels & motion highlights", ar: "ريلز ومقاطع موشن" },
-    ],
-    gallery: [
-      { src: "assets/work/icon-real-estate/system.webp", wide: true, caption: { en: "Social media system: promotional, educational and engagement posts", ar: "النظام البصري: منشورات ترويجية وتوعوية وتفاعلية" } },
-      { src: "assets/work/icon-reels/cover.webp", wide: true, caption: { en: "Reels for the ICON 21 launch", ar: "ريلز إطلاق ايكون 21" } },
     ],
   },
 

@@ -30,12 +30,12 @@ PORTFOLIO.site = {
 
   // ---- Home page copy -------------------------------------------------------
   headline: {
-    en: "Brand identities and campaigns, art‑directed from the first sketch to the final frame.",
-    ar: "هويات بصرية وحملات إعلانية، بإدارة فنية من أول اسكتش حتى آخر فريم.",
+    en: "I build visual identities and campaigns with a clear point of view.",
+    ar: "أبني هويات بصرية وحملات إعلانية بوجهة نظر واضحة.",
   },
   intro: {
-    en: "I’m a graphic designer with seven years across Saudi Arabia, the Gulf, Egypt and Turkey. I shape how brands look, speak and move, from logo and system to campaign and motion.",
-    ar: "مصممة جرافيك بخبرة سبع سنوات بين السعودية والخليج ومصر وتركيا. أصمّم كيف تبدو العلامات التجارية وكيف تتحدث وتتحرك، من الشعار والنظام البصري إلى الحملة والموشن.",
+    en: "From the idea and creative direction to execution and motion. Seven years designing for brands across Saudi Arabia, the Gulf, Egypt and Turkey.",
+    ar: "من الفكرة والاتجاه الإبداعي إلى التنفيذ والموشن. سبع سنوات من التصميم لعلامات في السعودية والخليج ومصر وتركيا.",
   },
 
   // ---- About page -----------------------------------------------------------
