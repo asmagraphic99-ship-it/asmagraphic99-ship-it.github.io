@@ -68,8 +68,8 @@ PORTFOLIO.site = {
 
   // Most recent first. Dates and cities from your CV.
   experience: [
-    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } },
-    { years: "Jun 2023 — Jun 2025", company: "Happenize", place: { en: "Dubai, UAE", ar: "دبي، الإمارات" }, role: { en: "Senior Graphic Designer · UI/UX Designer", ar: "مصممة جرافيك أولى · مصممة UI/UX" } }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
+    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } },
+    { years: "Jun 2023 — Jun 2025", company: "Happenize", place: { en: "Dubai, UAE", ar: "دبي، الإمارات" }, role: { en: "Senior Graphic Designer · UI/UX Designer", ar: "مصممة جرافيك أولى · مصممة UI/UX" } },
     { years: "Oct 2021 — Dec 2022", company: "Montasher Sa", place: { en: "Riyadh, Saudi Arabia", ar: "الرياض، السعودية" }, role: { en: "Branding Designer", ar: "مصممة هويات" } },
     { years: "Oct 2020 — Jan 2021", company: "Ektsap", place: { en: "Istanbul, Turkey", ar: "إسطنبول، تركيا" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
     { years: "Jul 2020 — Nov 2020", company: "Emedia", place: { en: "Al Ain, UAE", ar: "العين، الإمارات" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
