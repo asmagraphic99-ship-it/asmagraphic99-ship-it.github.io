@@ -101,6 +101,10 @@ Fonts (all free): **Playfair Display** for English titles, **Source Sans 3** for
 
 **Moving background:** giant Arabic letters from your name drift behind the page and move at different speeds as visitors scroll, and the page colour shifts gently between sections (espresso, copper-brown, dark olive). Edit the letters, sizes and speeds in `assets/js/app.js` → `GLYPHS`, and the section colours in `TONES`. Visitors whose device asks for reduced motion see the letters still.
 
+## Search engines and AI tools reading the site
+
+The pages are drawn by JavaScript, so tools that don't run JavaScript (some search crawlers, ChatGPT's browser) would see an empty page. To avoid that, `index.html` contains a pre-rendered snapshot of the home page plus a list of all projects. JavaScript replaces it as soon as the page loads, so visitors never see the difference. If you change a lot of text later, ask Claude to regenerate the snapshot, or leave it: it only affects what non-JavaScript tools see.
+
 ## Free deployment — GitHub Pages (recommended)
 
 You need a free GitHub account. Nothing to buy.
