@@ -24,7 +24,7 @@
   --beige: #D9C6AE;       /* secondary headings */
   --sage: #939E88;        /* muted grey-green text */
   --copper: #B85F47;      /* the accent */
-  --copper-hi: #D27A5F;   /* copper on hover / small text */
+  --copper-hi: #E08B6F;   /* copper on hover / small text */
   --line: rgba(235, 202, 183, .26);  /* box borders */
   --rule: rgba(235, 202, 183, .12);  /* faint rules */
   --grid: rgba(235, 202, 183, .035); /* grid paper */
@@ -506,3 +506,10 @@ html[lang="ar"] .md h2 { font-family: var(--arabic); line-height: 1.5; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Long Arabic headings use the readable sans; Guesswhat stays for the name and short titles */
+html[lang="ar"] .post-card h3, html[lang="ar"] .contact-band h2, html[lang="ar"] .article-head h1,
+html[lang="ar"] .md h2, html[lang="ar"] .hero-role, html[lang="ar"] .disciplines .d-name {
+  font-family: var(--sans-ar); font-weight: 600; letter-spacing: 0;
+}
+html[lang="ar"] .contact-band h2 { line-height: 1.45; }
