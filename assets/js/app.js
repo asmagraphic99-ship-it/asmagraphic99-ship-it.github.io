@@ -289,6 +289,11 @@
         <ol class="svc-grid">
           ${(SITE.services || []).map((sv, i) => `<li class="svc" data-reveal><span class="slug accent">${num(pad(i + 1))}</span><h3>${esc(L(sv))}</h3><p class="svc-alt" lang="${other()}">${esc(L(sv, other()))}</p></li>`).join("")}
         </ol>
+        <div class="ai-kit" data-reveal>
+          <span class="slug accent">${esc(t("ai_toolkit"))}</span>
+          <p class="ai-hf">${esc(t("ai_hf"))}</p>
+          <ul class="ai-tools">${["ChatGPT", "Higgsfield AI", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI"].map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        </div>
       </section>
 
       <section class="wrap section" data-tone="copper" aria-labelledby="sel-title">
