@@ -431,12 +431,12 @@ PORTFOLIO.projects = [
     title: { en: "AI Creator · Saudi National Day Film", ar: "AI Creator · فيلم اليوم الوطني" },
     client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
     summary: {
-      en: "A 46-second Saudi National Day ad film for Icon Real Estate, created entirely with AI: from a written concept and storyboard to generated scenes, animation and the final edit.",
-      ar: "فيلم إعلاني لليوم الوطني السعودي مدته 46 ثانية لايكون العقارية، مصنوع بالكامل بالذكاء الاصطناعي: من الفكرة المكتوبة والستوري بورد إلى توليد المشاهد وتحريكها والمونتاج النهائي.",
+      en: "A 46-second Saudi National Day ad film for Icon Real Estate, created entirely with AI on Higgsfield: from a written concept and storyboard to generated scenes, animation and the final edit.",
+      ar: "فيلم إعلاني لليوم الوطني السعودي مدته 46 ثانية لايكون العقارية، مصنوع بالكامل بالذكاء الاصطناعي على Higgsfield: من الفكرة المكتوبة والستوري بورد إلى توليد المشاهد وتحريكها والمونتاج النهائي.",
     },
     cover: "assets/work/ai-national-day/scene-12.webp",
     coverAlt: { en: "A boy in a green Sadu cloak with the Saudi emblem, facing the sunset", ar: "طفل بعباءة سدو خضراء عليها شعار المملكة يواجه الغروب" },
-    services: [{ en: "AI video creation", ar: "صناعة الفيديو بالذكاء الاصطناعي" }, { en: "Concept & storyboard", ar: "الفكرة والستوري بورد" }, { en: "Video editing", ar: "المونتاج" }],
+    services: [{ en: "AI video creation (Higgsfield AI)", ar: "صناعة الفيديو بالذكاء الاصطناعي (Higgsfield AI)" }, { en: "Concept & storyboard", ar: "الفكرة والستوري بورد" }, { en: "Video editing", ar: "المونتاج" }],
     palette: ["#0F5B3A", "#E9C58A", "#B5652F", "#F3EADF"],
     sections: {
       brief: {
@@ -456,12 +456,12 @@ PORTFOLIO.projects = [
         ar: "إضاءة الساعة الذهبية، وعمارة طينية ونخيل، ونقوش سدو بالأخضر والأبيض تتناغم مع العلم، مع الحفاظ على نفس الملابس والشخصيات من مشهد لمشهد.",
       },
       development: {
-        en: "Script and shot list, then a 14-scene storyboard. Each scene was generated as a still with fixed style and character references, animated with AI image-to-video, then edited in Premiere Pro with pacing, music and brand overlays for 9:16.",
-        ar: "سكريبت وقائمة لقطات، ثم ستوري بورد من 14 مشهدًا. كل مشهد تم توليده كصورة بمرجع ثابت للأسلوب والشخصيات، ثم تحريكه بتقنية تحويل الصورة إلى فيديو بالذكاء الاصطناعي، وبعدها المونتاج على بريمير مع الإيقاع والموسيقى وعناصر العلامة بمقاس 9:16.",
+        en: "Script and shot list, then a 14-scene storyboard. Production ran on Higgsfield AI: each scene was generated as a still with fixed style and character references, then brought to life with image-to-video, cinematic camera presets (push-ins, pans, tracking shots) and motion control to keep the people and the horse moving naturally. The clips were then edited in Premiere Pro with pacing, music and brand overlays for 9:16.",
+        ar: "سكريبت وقائمة لقطات، ثم ستوري بورد من 14 مشهدًا. الإنتاج تم على منصة Higgsfield AI: كل مشهد اتولّد كصورة بمرجع ثابت للأسلوب والشخصيات، ثم اتحرّك بتحويل الصورة إلى فيديو، مع حركات كاميرا سينمائية جاهزة (اقتراب، وتحريك أفقي، وتتبّع) وأداة التحكم في الحركة عشان تبان حركة الأشخاص والخيل طبيعية. وبعدها المونتاج على بريمير مع الإيقاع والموسيقى وعناصر العلامة بمقاس 9:16.",
       },
       role: {
-        en: "I wrote the concept, built the storyboard, generated and directed every shot with AI tools, and edited the final film.",
-        ar: "كتبت الفكرة، وبنيت الستوري بورد، وولّدت وأخرجت كل لقطة بأدوات الذكاء الاصطناعي، وعملت المونتاج النهائي للفيلم.",
+        en: "I wrote the concept, built the storyboard, generated and directed every shot on Higgsfield AI, and edited the final film.",
+        ar: "كتبت الفكرة، وبنيت الستوري بورد، وولّدت وأخرجت كل لقطة على منصة Higgsfield AI، وعملت المونتاج النهائي للفيلم.",
       },
     },
     deliverables: [

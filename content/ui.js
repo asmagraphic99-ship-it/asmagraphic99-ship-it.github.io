@@ -63,7 +63,7 @@ PORTFOLIO.ui = {
     play_video: "Play video",
     motion_title: "Motion & Editing", motion_lead: "Reels, launch films and edited showcases, designed, animated and cut in After Effects and Premiere Pro.", reel: "Reel",
     hello: "Hello, I’m", years_exp: "Years of experience", projects_label: "Selected projects",
-    nav_work_big: "Selected Work", services_title: "Services", brands_title: "Brands I’ve Designed For", stat_disciplines: "Disciplines", lets_talk: "Let’s Talk", about_title_big: "About", about_me: "About Me", contact_title_big: "Let’s Talk", project_info: "Project",
+    nav_work_big: "Selected Work", services_title: "Services", ai_toolkit: "AI toolkit", ai_hf: "Higgsfield AI: scene generation, image-to-video, cinematic camera moves & motion control", brands_title: "Brands I’ve Designed For", stat_disciplines: "Disciplines", lets_talk: "Let’s Talk", about_title_big: "About", about_me: "About Me", contact_title_big: "Let’s Talk", project_info: "Project",
   },
   ar: {
     skip: "انتقل إلى المحتوى",
@@ -123,6 +123,6 @@ PORTFOLIO.ui = {
     play_video: "تشغيل الفيديو",
     motion_title: "موشن ومونتاج", motion_lead: "ريلز وأفلام إطلاق ومقاطع عرض، من التصميم للتحريك للمونتاج على أفتر إفكتس وبريمير.", reel: "ريل",
     hello: "", years_exp: "سنوات خبرة", projects_label: "مشروعًا مختارًا",
-    nav_work_big: "أعمالي", services_title: "الخدمات", brands_title: "علامات صمّمت لها", stat_disciplines: "تخصصات", lets_talk: "تواصل معي", about_title_big: "من أنا؟", about_me: "عنّي", contact_title_big: "تعاون معي", project_info: "المشروع",
+    nav_work_big: "أعمالي", services_title: "الخدمات", ai_toolkit: "أدوات الذكاء الاصطناعي", ai_hf: "Higgsfield AI: توليد المشاهد، وتحويل الصور لفيديو، وحركات الكاميرا السينمائية، والتحكم في الحركة", brands_title: "علامات صمّمت لها", stat_disciplines: "تخصصات", lets_talk: "تواصل معي", about_title_big: "من أنا؟", about_me: "عنّي", contact_title_big: "تعاون معي", project_info: "المشروع",
   },
 };

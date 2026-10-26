@@ -42,11 +42,11 @@ PORTFOLIO.site = {
   about: {
     en: [
       "I design brand identities, advertising and social campaigns, print, and motion for companies across Saudi Arabia and the Gulf. My work starts with the brief and the audience, and only then with the visuals.",
-      "Over seven years I have moved from agency production to leading the visual direction of brands: building identity systems, setting campaign looks, and keeping every touchpoint consistent. I work comfortably in Arabic and English, and I use AI tools to explore ideas faster while keeping the final craft in my own hands.",
+      "Over seven years I have moved from agency production to leading the visual direction of brands: building identity systems, setting campaign looks, and keeping every touchpoint consistent. I work comfortably in Arabic and English, and I use AI tools to explore ideas faster while keeping the final craft in my own hands. On Higgsfield AI I create full ad films: generating scenes, turning images into video, directing cinematic camera moves and motion, then finishing the edit myself.",
     ],
     ar: [
       "أصمّم الهويات البصرية والحملات الإعلانية وحملات السوشيال ميديا والمطبوعات والموشن لشركات في السعودية والخليج. شغلي يبدأ من البريف والجمهور، وبعدها يجي الشكل.",
-      "خلال سبع سنوات انتقلت من التنفيذ داخل الوكالات إلى قيادة الاتجاه البصري للعلامات: بناء أنظمة الهوية، وتحديد شكل الحملات، والحفاظ على اتساق كل نقطة تواصل. أشتغل بالعربي والإنجليزي بنفس الراحة، وأستخدم أدوات الذكاء الاصطناعي لاستكشاف الأفكار أسرع، مع إبقاء الحرفة النهائية بين يديّ.",
+      "خلال سبع سنوات انتقلت من التنفيذ داخل الوكالات إلى قيادة الاتجاه البصري للعلامات: بناء أنظمة الهوية، وتحديد شكل الحملات، والحفاظ على اتساق كل نقطة تواصل. أشتغل بالعربي والإنجليزي بنفس الراحة، وأستخدم أدوات الذكاء الاصطناعي لاستكشاف الأفكار أسرع، مع إبقاء الحرفة النهائية بين يديّ. وعلى منصة Higgsfield AI أصنع أفلامًا إعلانية كاملة: أولّد المشاهد، وأحوّل الصور إلى فيديو، وأوجّه حركة الكاميرا السينمائية وحركة العناصر، ثم أنهي المونتاج بنفسي.",
     ],
   },
   quote: {
@@ -88,7 +88,7 @@ PORTFOLIO.site = {
     detail: { en: "Graphic & Advertising Department", ar: "قسم الجرافيك والإعلان" },
   },
 
-  tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premiere Pro", "Figma", "ChatGPT", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI"],
+  tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premiere Pro", "Figma", "ChatGPT", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI", "Higgsfield AI"],
 
   portrait: "assets/work/about/portrait-2.webp",
   heroPhoto: "assets/work/about/hero.webp", // large photo on the home page
