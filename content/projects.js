@@ -215,7 +215,7 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------------- CAREDRIVE */
   {
     slug: "caredrive",
-    featured: false,
+    featured: true,
     category: "brand-identity",
     year: "2026",
     title: { en: "CareDrive", ar: "كير درايف" },
@@ -419,48 +419,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/dallah-sukkar/p8.webp", caption: { en: "Post 8", ar: "منشور 8" } },
       { src: "assets/work/dallah-sukkar/p9.webp", caption: { en: "Post 9", ar: "منشور 9" } },
     ],
-  },
-
-  /* ------------------------------------------------------------ iCAUR V27 */
-  {
-    slug: "icaur-v27",
-    featured: true,
-    category: "motion",
-    year: "2026",
-    title: { en: "iCAUR V27", ar: "إيكار V27" },
-    client: { en: "iCAUR V27", ar: "إيكار V27" },
-    summary: {
-      en: "A cinematic social series for the iCAUR V27 SUV, presented as a motion showcase of the full set.",
-      ar: "سلسلة سوشيال سينمائية لسيارة إيكار V27، معروضة كفيديو موشن يجمع المجموعة كاملة.",
-    },
-    cover: "assets/work/icaur-v27/cover.webp",
-    coverAlt: { en: "Frame from the iCAUR V27 showcase video with three post cards", ar: "لقطة من فيديو عرض إيكار V27 بثلاثة تصاميم" },
-    services: [{ en: "Social media design", ar: "تصميم السوشيال" }, { en: "Motion showcase", ar: "عرض موشن" }],
-    palette: [],
-    sections: {
-      brief: {
-        en: "Present the V27 as a capable, premium SUV for both the city and the desert, in a set of posts that feel like one campaign.",
-        ar: "تقديم V27 كسيارة SUV قوية وفاخرة للمدينة والصحراء، في مجموعة منشورات تبدو حملة واحدة.",
-      },
-      concept: {
-        en: "Each post is a scene: city lights, open desert road, canyon at sunset. Together they tell one journey with short Arabic lines like \"the adventure starts here\".",
-        ar: "كل منشور مشهد: أضواء المدينة، وطريق صحراوي مفتوح، ووادٍ وقت الغروب. معًا تحكي رحلة واحدة بعبارات عربية قصيرة مثل «المغامرة تبدأ هنا».",
-      },
-      strategy: {
-        en: "Specs (AWD, horsepower, range) sit in the same place on every post, so the series reads as a system and each fact is easy to find.",
-        ar: "المواصفات (الدفع الرباعي، والقوة، والمدى) في نفس المكان في كل منشور، فتُقرأ السلسلة كنظام ويسهل إيجاد كل معلومة.",
-      },
-      visual: {
-        en: "Deep blue gradients, warm sand and a cinematic colour grade; the showcase video moves the cards in a gentle 3D carousel.",
-        ar: "تدرجات أزرق داكن، ورملي دافئ، وتلوين سينمائي، وفيديو العرض يحرك التصاميم في كاروسيل ثلاثي الأبعاد هادئ.",
-      },
-      development: {
-        en: "Posts were designed in Photoshop with AI-assisted imagery, then assembled into a short showcase reel for Instagram.",
-        ar: "صُممت المنشورات على فوتوشوب بصور بمساعدة الذكاء الاصطناعي، ثم جُمعت في ريل قصير للعرض على انستجرام.",
-      },
-    },
-    deliverables: [{ en: "Social post series", ar: "سلسلة منشورات" }, { en: "Showcase reel (4:5 and 9:16)", ar: "ريل عرض (4:5 و9:16)" }],
-    gallery: [{ type: "video", src: "assets/work/icaur-v27/reel.mp4", poster: "assets/work/icaur-v27/cover.webp", caption: { en: "Showcase reel", ar: "ريل العرض" } }],
   },
 
   /* --------------------------------------------------------- ICON 18 REELS */
