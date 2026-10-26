@@ -77,10 +77,77 @@ PORTFOLIO.projects = [
       { en: "Launch campaigns for ICON 19 & ICON 21", ar: "حملات إطلاق ايكون 19 وايكون 21" },
       { en: "Feed posts, stories & carousels", ar: "منشورات وستوريز وكاروسيل" },
       { en: "Reels & motion highlights", ar: "ريلز ومقاطع موشن" },
+      { en: "ICON 18 stories & occasion posts", ar: "ستوريز ايكون 18 ومنشورات المناسبات" },
     ],
     gallery: [
       { src: "assets/work/icon-real-estate/system.webp", wide: true, caption: { en: "Social media system: promotional, educational and engagement posts", ar: "النظام البصري: منشورات ترويجية وتوعوية وتفاعلية" } },
       { src: "assets/work/icon-reels/cover.webp", wide: true, caption: { en: "Reels for the ICON 21 launch", ar: "ريلز إطلاق ايكون 21" } },
+      { type: "video", src: "assets/work/icon-films/ad-30s.mp4", poster: "assets/work/icon-films/ad-30s-poster.webp", caption: { en: "30-second ad: “Want to buy property?”", ar: "إعلان 30 ثانية: «تبي تشتري عقار؟»" } },
+      { src: "assets/work/icon-real-estate/story-1.webp", caption: { en: "ICON 18 story 1", ar: "ستوري ايكون 18 رقم 1" } },
+      { src: "assets/work/icon-real-estate/story-2.webp", caption: { en: "ICON 18 story 2", ar: "ستوري ايكون 18 رقم 2" } },
+      { src: "assets/work/icon-real-estate/story-3.webp", caption: { en: "ICON 18 story 3", ar: "ستوري ايكون 18 رقم 3" } },
+      { src: "assets/work/icon-real-estate/story-4.webp", caption: { en: "ICON 18 story 4", ar: "ستوري ايكون 18 رقم 4" } },
+      { src: "assets/work/icon-real-estate/story-5.webp", caption: { en: "ICON 18 story 5", ar: "ستوري ايكون 18 رقم 5" } },
+      { src: "assets/work/icon-real-estate/story-6.webp", caption: { en: "ICON 18 story 6", ar: "ستوري ايكون 18 رقم 6" } },
+      { src: "assets/work/icon-real-estate/founding-1.webp", caption: { en: "Saudi Founding Day post 1", ar: "منشور يوم التأسيس 1" } },
+      { src: "assets/work/icon-real-estate/founding-2.webp", caption: { en: "Saudi Founding Day post 2", ar: "منشور يوم التأسيس 2" } },
+      { src: "assets/work/icon-real-estate/founding-3.webp", caption: { en: "Saudi Founding Day post 3", ar: "منشور يوم التأسيس 3" } },
+    ],
+  },
+
+  /* ------------------------------------------------------------ SAFARI */
+  {
+    slug: "safari",
+    featured: true,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "Safari", ar: "سفاري" },
+    client: { en: "Safari Specialty Coffee", ar: "سفاري للقهوة المختصة" },
+    summary: {
+      en: "A brand identity for a specialty coffee brand built around one line, “a taste worth the journey”, with desert dunes, a setting sun and Arabic calligraphic type.",
+      ar: "هوية بصرية لعلامة قهوة مختصة مبنية على عبارة واحدة «مذاق يستحق الرحلة»، بكثبان صحراوية وشمس غاربة وخط عربي.",
+    },
+    cover: "assets/work/safari/cover.webp",
+    coverAlt: { en: "Safari coffee cups, bags and packaging on a navy and orange set", ar: "أكواب وأكياس وتغليف سفاري على خلفية كحلية وبرتقالية" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }, { en: "Logo motion", ar: "موشن الشعار" }],
+    palette: ["#122B45", "#D56230", "#F7E7CF", "#B58963"],
+    sections: {
+      brief: {
+        en: "Build an identity for a specialty coffee brand with an Arabic name, that feels local and premium from the cup to the shopping bag.",
+        ar: "بناء هوية لعلامة قهوة مختصة باسم عربي، تبدو محلية وفاخرة من الكوب إلى الشنطة.",
+      },
+      concept: {
+        en: "The journey: every cup is the end of a long road from the farm. The tagline “a taste worth the journey” and the dune-and-sun symbol tell the same story.",
+        ar: "الرحلة: كل كوب هو نهاية طريق طويل من المزرعة. عبارة «مذاق يستحق الرحلة» ورمز الكثبان والشمس يحكيان نفس القصة.",
+      },
+      strategy: {
+        en: "One simple symbol that can live alone on small items, and a pattern of dunes that turns large surfaces into brand moments.",
+        ar: "رمز واحد بسيط يعيش وحده على العناصر الصغيرة، ونقشة كثبان تحوّل المساحات الكبيرة إلى لحظات للعلامة.",
+      },
+      visual: {
+        en: "Deep navy night, burnt-orange sun and sand cream, with a calligraphic Arabic logotype and textured dune patterns.",
+        ar: "كحلي ليلي عميق، وشمس برتقالية محروقة، وكريمي رملي، مع شعار عربي بخط مرسوم ونقشات كثبان بملمس.",
+      },
+      development: {
+        en: "The logo system was applied to cups, coffee bags, paper bags, cards and mock-up scenes, then animated into a short logo reveal.",
+        ar: "تم تطبيق نظام الشعار على الأكواب وأكياس البن والأكياس الورقية والكروت ومشاهد العرض، ثم تحريكه في ظهور قصير للشعار.",
+      },
+    },
+    deliverables: [
+      { en: "Logo system & icon", ar: "نظام الشعار والأيقونة" },
+      { en: "Colour palette & patterns", ar: "لوحة الألوان والنقشات" },
+      { en: "Cups, coffee bags & shopping bags", ar: "الأكواب وأكياس البن والشنط" },
+      { en: "Logo motion", ar: "موشن الشعار" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/safari/logo-motion.mp4", poster: "assets/work/safari/logo-motion-poster.webp", caption: { en: "Logo motion", ar: "موشن الشعار" } },
+      { src: "assets/work/safari/logo-system.webp", wide: true, caption: { en: "Logo system", ar: "نظام الشعار" } },
+      { src: "assets/work/safari/tagline.webp", wide: true, caption: { en: "Tagline: a taste worth the journey", ar: "العبارة: مذاق يستحق الرحلة" } },
+      { src: "assets/work/safari/cup.webp", caption: { en: "Coffee cup", ar: "كوب القهوة" } },
+      { src: "assets/work/safari/packaging.webp", caption: { en: "Coffee bags", ar: "أكياس البن" } },
+      { src: "assets/work/safari/bag.webp", caption: { en: "Shopping bag", ar: "الشنطة الورقية" } },
+      { src: "assets/work/safari/applications.webp", caption: { en: "Brand applications", ar: "تطبيقات الهوية" } },
+      { src: "assets/work/safari/scene.webp", wide: true, caption: { en: "Mock-up scene", ar: "مشهد العرض" } },
     ],
   },
 
@@ -89,49 +156,118 @@ PORTFOLIO.projects = [
     slug: "rashf",
     featured: true,
     category: "brand-identity",
-    year: "",
+    year: "2026",
     title: { en: "Rashf", ar: "رشف" },
-    client: { en: "Rashf Specialty Coffee", ar: "رشف للقهوة المختصة" },
+    client: { en: "Rashf Café", ar: "رشف كافيه" },
     summary: {
-      en: "A bilingual identity and packaging system for a specialty coffee brand, built on craft, warmth and an earthy palette.",
-      ar: "هوية ثنائية اللغة ونظام تغليف لعلامة قهوة مختصة، مبني على الحرفة والدفء ولوحة ألوان ترابية.",
+      en: "Café branding for a contemporary Arabic coffee shop: a modern, warm take on the coffee experience, from logo to cups, bags, menu, storefront and social media.",
+      ar: "هوية بصرية لكافيه عربي معاصر تعكس تجربة القهوة بأسلوب حديث ودافئ، من الشعار إلى الأكواب والأكياس والمنيو والواجهة والسوشيال ميديا.",
     },
     cover: "assets/work/rashf/cover.webp",
-    coverAlt: { en: "Rashf coffee bag, cups and mug on a dark café counter", ar: "كيس قهوة رشف وأكواب على طاولة مقهى داكنة" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
-    palette: ["#973E21", "#D0B799", "#2B1C15", "#6C5543"],
+    coverAlt: { en: "Rashf wordmark in white over a dark espresso machine", ar: "شعار رشف باللون الأبيض فوق ماكينة إسبريسو داكنة" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }, { en: "Social media", ar: "السوشيال ميديا" }],
+    palette: ["#43230B", "#EA7011", "#E5C49F", "#AC7236"],
     sections: {
       brief: {
-        en: "Rashf needed an identity that could stand on a specialty-coffee shelf next to international brands while still reading as a local, Arabic-first name.",
-        ar: "احتاجت رشف هوية تقف على رف القهوة المختصة بجانب العلامات العالمية، وتبقى في نفس الوقت اسمًا محليًا عربيًا أولًا.",
+        en: "Create an identity for a contemporary Arabic café that balances heritage and simplicity, and carries one experience from the logo to every touchpoint.",
+        ar: "تصميم هوية لكافيه عربي معاصر تجمع بين الأصالة والبساطة، وتنقل تجربة واحدة من الشعار إلى كل نقطة تواصل مع العميل.",
       },
       concept: {
-        en: "The name means a slow, deliberate sip. The wordmark pairs a calm Arabic logotype with spaced Latin capitals, so both scripts carry the same quiet confidence.",
-        ar: "الاسم يعني الرشفة الهادئة المتأنية. الشعار يجمع شعارًا عربيًا هادئًا مع حروف لاتينية كبيرة متباعدة، بحيث تحمل اللغتان نفس الثقة الهادئة.",
+        en: "Core idea: a modern coffee experience with an authentic Arabic spirit.",
+        ar: "الفكرة الأساسية: تقديم تجربة قهوة عصرية بروح عربية أصيلة.",
       },
       strategy: {
-        en: "Specialty coffee is bought on trust in craft. The system keeps the logo minimal and lets material, texture and colour do the talking about quality.",
-        ar: "القهوة المختصة تُشترى بالثقة في الحرفة. لذلك يبقى الشعار بسيطًا، وتتكلم الخامات والملمس والألوان عن الجودة.",
+        en: "The project builds a complete experience that starts with the logo and extends to cups, bags and the storefront, to strengthen the brand's presence and build a strong visual connection with customers.",
+        ar: "يركز المشروع على خلق تجربة متكاملة تبدأ من الشعار وتمتد إلى التطبيقات المختلفة مثل الأكواب والأكياس والواجهة الخارجية، بهدف تعزيز حضور العلامة وبناء ارتباط بصري قوي مع العميل.",
       },
       visual: {
-        en: "Roasted rust, crema beige and espresso brown, with a contour-line texture drawn from coffee origins and topographic maps.",
-        ar: "صدئي محمّص وبيج الكريما وبني الإسبريسو، مع ملمس خطوط كنتورية مستوحى من مناطق زراعة البن والخرائط الطبوغرافية.",
+        en: "Colours drawn from coffee (dark brown) with a lively orange that expresses energy and warmth. The Arabic logotype gives the mark its character, while the Latin type adds simplicity and clarity.",
+        ar: "ألوان مستوحاة من القهوة (البني الداكن) مع لمسة برتقالية نابضة بالحياة تعبّر عن الطاقة والدفء. الخط العربي في الشعار يعطي طابعًا فريدًا ومميزًا، بينما يعزز الخط الإنجليزي البساطة والوضوح.",
       },
       development: {
-        en: "The logotype was tested across three colourways, then applied to bags, cups, stamps, labels and shipping boxes to check it holds at every size.",
-        ar: "تم اختبار الشعار في ثلاث تركيبات لونية، ثم تطبيقه على الأكياس والأكواب والأختام والملصقات وصناديق الشحن للتأكد من وضوحه في كل المقاسات.",
+        en: "The system was rolled out to cups in three sizes, coffee bags, paper bags, a menu, stickers, a donut box and the storefront, then into a series of social media posts.",
+        ar: "تم تطبيق النظام على الأكواب بثلاثة مقاسات، وأكياس البن، والأكياس الورقية، والمنيو، والملصقات، وعلبة الدونات، والواجهة، ثم على سلسلة منشورات للسوشيال ميديا.",
       },
     },
     deliverables: [
-      { en: "Primary logo & colour variations", ar: "الشعار الأساسي وتركيباته اللونية" },
-      { en: "Colour palette & texture", ar: "لوحة الألوان والملمس" },
-      { en: "Coffee bags, cups & sleeves", ar: "أكياس القهوة والأكواب" },
-      { en: "Labels, stamp & shipping box", ar: "الملصقات والختم وصندوق الشحن" },
+      { en: "Bilingual logo", ar: "شعار ثنائي اللغة" },
+      { en: "Colour palette", ar: "لوحة الألوان" },
+      { en: "Cups, coffee bags & paper bags", ar: "الأكواب وأكياس البن والأكياس الورقية" },
+      { en: "Menu, stickers & donut box", ar: "المنيو والملصقات وعلبة الدونات" },
+      { en: "Storefront", ar: "الواجهة الخارجية" },
+      { en: "Social media posts", ar: "منشورات السوشيال ميديا" },
     ],
     gallery: [
-      { src: "assets/work/rashf/logos.webp", caption: { en: "Logo in three colourways", ar: "الشعار في ثلاث تركيبات لونية" } },
-      { src: "assets/work/rashf/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
-      { src: "assets/work/rashf/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
+      { src: "assets/work/rashf/cover.webp", wide: true, caption: { en: "Rashf wordmark over the espresso bar", ar: "شعار رشف فوق بار الإسبريسو" } },
+      { src: "assets/work/rashf/b02.webp", caption: { en: "Takeaway bag, cup and carrier", ar: "كيس القهوة والكوب وحامل الأكواب" } },
+      { src: "assets/work/rashf/b04.webp", caption: { en: "Paper bag and stick sachet", ar: "الكيس الورقي وأكياس السكر" } },
+      { src: "assets/work/rashf/b12.webp", wide: true, caption: { en: "Coffee bags with the colour palette", ar: "أكياس البن مع لوحة الألوان" } },
+      { src: "assets/work/rashf/b06.webp", caption: { en: "Cups in three sizes", ar: "الأكواب بثلاثة مقاسات" } },
+      { src: "assets/work/rashf/b07.webp", caption: { en: "Bags in both colourways", ar: "الأكياس بالتركيبتين اللونيتين" } },
+      { src: "assets/work/rashf/b08.webp", wide: true, caption: { en: "Menu", ar: "المنيو" } },
+      { src: "assets/work/rashf/b09.webp", caption: { en: "Stickers and badges", ar: "الملصقات والشارات" } },
+      { src: "assets/work/rashf/b10.webp", caption: { en: "Donut box", ar: "علبة الدونات" } },
+      { src: "assets/work/rashf/b11.webp", wide: true, caption: { en: "In the café", ar: "داخل المقهى" } },
+      { src: "assets/work/rashf/storefront.webp", caption: { en: "Storefront", ar: "الواجهة الخارجية" } },
+      { src: "assets/work/rashf/s1.webp", caption: { en: "Social post: buy one, get one", ar: "منشور سوشيال: اطلب واحد وخذ الثاني" } },
+      { src: "assets/work/rashf/s2.webp", caption: { en: "Social post: your day starts with a sip", ar: "منشور سوشيال: من أول رشفة" } },
+      { src: "assets/work/rashf/s3.webp", caption: { en: "Social post: offer", ar: "منشور سوشيال: عرض" } },
+      { src: "assets/work/rashf/s4.webp", caption: { en: "Social post: delivery", ar: "منشور سوشيال: التوصيل" } },
+      { src: "assets/work/rashf/s5.webp", caption: { en: "Social post: before and after coffee", ar: "منشور سوشيال: قبل القهوة وبعد رشف" } },
+      { src: "assets/work/rashf/s6.webp", caption: { en: "Social post: what is your mood today?", ar: "منشور سوشيال: إيش مزاجك اليوم؟" } },
+    ],
+  },
+
+  /* --------------------------------------------------------- CAREDRIVE */
+  {
+    slug: "caredrive",
+    featured: false,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "CareDrive", ar: "كير درايف" },
+    client: { en: "CareDrive", ar: "كير درايف" },
+    summary: {
+      en: "Logo design for a child transportation platform for families who value safety, trust and peace of mind.",
+      ar: "تصميم شعار لمنصة نقل أطفال موجهة للعائلات التي تهتم بالأمان والثقة وراحة البال.",
+    },
+    cover: "assets/work/caredrive/cover.webp",
+    coverAlt: { en: "CareDrive logo on a dark navy presentation slide", ar: "شعار كير درايف على شريحة عرض كحلية" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand presentation", ar: "عرض الهوية" }],
+    palette: ["#2D8CFF", "#4CCB6B", "#E08F2C", "#00BFCB"],
+    sections: {
+      brief: {
+        en: "Parents are not looking for transportation, they are looking for reassurance. The identity had to communicate care, protection and trust before movement.",
+        ar: "الأهل لا يبحثون عن مواصلات، بل عن الاطمئنان. كان على الهوية أن توصل الرعاية والحماية والثقة قبل الحركة.",
+      },
+      concept: {
+        en: "The symbol combines the initials C and D into one mark: the outer shapes form a protective enclosure and the central circle represents the child.",
+        ar: "يجمع الرمز الحرفين C وD في علامة واحدة: الأشكال الخارجية تكوّن حضنًا يحمي، والدائرة في المنتصف تمثل الطفل.",
+      },
+      visual: {
+        en: "Drive Blue, Care Green, Child Orange and Protect Teal; Poppins for headlines and Inter for text.",
+        ar: "أزرق القيادة، وأخضر الرعاية، وبرتقالي الطفل، وفيروزي الحماية؛ مع خط Poppins للعناوين وInter للنصوص.",
+      },
+      development: {
+        en: "Built from simple circles and balanced curves, with a defined clear space, then tested on business cards, an app icon, letterhead, ID badges and vehicle branding.",
+        ar: "بُني الشعار من دوائر بسيطة ومنحنيات متوازنة مع مساحة أمان محددة، ثم جُرّب على الكروت وأيقونة التطبيق والأوراق الرسمية وبطاقات الموظفين وتغليف السيارات.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & construction", ar: "الشعار وبناؤه" },
+      { en: "Colour palette & typography", ar: "الألوان والخطوط" },
+      { en: "Applications", ar: "التطبيقات" },
+      { en: "Logo presentation deck", ar: "عرض تقديمي للشعار" },
+    ],
+    gallery: [
+      { src: "assets/work/caredrive/p02.webp", wide: true, caption: { en: "About the brand", ar: "عن العلامة" } },
+      { src: "assets/work/caredrive/p03.webp", wide: true, caption: { en: "The challenge", ar: "التحدي" } },
+      { src: "assets/work/caredrive/p04.webp", wide: true, caption: { en: "Logo concept", ar: "فكرة الشعار" } },
+      { src: "assets/work/caredrive/p05.webp", wide: true, caption: { en: "Construction", ar: "بناء الشعار" } },
+      { src: "assets/work/caredrive/p06.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
+      { src: "assets/work/caredrive/p07.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
+      { src: "assets/work/caredrive/p08.webp", wide: true, caption: { en: "Applications", ar: "التطبيقات" } },
+      { src: "assets/work/caredrive/p09.webp", wide: true, caption: { en: "Brand feel", ar: "روح العلامة" } },
+      { src: "assets/work/caredrive/p10.webp", wide: true, caption: { en: "Brand in use", ar: "العلامة في الاستخدام" } },
     ],
   },
 
@@ -232,10 +368,63 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* ------------------------------------------------------------ VISORY */
+  {
+    slug: "visory",
+    featured: false,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "Visory", ar: "فيزوري" },
+    client: { en: "Visory", ar: "فيزوري" },
+    summary: {
+      en: "A brand guideline for Visory, a visual production brand: “Where Vision Becomes Story”.",
+      ar: "دليل هوية بصرية لعلامة فيزوري للإنتاج المرئي: «حيث تتحول الرؤية إلى قصة».",
+    },
+    cover: "assets/work/visory/cover.webp",
+    coverAlt: { en: "Cover of the Visory brand guideline", ar: "غلاف دليل الهوية لفيزوري" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand guidelines", ar: "دليل الهوية" }],
+    palette: ["#FF6B35", "#E53946", "#6B7280", "#000000"],
+    sections: {
+      brief: {
+        en: "Give a visual production brand a clear, energetic identity and a guideline that keeps it consistent across website, social media and print.",
+        ar: "منح علامة إنتاج مرئي هوية واضحة ونشيطة، ودليلًا يحافظ على اتساقها في الموقع والسوشيال ميديا والمطبوعات.",
+      },
+      concept: {
+        en: "The mark combines a V with a play button, so the name and the act of telling stories through video are one shape.",
+        ar: "يجمع الشعار حرف V مع زر التشغيل، فيصبح الاسم وفكرة رواية القصص بالفيديو شكلًا واحدًا.",
+      },
+      visual: {
+        en: "Primary orange for the logo and key elements, dark orange for highlights, gray for secondary text, on white and black. Montserrat for Latin and Noto Kufi Arabic for Arabic.",
+        ar: "برتقالي أساسي للشعار والعناصر الرئيسية، وبرتقالي داكن للتمييز، ورمادي للنصوص الثانوية، على الأبيض والأسود. خط Montserrat للاتيني وNoto Kufi Arabic للعربي.",
+      },
+      development: {
+        en: "The guideline covers logo and symbol construction, usage, colour, typography and brand applications on equipment, backdrops and merchandise.",
+        ar: "يغطي الدليل بناء الشعار والرمز، وطرق الاستخدام، والألوان، والخطوط، وتطبيقات الهوية على المعدات والخلفيات والمنتجات.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & symbol", ar: "الشعار والرمز" },
+      { en: "Brand guideline", ar: "دليل الهوية" },
+      { en: "Brand applications", ar: "تطبيقات الهوية" },
+    ],
+    gallery: [
+      { src: "assets/work/visory/p02.webp", wide: true, caption: { en: "Logo construction", ar: "بناء الشعار" } },
+      { src: "assets/work/visory/p03.webp", wide: true, caption: { en: "Symbol construction", ar: "بناء الرمز" } },
+      { src: "assets/work/visory/p04.webp", wide: true, caption: { en: "Logo usage", ar: "استخدام الشعار" } },
+      { src: "assets/work/visory/p05.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
+      { src: "assets/work/visory/p06.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
+      { src: "assets/work/visory/p07.webp", wide: true, caption: { en: "Arabic typography", ar: "الخط العربي" } },
+      { src: "assets/work/visory/p08.webp", wide: true, caption: { en: "Brand applications", ar: "تطبيقات الهوية" } },
+      { src: "assets/work/visory/p09.webp", wide: true, caption: { en: "Studio backdrop", ar: "خلفية الاستوديو" } },
+      { src: "assets/work/visory/p10.webp", wide: true, caption: { en: "Backpack", ar: "الحقيبة" } },
+      { src: "assets/work/visory/p11.webp", wide: true, caption: { en: "Camera", ar: "الكاميرا" } },
+    ],
+  },
+
   /* -------------------------------------------------------- DALLAH SUKKAR */
   {
     slug: "dallah-sukkar",
-    featured: true,
+    featured: false,
     category: "social-media",
     year: "",
     title: { en: "Dallah Sukkar", ar: "دلة سكر" },
@@ -244,8 +433,8 @@ PORTFOLIO.projects = [
       en: "A warm social media campaign for a Saudi dessert brand, pairing appetising imagery with playful Arabic headlines.",
       ar: "حملة سوشيال ميديا دافئة لعلامة حلويات سعودية، تجمع صورًا شهية مع عناوين عربية مرحة.",
     },
-    cover: "assets/work/dallah-sukkar/cover.webp",
-    coverAlt: { en: "Grid of six Dallah Sukkar posts with desserts and honey", ar: "ستة منشورات لدلة سكر بالحلويات والعسل" },
+    cover: "assets/work/dallah-sukkar/p2.webp",
+    coverAlt: { en: "Dallah Sukkar post: a man enjoying a pastry", ar: "منشور دلة سكر: رجل يستمتع بقطعة حلى" },
     services: [{ en: "Campaign visuals", ar: "تصاميم الحملة" }, { en: "Content design", ar: "تصميم المحتوى" }, { en: "Visual storytelling", ar: "السرد البصري" }],
     palette: [],
     sections: {
@@ -266,12 +455,23 @@ PORTFOLIO.projects = [
         ar: "إضاءة بيج دافئة، وقطر لامع، وعناوين بخط مستوحى من الخط العربي، وزر طلب صغير ثابت في كل منشور.",
       },
       development: {
-        en: "A set of six posts was produced as one campaign grid, each with its own line and call to action.",
-        ar: "تم إنتاج ستة منشورات كجريد واحد للحملة، لكل منشور عبارته وزر الطلب الخاص به.",
+        en: "A set of nine posts was produced as one campaign grid, each with its own line and call to action.",
+        ar: "تم إنتاج تسعة منشورات كجريد واحد للحملة، لكل منشور عبارته وزر الطلب الخاص به.",
       },
     },
-    deliverables: [{ en: "6 campaign posts", ar: "6 منشورات للحملة" }, { en: "Headline copy layout", ar: "إخراج العناوين" }],
-    gallery: [{ src: "assets/work/dallah-sukkar/board.webp", wide: true, caption: { en: "Campaign overview", ar: "عرض الحملة" } }],
+    deliverables: [{ en: "9 campaign posts", ar: "9 منشورات للحملة" }, { en: "Headline copy layout", ar: "إخراج العناوين" }],
+    gallery: [
+      { src: "assets/work/dallah-sukkar/board.webp", wide: true, caption: { en: "Campaign overview", ar: "عرض الحملة" } },
+      { src: "assets/work/dallah-sukkar/p1.webp", caption: { en: "Post 1", ar: "منشور 1" } },
+      { src: "assets/work/dallah-sukkar/p2.webp", caption: { en: "Post 2", ar: "منشور 2" } },
+      { src: "assets/work/dallah-sukkar/p3.webp", caption: { en: "Post 3", ar: "منشور 3" } },
+      { src: "assets/work/dallah-sukkar/p4.webp", caption: { en: "Post 4", ar: "منشور 4" } },
+      { src: "assets/work/dallah-sukkar/p5.webp", caption: { en: "Post 5", ar: "منشور 5" } },
+      { src: "assets/work/dallah-sukkar/p6.webp", caption: { en: "Post 6", ar: "منشور 6" } },
+      { src: "assets/work/dallah-sukkar/p7.webp", caption: { en: "Post 7", ar: "منشور 7" } },
+      { src: "assets/work/dallah-sukkar/p8.webp", caption: { en: "Post 8", ar: "منشور 8" } },
+      { src: "assets/work/dallah-sukkar/p9.webp", caption: { en: "Post 9", ar: "منشور 9" } },
+    ],
   },
 
   /* ------------------------------------------------------------ iCAUR V27 */
@@ -316,6 +516,78 @@ PORTFOLIO.projects = [
     gallery: [{ type: "video", src: "assets/work/icaur-v27/reel.mp4", poster: "assets/work/icaur-v27/cover.webp", caption: { en: "Showcase reel", ar: "ريل العرض" } }],
   },
 
+  /* -------------------------------------------------------- ICON FILMS */
+  {
+    slug: "icon-films",
+    featured: false,
+    category: "motion",
+    year: "2026",
+    title: { en: "ICON Real Estate Films", ar: "أفلام ايكون العقارية" },
+    client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
+    summary: {
+      en: "Motion pieces for Icon Real Estate: a 30-second ad that answers a buyer’s questions, and an animated walkthrough of the ICON 19 unit types.",
+      ar: "أعمال موشن لايكون العقارية: إعلان 30 ثانية يجاوب على أسئلة المشتري، وعرض متحرك لنماذج وحدات ايكون 19.",
+    },
+    cover: "assets/work/icon-films/ad-30s-poster.webp",
+    coverAlt: { en: "Frame from the ICON ad with icons for location and costs", ar: "لقطة من إعلان ايكون بأيقونات الموقع والتكاليف" },
+    services: [{ en: "Motion graphics", ar: "موشن جرافيك" }, { en: "Editing", ar: "مونتاج" }],
+    palette: [],
+    sections: {
+      concept: {
+        en: "“Want to buy property?” The ad walks through what buyers worry about (location, price, total costs) and lands on ICON as the answer.",
+        ar: "«تبي تشتري عقار؟» الإعلان يمر على ما يقلق المشتري (الموقع، السعر، التكاليف كلها) وينتهي بايكون كإجابة.",
+      },
+      development: {
+        en: "Designed and animated in After Effects in 9:16 for reels and stories. The ICON 19 film presents unit plans, areas and prices one by one.",
+        ar: "تم التصميم والتحريك على أفتر إفكتس بمقاس 9:16 للريلز والستوري. فيلم ايكون 19 يعرض مخططات الوحدات ومساحاتها وأسعارها واحدة تلو الأخرى.",
+      },
+    },
+    deliverables: [
+      { en: "30-second ad", ar: "إعلان 30 ثانية" },
+      { en: "ICON 19 unit film", ar: "فيلم وحدات ايكون 19" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/icon-films/ad-30s.mp4", poster: "assets/work/icon-films/ad-30s-poster.webp", caption: { en: "30-second ad", ar: "إعلان 30 ثانية" } },
+      { type: "video", src: "assets/work/icon-films/icon19.mp4", poster: "assets/work/icon-films/icon19-poster.webp", caption: { en: "ICON 19 unit types", ar: "نماذج وحدات ايكون 19" } },
+    ],
+  },
+
+  /* -------------------------------------------------------- STRA REELS */
+  {
+    slug: "stra-reels",
+    featured: false,
+    category: "motion",
+    year: "2026",
+    title: { en: "STRA Agency Reels", ar: "ريلز وكالة سترا" },
+    client: { en: "STRA, a Saudi marketing agency", ar: "سترا، وكالة تسويق سعودية" },
+    summary: {
+      en: "Kinetic-type reels for a Saudi marketing agency, built on short Arabic lines about strategy and ideas.",
+      ar: "ريلز بخط متحرك لوكالة تسويق سعودية، مبنية على عبارات عربية قصيرة عن الاستراتيجية والأفكار.",
+    },
+    cover: "assets/work/stra/reel-poster.webp",
+    coverAlt: { en: "Frame from the STRA reel with Arabic headline", ar: "لقطة من ريل سترا بعنوان عربي" },
+    services: [{ en: "Motion graphics", ar: "موشن جرافيك" }, { en: "Kinetic typography", ar: "تايبوجرافي متحرك" }],
+    palette: [],
+    sections: {
+      concept: {
+        en: "Lines like “the difference starts with strategy” and “turning ideas into impact” are cut on the beat between black and cream frames.",
+        ar: "عبارات مثل «الفرق يبدأ من استراتيجية» و«نحوّل الأفكار إلى تأثير» تتقطع على الإيقاع بين لقطات سوداء وكريمية.",
+      },
+      development: {
+        en: "Animated in After Effects for 9:16, with a second “pendulum” reel that swings the agency tag into frame.",
+        ar: "تم التحريك على أفتر إفكتس بمقاس 9:16، مع ريل ثانٍ يتأرجح فيه تاج الوكالة داخل الكادر.",
+      },
+    },
+    deliverables: [
+      { en: "Brand reel", ar: "ريل العلامة" },
+      { en: "Pendulum reel", ar: "ريل البندول" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/stra/reel.mp4", poster: "assets/work/stra/reel-poster.webp", caption: { en: "Brand reel", ar: "ريل العلامة" } },
+      { type: "video", src: "assets/work/stra/pendulum.mp4", poster: "assets/work/stra/pendulum-poster.webp", caption: { en: "Pendulum reel", ar: "ريل البندول" } },
+    ],
+  },
+
   /* --------------------------------------------------------------- WASABI */
   {
     slug: "wasabi",
@@ -328,8 +600,8 @@ PORTFOLIO.projects = [
       en: "Identity and menu design for a sushi restaurant that brings authentic Japanese flavours into a modern dining experience.",
       ar: "هوية وتصميم منيو لمطعم سوشي يقدّم النكهات اليابانية الأصيلة في تجربة عصرية.",
     },
-    cover: "assets/work/wasabi/cover.webp",
-    coverAlt: { en: "Dark green Wasabi menu beside sushi and chopsticks", ar: "منيو وسابي الأخضر الداكن بجانب السوشي وعيدان الأكل" },
+    cover: "assets/work/wasabi/w3.webp",
+    coverAlt: { en: "Wasabi restaurant storefront at night", ar: "واجهة مطعم وسابي ليلًا" },
     services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Menu design", ar: "تصميم المنيو" }],
     palette: ["#161C18", "#809632", "#CC1F25", "#E6DED1"],
     sections: {
@@ -362,7 +634,55 @@ PORTFOLIO.projects = [
     gallery: [
       { src: "assets/work/wasabi/logos.webp", caption: { en: "Logo variations", ar: "تنويعات الشعار" } },
       { src: "assets/work/wasabi/applications.webp", caption: { en: "Menu, packaging and stationery", ar: "المنيو والتغليف والمطبوعات" } },
+      { src: "assets/work/wasabi/w1.webp", caption: { en: "Identity applications", ar: "تطبيقات الهوية" } },
+      { src: "assets/work/wasabi/w3.webp", caption: { en: "Restaurant storefront", ar: "واجهة المطعم" } },
+      { src: "assets/work/wasabi/w2.webp", caption: { en: "Instagram on mobile", ar: "حساب انستجرام على الجوال" } },
+      { src: "assets/work/wasabi/w4.webp", caption: { en: "Takeaway packaging and stationery", ar: "تغليف الطلبات والمطبوعات" } },
+      { src: "assets/work/wasabi/w5.webp", caption: { en: "Table setting", ar: "تجهيز الطاولة" } },
       { src: "assets/work/wasabi/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
+    ],
+  },
+
+  /* ---------------------------------------------------------- 925 CLUB */
+  {
+    slug: "club-925",
+    featured: false,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "925 Club", ar: "925 كلوب" },
+    client: { en: "925 Club", ar: "925 كلوب" },
+    summary: {
+      en: "A sporty identity for 925 Club, applied to apparel, bags, bottles and gym content under the line “Together, we thrive from 9 to 5”.",
+      ar: "هوية رياضية لـ 925 كلوب مطبقة على الملابس والشنط والزجاجات ومحتوى الجيم، تحت عبارة «Together, we thrive from 9 to 5».",
+    },
+    cover: "assets/work/club-925/cover.webp",
+    coverAlt: { en: "925 Club logo and applications on sportswear", ar: "شعار 925 كلوب وتطبيقاته على الملابس الرياضية" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Merchandise", ar: "المنتجات الترويجية" }],
+    palette: ["#0C56B3", "#B0CC3E", "#183E7A", "#FFFFFF"],
+    sections: {
+      concept: {
+        en: "The numbers 9, 2 and 5 are interlocked into one mark, with a hand-written “Club” for a friendly, human touch.",
+        ar: "الأرقام 9 و2 و5 متداخلة في علامة واحدة، مع كلمة «Club» بخط يدوي لإحساس ودود وإنساني.",
+      },
+      visual: {
+        en: "Royal blue and lime green with a blue-to-green gradient: energetic, sporty and easy to recognise on fabric.",
+        ar: "أزرق ملكي وأخضر ليموني مع تدرج من الأزرق للأخضر: طاقة وروح رياضية وسهولة تمييز على القماش.",
+      },
+      development: {
+        en: "Applied to t-shirts, jackets, drawstring and duffel bags, bottles, cups, caps and gym imagery.",
+        ar: "تم التطبيق على التيشيرتات والجاكيتات والشنط والزجاجات والأكواب والكابات وصور الجيم.",
+      },
+    },
+    deliverables: [
+      { en: "Logo", ar: "الشعار" },
+      { en: "Apparel & merchandise", ar: "الملابس والمنتجات" },
+      { en: "Social visuals", ar: "تصاميم السوشيال" },
+    ],
+    gallery: [
+      { src: "assets/work/club-925/p2.webp", caption: { en: "Logo", ar: "الشعار" } },
+      { src: "assets/work/club-925/p3.webp", caption: { en: "Cups and cap", ar: "الأكواب والكاب" } },
+      { src: "assets/work/club-925/p4.webp", caption: { en: "Cups and t-shirt", ar: "الأكواب والتيشيرت" } },
+      { src: "assets/work/club-925/p5.webp", caption: { en: "In the gym", ar: "في الجيم" } },
     ],
   },
 
@@ -442,6 +762,44 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* -------------------------------------------------------- ZIONHEALTH */
+  {
+    slug: "zionhealth",
+    featured: false,
+    category: "social-media",
+    year: "2025",
+    title: { en: "ZionHealth", ar: "زايون هيلث" },
+    client: { en: "ZionHealth", ar: "زايون هيلث" },
+    summary: {
+      en: "Arabic social media posts for a natural skincare and haircare brand, each built around one product and its benefits.",
+      ar: "منشورات سوشيال ميديا عربية لعلامة عناية طبيعية بالبشرة والشعر، كل منشور مبني على منتج واحد وفوائده.",
+    },
+    cover: "assets/work/zionhealth/cover.webp",
+    coverAlt: { en: "ZionHealth face scrub post with sunflowers and coconut", ar: "منشور مقشر الوجه من زايون هيلث مع دوار الشمس وجوز الهند" },
+    services: [{ en: "Social media design", ar: "تصميم السوشيال" }, { en: "Product posts", ar: "منشورات المنتجات" }],
+    palette: [],
+    sections: {
+      concept: {
+        en: "Every post pairs the product with the natural ingredient it comes from, so the benefit is understood before the text is read.",
+        ar: "كل منشور يضع المنتج بجانب المكوّن الطبيعي المأخوذ منه، فتُفهم الفائدة قبل قراءة النص.",
+      },
+      visual: {
+        en: "Fresh greens, white space and ingredient photography, with benefit icons and short Arabic headlines.",
+        ar: "أخضر منعش ومساحات بيضاء وتصوير للمكونات، مع أيقونات للفوائد وعناوين عربية قصيرة.",
+      },
+    },
+    deliverables: [
+      { en: "Product posts", ar: "منشورات المنتجات" },
+      { en: "Carousel", ar: "كاروسيل" },
+    ],
+    gallery: [
+      { src: "assets/work/zionhealth/hair-mask.webp", caption: { en: "Hair mask", ar: "ماسك الشعر" } },
+      { src: "assets/work/zionhealth/moisturiser.webp", caption: { en: "Deodorant", ar: "مزيل العرق" } },
+      { src: "assets/work/zionhealth/sunscreen.webp", caption: { en: "Sunscreen", ar: "واقي الشمس" } },
+      { src: "assets/work/zionhealth/carousel.webp", caption: { en: "Carousel on Instagram", ar: "كاروسيل على انستجرام" } },
+    ],
+  },
+
   /* --------------------------------------------------------- SHAHY CLINIC */
   {
     slug: "shahy-clinic",
@@ -469,6 +827,49 @@ PORTFOLIO.projects = [
     gallery: [
       { src: "assets/work/shahy-clinic/feed.webp", caption: { en: "Instagram feed", ar: "حساب انستجرام" } },
       { src: "assets/work/shahy-clinic/board.webp", wide: true, caption: { en: "Content overview", ar: "عرض المحتوى" } },
+    ],
+  },
+
+  /* ----------------------------------------------------- PASTEL JEDDAH */
+  {
+    slug: "pastel-jeddah",
+    featured: false,
+    category: "editorial-print",
+    year: "2026",
+    title: { en: "Pastel Jeddah 2027 Planner", ar: "مفكرة باستيل جدة ٢٠٢٧" },
+    client: { en: "Personal project", ar: "مشروع شخصي" },
+    summary: {
+      en: "A 2027 achievement planner collection with illustrated Jeddah covers in soft pastel tones.",
+      ar: "مجموعة مفكرات إنجاز ٢٠٢٧ بأغلفة مرسومة مستوحاة من جدة بألوان باستيل هادئة.",
+    },
+    cover: "assets/work/pastel-jeddah/cover.webp",
+    coverAlt: { en: "Pastel Jeddah planners and stationery on a table", ar: "مفكرات وأدوات باستيل جدة على طاولة" },
+    services: [{ en: "Cover illustration", ar: "رسم الأغلفة" }, { en: "Editorial design", ar: "التصميم التحريري" }, { en: "Stationery", ar: "القرطاسية" }],
+    palette: [],
+    sections: {
+      concept: {
+        en: "Jeddah in pastel: the coastline, the historic district and Hijazi details, each turned into a planner cover.",
+        ar: "جدة بألوان الباستيل: الساحل والبلد وتفاصيل حجازية، كل واحدة منها غلاف لمفكرة.",
+      },
+      development: {
+        en: "Covers and inner pages were designed as one set, then shown as a stationery collection.",
+        ar: "تم تصميم الأغلفة والصفحات الداخلية كمجموعة واحدة، ثم عرضها كمجموعة قرطاسية.",
+      },
+    },
+    deliverables: [
+      { en: "Planner covers", ar: "أغلفة المفكرات" },
+      { en: "Inner pages", ar: "الصفحات الداخلية" },
+      { en: "Stationery mock-ups", ar: "موك أب القرطاسية" },
+    ],
+    gallery: [
+      { src: "assets/work/pastel-jeddah/planner-set.webp", caption: { en: "Coastal horizon planner set", ar: "مجموعة مفكرة أفق ساحلي" } },
+      { src: "assets/work/pastel-jeddah/flat-lay.webp", caption: { en: "Stationery flat lay", ar: "القرطاسية من الأعلى" } },
+      { src: "assets/work/pastel-jeddah/p1.webp", caption: { en: "Page 1", ar: "صفحة 1" } },
+      { src: "assets/work/pastel-jeddah/p2.webp", caption: { en: "Page 2", ar: "صفحة 2" } },
+      { src: "assets/work/pastel-jeddah/p3.webp", caption: { en: "Page 3", ar: "صفحة 3" } },
+      { src: "assets/work/pastel-jeddah/p4.webp", caption: { en: "Page 4", ar: "صفحة 4" } },
+      { src: "assets/work/pastel-jeddah/p6.webp", caption: { en: "Page 6", ar: "صفحة 6" } },
+      { src: "assets/work/pastel-jeddah/p7.webp", caption: { en: "Page 7", ar: "صفحة 7" } },
     ],
   },
 
