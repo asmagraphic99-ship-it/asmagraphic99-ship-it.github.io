@@ -99,7 +99,7 @@ PORTFOLIO.projects = [
     },
     cover: "assets/work/safari/cover.webp",
     coverAlt: { en: "A hand holding a navy Safari coffee cup with stickers", ar: "يد تمسك كوب قهوة سفاري الكحلي مع ملصقات" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }, { en: "Logo motion", ar: "موشن الشعار" }],
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
     palette: ["#122B45", "#D56230", "#F7E7CF", "#B58963"],
     sections: {
       brief: {
@@ -119,8 +119,8 @@ PORTFOLIO.projects = [
         ar: "كحلي ليلي عميق، وشمس برتقالية محروقة، وكريمي رملي، مع شعار عربي بخط مرسوم ونقشات كثبان بملمس.",
       },
       development: {
-        en: "The identity was presented as a brand book, then applied to cups, coffee bags, shopping bags, stickers, signage and a drive-through scene, with a short espresso film and a logo reveal.",
-        ar: "تم تقديم الهوية في كتيّب للعلامة، ثم تطبيقها على الأكواب وأكياس البن والشنط والملصقات واللوحات ومشهد الطلب من السيارة، مع فيديو قصير لصب الإسبريسو وظهور متحرك للشعار.",
+        en: "The identity was presented as a brand book, then applied to cups, coffee bags, shopping bags, stickers, signage and a drive-through scene.",
+        ar: "تم تقديم الهوية في كتيّب للعلامة، ثم تطبيقها على الأكواب وأكياس البن والشنط والملصقات واللوحات ومشهد الطلب من السيارة.",
       },
     },
     deliverables: [
@@ -128,11 +128,8 @@ PORTFOLIO.projects = [
       { en: "Logo system & icon", ar: "نظام الشعار والأيقونة" },
       { en: "Colour palette & patterns", ar: "لوحة الألوان والنقشات" },
       { en: "Cups, coffee bags & shopping bags", ar: "الأكواب وأكياس البن والشنط" },
-      { en: "Logo motion", ar: "موشن الشعار" },
     ],
     gallery: [
-      { type: "video", src: "assets/work/safari/espresso.mp4", poster: "assets/work/safari/espresso-poster.webp", caption: { en: "Espresso pour into a Safari cup", ar: "صب الإسبريسو في كوب سفاري" } },
-      { type: "video", src: "assets/work/safari/logo-motion.mp4", poster: "assets/work/safari/logo-motion-poster.webp", caption: { en: "Logo motion", ar: "موشن الشعار" } },
       { src: "assets/work/safari/book-1.webp", caption: { en: "Brand book: cover", ar: "كتيّب الهوية: الغلاف" } },
       { src: "assets/work/safari/book-4.webp", caption: { en: "Brand book: the story", ar: "كتيّب الهوية: القصة" } },
       { src: "assets/work/safari/book-2.webp", caption: { en: "Moodboard", ar: "لوحة الإلهام" } },
@@ -268,53 +265,6 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* ---------------------------------------------------- MINISTRY OF SPORT */
-  {
-    slug: "ministry-of-sport",
-    featured: true,
-    category: "advertising",
-    year: "2024",
-    title: { en: "Tennis Campaign", ar: "حملة التنس" },
-    client: { en: "Ministry of Sport", ar: "وزارة الرياضة" },
-    summary: {
-      en: "An awareness campaign promoting tennis and active lifestyles across Instagram, X and Facebook, under the line #همة_للقمة.",
-      ar: "حملة توعوية للترويج للتنس ونمط الحياة النشط على انستجرام وإكس وفيسبوك، تحت شعار #همة_للقمة.",
-    },
-    cover: "assets/work/ministry-of-sport/cover.webp",
-    coverAlt: { en: "Three campaign posters of a tennis player mid-shot on a clay court", ar: "ثلاثة ملصقات لحملة التنس للاعب على ملعب ترابي" },
-    services: [{ en: "Campaign visuals", ar: "تصاميم الحملة" }, { en: "Art direction", ar: "الإدارة الفنية" }, { en: "Copy layout", ar: "إخراج النصوص" }],
-    palette: [],
-    sections: {
-      brief: {
-        en: "Encourage young people to take up tennis, and keep every visual aligned with the Ministry of Sport identity.",
-        ar: "تشجيع الشباب على ممارسة التنس، مع الحفاظ على توافق كل التصاميم مع هوية وزارة الرياضة.",
-      },
-      concept: {
-        en: "Each poster freezes one decisive moment of a rally and pairs it with a short line about ambition: every leap is a bigger step toward achievement.",
-        ar: "كل ملصق يجمّد لحظة حاسمة من الضربة ويقرنها بعبارة قصيرة عن الطموح: كل قفزة خطوة أكبر للإنجاز.",
-      },
-      strategy: {
-        en: "Awareness campaigns live in a fast feed, so each post carries one idea, one athlete and one line that reads in a second.",
-        ar: "حملات التوعية تعيش في محتوى سريع، لذلك يحمل كل منشور فكرة واحدة ورياضيًا واحدًا وعبارة تُقرأ في ثانية.",
-      },
-      visual: {
-        en: "Overcast skies, red clay and white kit; headlines in the Ministry green; dust and motion kept in the frame to carry energy.",
-        ar: "سماء غائمة وتراب أحمر وزي أبيض، وعناوين بأخضر الوزارة، مع الإبقاء على الغبار والحركة داخل الكادر لنقل الطاقة.",
-      },
-      development: {
-        en: "Three key visuals were developed as a set so they work alone and together in a grid, with a shared hashtag lock-up.",
-        ar: "تم تطوير ثلاثة تصاميم رئيسية كمجموعة تعمل منفردة ومجتمعة في الجريد، مع توقيع موحّد للهاشتاق.",
-      },
-    },
-    deliverables: [
-      { en: "3 key campaign visuals", ar: "3 تصاميم رئيسية للحملة" },
-      { en: "Formats for Instagram, X & Facebook", ar: "مقاسات انستجرام وإكس وفيسبوك" },
-    ],
-    gallery: [
-      { src: "assets/work/ministry-of-sport/board.webp", wide: true, caption: { en: "Campaign overview", ar: "عرض الحملة" } },
-    ],
-  },
-
   /* ---------------------------------------------------------------- ZEINA */
   {
     slug: "zeina",
@@ -421,7 +371,7 @@ PORTFOLIO.projects = [
   /* -------------------------------------------------------- DALLAH SUKKAR */
   {
     slug: "dallah-sukkar",
-    featured: false,
+    featured: true,
     category: "social-media",
     year: "",
     title: { en: "Dallah Sukkar", ar: "دلة سكر" },
@@ -581,42 +531,6 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* -------------------------------------------------------- STRA REELS */
-  {
-    slug: "stra-reels",
-    featured: false,
-    category: "motion",
-    year: "2026",
-    title: { en: "STRA Agency Reels", ar: "ريلز وكالة سترا" },
-    client: { en: "STRA, a Saudi marketing agency", ar: "سترا، وكالة تسويق سعودية" },
-    summary: {
-      en: "Kinetic-type reels for a Saudi marketing agency, built on short Arabic lines about strategy and ideas.",
-      ar: "ريلز بخط متحرك لوكالة تسويق سعودية، مبنية على عبارات عربية قصيرة عن الاستراتيجية والأفكار.",
-    },
-    cover: "assets/work/stra/reel-poster.webp",
-    coverAlt: { en: "Frame from the STRA reel with Arabic headline", ar: "لقطة من ريل سترا بعنوان عربي" },
-    services: [{ en: "Motion graphics", ar: "موشن جرافيك" }, { en: "Kinetic typography", ar: "تايبوجرافي متحرك" }],
-    palette: [],
-    sections: {
-      concept: {
-        en: "Lines like “the difference starts with strategy” and “turning ideas into impact” are cut on the beat between black and cream frames.",
-        ar: "عبارات مثل «الفرق يبدأ من استراتيجية» و«نحوّل الأفكار إلى تأثير» تتقطع على الإيقاع بين لقطات سوداء وكريمية.",
-      },
-      development: {
-        en: "Animated in After Effects for 9:16, with a second “pendulum” reel that swings the agency tag into frame.",
-        ar: "تم التحريك على أفتر إفكتس بمقاس 9:16، مع ريل ثانٍ يتأرجح فيه تاج الوكالة داخل الكادر.",
-      },
-    },
-    deliverables: [
-      { en: "Brand reel", ar: "ريل العلامة" },
-      { en: "Pendulum reel", ar: "ريل البندول" },
-    ],
-    gallery: [
-      { type: "video", src: "assets/work/stra/reel.mp4", poster: "assets/work/stra/reel-poster.webp", caption: { en: "Brand reel", ar: "ريل العلامة" } },
-      { type: "video", src: "assets/work/stra/pendulum.mp4", poster: "assets/work/stra/pendulum-poster.webp", caption: { en: "Pendulum reel", ar: "ريل البندول" } },
-    ],
-  },
-
   /* --------------------------------------------------------------- WASABI */
   {
     slug: "wasabi",
@@ -761,36 +675,6 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* ----------------------------------------------------------- ICON REELS */
-  {
-    slug: "icon-reels",
-    featured: false,
-    category: "motion",
-    year: "2026",
-    title: { en: "ICON 21 Reels", ar: "ريلز ايكون 21" },
-    client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
-    summary: {
-      en: "Short motion pieces that introduce ICON 21, highlight its features and keep the Instagram feed visually consistent.",
-      ar: "مقاطع موشن قصيرة تقدّم مشروع ايكون 21 وتبرز مميزاته وتحافظ على اتساق حساب انستجرام بصريًا.",
-    },
-    cover: "assets/work/icon-reels/cover.webp",
-    coverAlt: { en: "Three vertical ICON 21 reels and a phone mock-up", ar: "ثلاثة ريلز عمودية لايكون 21 وموك أب جوال" },
-    services: [{ en: "Motion graphics", ar: "موشن جرافيك" }, { en: "Feed planning", ar: "تخطيط الحساب" }],
-    palette: [],
-    sections: {
-      brief: { en: "Turn the ICON 21 launch into short reels that stop the scroll and point to the project.", ar: "تحويل إطلاق ايكون 21 إلى ريلز قصيرة توقف التمرير وتوجّه للمشروع." },
-      concept: { en: "Kinetic Arabic headlines over dusk architecture: \"Raising the ceiling of expectations\", \"Invest in the right place\".", ar: "عناوين عربية متحركة فوق عمارة وقت الغروب: «نرفع سقف التوقعات» و«استثمر في المكان الصح»." },
-      strategy: { en: "Reels lead, static posts follow: every reel has a matching feed tile so the grid stays cohesive.", ar: "الريلز تقود والمنشورات الثابتة تتبعها: لكل ريل منشور مطابق في الجريد ليبقى الحساب متناسقًا." },
-      visual: { en: "Same night-blue and gold system as the static campaign, with type animated in short, readable beats.", ar: "نفس نظام الأزرق الليلي والذهبي للحملة الثابتة، مع تحريك الخط على إيقاعات قصيرة وسهلة القراءة." },
-      development: { en: "Storyboarded from the static designs, then animated in After Effects for 9:16 delivery.", ar: "تم عمل ستوري بورد من التصاميم الثابتة، ثم التحريك على أفتر إفكتس بمقاس 9:16." },
-    },
-    deliverables: [{ en: "Launch reels", ar: "ريلز الإطلاق" }, { en: "Feed preview & cover tiles", ar: "معاينة الجريد وأغلفة الريلز" }],
-    gallery: [
-      { src: "assets/work/icon-reels/feed.webp", wide: true, caption: { en: "Instagram feed preview", ar: "معاينة حساب انستجرام" } },
-      { src: "assets/work/icon-reels/board.webp", wide: true, caption: { en: "Reels & motion overview", ar: "عرض الريلز والموشن" } },
-    ],
-  },
-
   /* -------------------------------------------------------- ZIONHEALTH */
   {
     slug: "zionhealth",
@@ -826,79 +710,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/zionhealth/moisturiser.webp", caption: { en: "Deodorant", ar: "مزيل العرق" } },
       { src: "assets/work/zionhealth/sunscreen.webp", caption: { en: "Sunscreen", ar: "واقي الشمس" } },
       { src: "assets/work/zionhealth/carousel.webp", caption: { en: "Carousel on Instagram", ar: "كاروسيل على انستجرام" } },
-    ],
-  },
-
-  /* --------------------------------------------------------- SHAHY CLINIC */
-  {
-    slug: "shahy-clinic",
-    featured: false,
-    category: "social-media",
-    year: "",
-    title: { en: "Shahy Clinic", ar: "عيادة شاهي" },
-    client: { en: "Shahy Clinic, beauty & aesthetics", ar: "عيادة شاهي للتجميل" },
-    summary: {
-      en: "Social content for a beauty and aesthetics clinic that educates, promotes treatments and builds trust through a soft, feminine look.",
-      ar: "محتوى سوشيال لعيادة تجميل يوعّي ويروّج للعلاجات ويبني الثقة بأسلوب ناعم وأنثوي.",
-    },
-    cover: "assets/work/shahy-clinic/cover.webp",
-    coverAlt: { en: "Six peach-toned beauty clinic posts", ar: "ستة منشورات لعيادة تجميل بدرجات الخوخي" },
-    services: [{ en: "Posts", ar: "منشورات" }, { en: "Stories", ar: "ستوريز" }, { en: "Carousels", ar: "كاروسيل" }, { en: "Campaigns", ar: "حملات" }],
-    palette: [],
-    sections: {
-      brief: { en: "Promote treatments and offers without losing the calm, caring tone a clinic needs.", ar: "الترويج للعلاجات والعروض دون فقدان النبرة الهادئة والراعية التي تحتاجها العيادة." },
-      concept: { en: "Soft peach light, flowers and close-up skin: every post feels like care before it feels like an offer.", ar: "إضاءة خوخية ناعمة وزهور وصور قريبة للبشرة: كل منشور يبدو رعاية قبل أن يبدو عرضًا." },
-      strategy: { en: "Four content types (promotions, education, stories and before/after) keep the feed useful as well as commercial.", ar: "أربعة أنواع محتوى (عروض، وتوعية، وستوريز، وقبل وبعد) تجعل الحساب مفيدًا وتجاريًا معًا." },
-      visual: { en: "Peach and coral palette, ribbon-style headline bars, and clear price and call-to-action blocks.", ar: "لوحة خوخي ومرجاني، وأشرطة عناوين، ومساحات واضحة للسعر وزر الحجز." },
-      development: { en: "Templates were built for offers, treatment explainers and carousels, then rolled out across the feed.", ar: "تم بناء قوالب للعروض وشرح العلاجات والكاروسيل، ثم تطبيقها على الحساب كله." },
-    },
-    deliverables: [{ en: "Promotional & educational posts", ar: "منشورات ترويجية وتوعوية" }, { en: "Story & carousel templates", ar: "قوالب ستوري وكاروسيل" }],
-    gallery: [
-      { src: "assets/work/shahy-clinic/feed.webp", caption: { en: "Instagram feed", ar: "حساب انستجرام" } },
-      { src: "assets/work/shahy-clinic/board.webp", wide: true, caption: { en: "Content overview", ar: "عرض المحتوى" } },
-    ],
-  },
-
-  /* ----------------------------------------------------- PASTEL JEDDAH */
-  {
-    slug: "pastel-jeddah",
-    featured: false,
-    category: "editorial-print",
-    year: "2026",
-    title: { en: "Pastel Jeddah 2027 Planner", ar: "مفكرة باستيل جدة ٢٠٢٧" },
-    client: { en: "Personal project", ar: "مشروع شخصي" },
-    summary: {
-      en: "A 2027 achievement planner collection with illustrated Jeddah covers in soft pastel tones.",
-      ar: "مجموعة مفكرات إنجاز ٢٠٢٧ بأغلفة مرسومة مستوحاة من جدة بألوان باستيل هادئة.",
-    },
-    cover: "assets/work/pastel-jeddah/cover.webp",
-    coverAlt: { en: "Pastel Jeddah planners and stationery on a table", ar: "مفكرات وأدوات باستيل جدة على طاولة" },
-    services: [{ en: "Cover illustration", ar: "رسم الأغلفة" }, { en: "Editorial design", ar: "التصميم التحريري" }, { en: "Stationery", ar: "القرطاسية" }],
-    palette: [],
-    sections: {
-      concept: {
-        en: "Jeddah in pastel: the coastline, the historic district and Hijazi details, each turned into a planner cover.",
-        ar: "جدة بألوان الباستيل: الساحل والبلد وتفاصيل حجازية، كل واحدة منها غلاف لمفكرة.",
-      },
-      development: {
-        en: "Covers and inner pages were designed as one set, then shown as a stationery collection.",
-        ar: "تم تصميم الأغلفة والصفحات الداخلية كمجموعة واحدة، ثم عرضها كمجموعة قرطاسية.",
-      },
-    },
-    deliverables: [
-      { en: "Planner covers", ar: "أغلفة المفكرات" },
-      { en: "Inner pages", ar: "الصفحات الداخلية" },
-      { en: "Stationery mock-ups", ar: "موك أب القرطاسية" },
-    ],
-    gallery: [
-      { src: "assets/work/pastel-jeddah/planner-set.webp", caption: { en: "Coastal horizon planner set", ar: "مجموعة مفكرة أفق ساحلي" } },
-      { src: "assets/work/pastel-jeddah/flat-lay.webp", caption: { en: "Stationery flat lay", ar: "القرطاسية من الأعلى" } },
-      { src: "assets/work/pastel-jeddah/p1.webp", caption: { en: "Page 1", ar: "صفحة 1" } },
-      { src: "assets/work/pastel-jeddah/p2.webp", caption: { en: "Page 2", ar: "صفحة 2" } },
-      { src: "assets/work/pastel-jeddah/p3.webp", caption: { en: "Page 3", ar: "صفحة 3" } },
-      { src: "assets/work/pastel-jeddah/p4.webp", caption: { en: "Page 4", ar: "صفحة 4" } },
-      { src: "assets/work/pastel-jeddah/p6.webp", caption: { en: "Page 6", ar: "صفحة 6" } },
-      { src: "assets/work/pastel-jeddah/p7.webp", caption: { en: "Page 7", ar: "صفحة 7" } },
     ],
   },
 
