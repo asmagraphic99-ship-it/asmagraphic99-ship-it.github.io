@@ -116,6 +116,16 @@
       </a>`;
   }
 
+  // One tile per video: plays silently while on screen, opens the motion page.
+  function videoTile(p, g) {
+    const cap = L(g.caption || {}) || L(p.title);
+    return `
+      <a class="motion-tile" href="#/work/${esc(p.slug)}" data-reveal>
+        <div class="crop"><div class="media ratio-916"><video src="${esc(g.src)}" poster="${esc(g.poster || p.cover)}" muted loop playsinline preload="none" data-autoplay aria-label="${esc(cap)}"></video><span class="play-tag">▶ ${esc(t("reel"))}</span></div></div>
+        <div class="cap"><p class="slug"><span class="accent">${esc(L(p.client))}</span></p><h3>${esc(cap)}</h3></div>
+      </a>`;
+  }
+
   function postCard(a, i) {
     const body = L(a.body);
     const cover = a.cover
@@ -291,9 +301,9 @@
 
       ${motionProjects.length ? `
       <section class="wrap section" data-tone="olive" aria-labelledby="motion-title">
-        <div class="section-head">${gTitle(t("motion_title"), uiOther("motion_title"), "h2", "motion-title")}<a class="text-link" href="#/work?c=motion">${esc(t("view_all"))} ${ARROW}</a></div>
+        <div class="section-head">${gTitle(t("motion_title"), uiOther("motion_title"), "h2", "motion-title")}<a class="text-link" href="#/work/${esc(motionProjects[0].slug)}">${esc(t("view_all"))} ${ARROW}</a></div>
         <p class="lead muted" style="margin-top:-24px;margin-bottom:clamp(32px,4vw,56px)">${esc(t("motion_lead"))}</p>
-        <div class="motion-grid">${motionProjects.map(motionTile).join("")}</div>
+        <div class="motion-grid">${motionProjects.flatMap((p) => (p.gallery || []).filter((g) => g.type === "video").map((g) => videoTile(p, g))).join("")}</div>
       </section>` : ""}
 
       ${(SITE.brands || []).length ? `
