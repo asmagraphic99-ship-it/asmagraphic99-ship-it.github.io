@@ -7,7 +7,7 @@ window.PORTFOLIO = window.PORTFOLIO || {};
 
 PORTFOLIO.site = {
   name: { en: "Asma Othman", ar: "أسماء عثمان" },
-  role: { en: "Senior Graphic Designer · Art Direction", ar: "مصممة جرافيك أولى · إدارة فنية" },
+  role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" },
   location: { en: "Jeddah, Saudi Arabia", ar: "جدة، المملكة العربية السعودية" },
   since: 2019, // first year of professional work (used in the hero slug line)
 
@@ -54,21 +54,26 @@ PORTFOLIO.site = {
     ar: "التصميم الجيد لا يُرى فقط، بل يُحَسّ.",
   },
 
+  // Services exactly as listed under "Expertise" in the CV.
   services: [
-    { en: "Brand identity & visual systems", ar: "الهوية البصرية والأنظمة البصرية" },
-    { en: "Art direction", ar: "الإدارة الفنية" },
-    { en: "Advertising & social media campaigns", ar: "الحملات الإعلانية وحملات السوشيال ميديا" },
-    { en: "Editorial, print & company profiles", ar: "التصميم التحريري والمطبوعات وملفات الشركات" },
-    { en: "Motion graphics & video editing", ar: "الموشن جرافيك والمونتاج" },
-    { en: "Packaging design", ar: "تصميم التغليف" },
-    { en: "UI/UX design", ar: "تصميم واجهات وتجربة المستخدم" },
-    { en: "Infographics & information design", ar: "الإنفوجرافيك وتصميم المعلومات" },
-    { en: "AI‑assisted creative workflows", ar: "سير عمل إبداعي بمساعدة الذكاء الاصطناعي" },
+    { en: "Brand Identity & Logo Design", ar: "الهوية البصرية وتصميم الشعارات" },
+    { en: "Visual Identity Systems", ar: "أنظمة الهوية البصرية" },
+    { en: "Social Media Design", ar: "تصميم السوشيال ميديا" },
+    { en: "Marketing & Advertising Design", ar: "التصميم التسويقي والإعلاني" },
+    { en: "Print & Digital Design", ar: "تصميم المطبوعات والتصميم الرقمي" },
+    { en: "Packaging Design", ar: "تصميم التغليف" },
+    { en: "UI/UX Design", ar: "تصميم واجهات وتجربة المستخدم" },
+    { en: "AI-Assisted Design", ar: "التصميم بمساعدة الذكاء الاصطناعي" },
+    { en: "Creative Direction", ar: "الإدارة الإبداعية" },
   ],
+
+  // Brand names shown in the moving strip on the home page (all from projects in this portfolio).
+  brands: ["ICON Real Estate", "Safari", "Rashf", "CareDrive", "Zeina", "Visory", "Dallah Sukkar", "Wasabi", "925 Club", "Piattino Café", "ZionHealth", "Synexcell", "YZDAD", "Gate A", "Koki's Beauty", "Bassem El-Bahkery", "Dating Boat", "Awen", "Brown House", "Khawalid", "Venue Hotel"],
+
 
   // Most recent first. Dates and cities from your CV.
   experience: [
-    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer", ar: "مصممة جرافيك أولى" } },
+    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" } },
     { years: "Jun 2023 — Jun 2025", company: "Happenize", place: { en: "Dubai, UAE", ar: "دبي، الإمارات" }, role: { en: "Senior Graphic Designer · UI/UX Designer", ar: "مصممة جرافيك أولى · مصممة UI/UX" } },
     { years: "Oct 2021 — Dec 2022", company: "Montasher Sa", place: { en: "Riyadh, Saudi Arabia", ar: "الرياض، السعودية" }, role: { en: "Branding Designer", ar: "مصممة هويات" } },
     { years: "Oct 2020 — Jan 2021", company: "Ektsap", place: { en: "Istanbul, Turkey", ar: "إسطنبول، تركيا" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
