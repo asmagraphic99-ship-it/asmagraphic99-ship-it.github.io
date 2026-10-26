@@ -23,6 +23,7 @@ PORTFOLIO.categories = {
   "social-media": { en: "Social Media Design", ar: "تصميم سوشيال ميديا" },
   "motion": { en: "Motion & Video Editing", ar: "موشن ومونتاج" },
   "editorial-print": { en: "Editorial & Print", ar: "تصميم تحريري ومطبوعات" },
+  "ai-video": { en: "AI Video Creation", ar: "صناعة الفيديو الإعلاني بالـ AI" },
 };
 
 PORTFOLIO.projects = [
@@ -418,6 +419,60 @@ PORTFOLIO.projects = [
       { src: "assets/work/dallah-sukkar/p7.webp", caption: { en: "Post 7", ar: "منشور 7" } },
       { src: "assets/work/dallah-sukkar/p8.webp", caption: { en: "Post 8", ar: "منشور 8" } },
       { src: "assets/work/dallah-sukkar/p9.webp", caption: { en: "Post 9", ar: "منشور 9" } },
+    ],
+  },
+
+  /* --------------------------------------------------- AI · NATIONAL DAY */
+  {
+    slug: "ai-national-day",
+    featured: false,
+    category: "ai-video",
+    year: "2026",
+    title: { en: "AI Creator · Saudi National Day Film", ar: "AI Creator · فيلم اليوم الوطني" },
+    client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
+    summary: {
+      en: "A 46-second Saudi National Day ad film for Icon Real Estate, created entirely with AI: from a written concept and storyboard to generated scenes, animation and the final edit.",
+      ar: "فيلم إعلاني لليوم الوطني السعودي مدته 46 ثانية لايكون العقارية، مصنوع بالكامل بالذكاء الاصطناعي: من الفكرة المكتوبة والستوري بورد إلى توليد المشاهد وتحريكها والمونتاج النهائي.",
+    },
+    cover: "assets/work/ai-national-day/scene-12.webp",
+    coverAlt: { en: "A boy in a green Sadu cloak with the Saudi emblem, facing the sunset", ar: "طفل بعباءة سدو خضراء عليها شعار المملكة يواجه الغروب" },
+    services: [{ en: "AI video creation", ar: "صناعة الفيديو بالذكاء الاصطناعي" }, { en: "Concept & storyboard", ar: "الفكرة والستوري بورد" }, { en: "Video editing", ar: "المونتاج" }],
+    palette: ["#0F5B3A", "#E9C58A", "#B5652F", "#F3EADF"],
+    sections: {
+      brief: {
+        en: "Create a National Day film for Icon Real Estate that feels like a celebration of Saudi heritage rather than an advert, and produce it without a film crew, locations or actors.",
+        ar: "صناعة فيلم لليوم الوطني لايكون العقارية يحسّه المشاهد احتفالًا بالتراث السعودي وليس إعلانًا، وإنتاجه بدون فريق تصوير أو مواقع أو ممثلين.",
+      },
+      concept: {
+        en: "From roots to skyline. Under the National Day theme “Izzna Bi Tabe’na”, the film follows the values Saudis grow up with (coffee and hospitality, Sadu weaving, the Arabian horse) as they pass from an elder to a boy, then ends with the same boy looking over a modern city: the land ICON builds on today.",
+        ar: "من الجذور إلى الأفق. تحت شعار اليوم الوطني «عزنا بطبعنا»، يتتبع الفيلم القيم التي يكبر عليها السعوديون (القهوة والضيافة، ونسج السدو، والخيل العربية) وهي تنتقل من الكبير إلى الطفل، ثم ينتهي بنفس الطفل يطل على مدينة حديثة: الأرض التي تبني عليها ايكون اليوم.",
+      },
+      strategy: {
+        en: "A developer’s message on National Day is about home and belonging. The brand stays light (a small logo and a final card) so people share the film as a greeting, and ICON is remembered as part of the occasion.",
+        ar: "رسالة المطوّر العقاري في اليوم الوطني هي البيت والانتماء. لذلك بقيت العلامة خفيفة (شعار صغير وكادر ختامي) حتى يشارك الناس الفيلم كتهنئة، وتُذكر ايكون كجزء من المناسبة.",
+      },
+      visual: {
+        en: "Golden-hour light, mud-brick architecture and palm trees; green-and-white Sadu patterns that echo the flag; the same wardrobe and characters held consistent from scene to scene.",
+        ar: "إضاءة الساعة الذهبية، وعمارة طينية ونخيل، ونقوش سدو بالأخضر والأبيض تتناغم مع العلم، مع الحفاظ على نفس الملابس والشخصيات من مشهد لمشهد.",
+      },
+      development: {
+        en: "Script and shot list, then a 14-scene storyboard. Each scene was generated as a still with fixed style and character references, animated with AI image-to-video, then edited in Premiere Pro with pacing, music and brand overlays for 9:16.",
+        ar: "سكريبت وقائمة لقطات، ثم ستوري بورد من 14 مشهدًا. كل مشهد تم توليده كصورة بمرجع ثابت للأسلوب والشخصيات، ثم تحريكه بتقنية تحويل الصورة إلى فيديو بالذكاء الاصطناعي، وبعدها المونتاج على بريمير مع الإيقاع والموسيقى وعناصر العلامة بمقاس 9:16.",
+      },
+      role: {
+        en: "I wrote the concept, built the storyboard, generated and directed every shot with AI tools, and edited the final film.",
+        ar: "كتبت الفكرة، وبنيت الستوري بورد، وولّدت وأخرجت كل لقطة بأدوات الذكاء الاصطناعي، وعملت المونتاج النهائي للفيلم.",
+      },
+    },
+    deliverables: [
+      { en: "46-second National Day film (9:16)", ar: "فيلم اليوم الوطني 46 ثانية (9:16)" },
+      { en: "14-scene storyboard", ar: "ستوري بورد من 14 مشهدًا" },
+      { en: "Branded end card", ar: "كادر ختامي بهوية العلامة" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/ai-national-day/film.mp4", poster: "assets/work/ai-national-day/film-poster.webp", caption: { en: "The final film (46 s, 9:16)", ar: "الفيلم النهائي (46 ثانية، 9:16)" } },
+      { src: "assets/work/ai-national-day/storyboard-1.webp", wide: true, caption: { en: "Storyboard 1/2 (heritage): 01 Flag over the old mud-brick town at sunrise · 02 Getting ready: adjusting the shemagh · 03 Roasting coffee beans · 04 Pouring Saudi coffee from the dallah · 05 Weaving Sadu in green and white · 06 Walking the old lanes in a Sadu cloak · 07 Greeting the Arabian horse", ar: "الستوري بورد 1/2 (التراث): 01 العلم فوق البلدة الطينية مع الشروق · 02 الاستعداد: تعديل الشماغ · 03 تحميص حبوب القهوة · 04 صبّ القهوة السعودية من الدلة · 05 نسج السدو بالأخضر والأبيض · 06 المشي في الأزقة القديمة بعباءة السدو · 07 تحية الخيل العربية" } },
+      { src: "assets/work/ai-national-day/storyboard-2.webp", wide: true, caption: { en: "Storyboard 2/2 (the next generation): 08 Close-up: trust between rider and horse · 09 The horse runs free across the desert · 10 The cloak passes to the next generation · 11 A boy walks through the heritage town · 12 The national emblem on his back · 13 Today: the same boy overlooks a modern skyline · 14 End card: “Dam Izzak Ya Watan · Izzna Bi Tabe’na” with the ICON logo", ar: "الستوري بورد 2/2 (الجيل الجديد): 08 لقطة قريبة: الثقة بين الفارس والخيل · 09 الخيل تنطلق في الصحراء · 10 العباءة تنتقل للجيل الجديد · 11 طفل يمشي في البلدة التراثية · 12 شعار المملكة على ظهره · 13 اليوم: نفس الطفل يطل على مدينة حديثة · 14 الختام: «دام عزك يا وطن · عزنا بطبعنا» مع شعار ايكون" } },
     ],
   },
 
