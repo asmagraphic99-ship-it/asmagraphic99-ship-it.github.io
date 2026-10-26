@@ -421,66 +421,32 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* --------------------------------------------------------- ICON 18 REELS */
+  /* ------------------------------------------------------ MOTION & EDITING */
   {
-    slug: "icon18-reels",
+    slug: "motion-editing",
     featured: false,
     category: "motion",
     year: "2026",
-    title: { en: "ICON 18 Reels & Montage", ar: "ريلز ومونتاج ايكون 18" },
+    title: { en: "Motion & Editing", ar: "موشن ومونتاج" },
     client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
     summary: {
-      en: "Edited reels for ICON 18 in Al Nuzha, Jeddah: real footage of the building cut together with animated unit plans, room sizes and features.",
-      ar: "ريلز مونتاج لمشروع ايكون 18 في حي النزهة بجدة: لقطات حقيقية للمبنى مع مخططات الوحدات ومقاساتها ومميزاتها بشكل متحرك.",
+      en: "All my motion and video work in one place: reels, montages and ads for Icon Real Estate, from ICON 18 in Al Nuzha to ICON 19 and new launches.",
+      ar: "كل أعمال الموشن والمونتاج في مكان واحد: ريلز ومونتاج وإعلانات لايكون العقارية، من ايكون 18 في حي النزهة إلى ايكون 19 والإطلاقات الجديدة.",
     },
     cover: "assets/work/icon18-reels/reel-poster.webp",
     coverAlt: { en: "Frame from the ICON 18 reel", ar: "لقطة من ريل ايكون 18" },
     services: [{ en: "Video editing", ar: "مونتاج" }, { en: "Motion graphics", ar: "موشن جرافيك" }],
     palette: [],
     sections: {
-      brief: { en: "Show buyers the finished ICON 18 building and its six unit types in short, vertical videos.", ar: "عرض مبنى ايكون 18 المكتمل ونماذج وحداته الستة للمشترين في فيديوهات قصيرة طولية." },
-      concept: { en: "From render to reality: the real building and interiors, with plans, sizes and features layered on top in the brand's navy and gold.", ar: "من التصميم إلى الواقع: المبنى والتشطيبات الحقيقية، مع المخططات والمقاسات والمميزات فوقها بألوان العلامة الكحلي والذهبي." },
-      development: { en: "Footage was cut in Premiere Pro and the graphics animated in After Effects, delivered in 9:16 for reels and stories.", ar: "تم المونتاج على بريمير والتحريك على أفتر إفكتس، بمقاس 9:16 للريلز والستوري." },
+      brief: { en: "Short vertical videos that show buyers the projects, the unit types and the brand, and keep ICON's channels moving between launches.", ar: "فيديوهات طولية قصيرة تعرض المشاريع ونماذج الوحدات والعلامة للمشترين، وتحافظ على نشاط منصات ايكون بين الإطلاقات." },
+      concept: { en: "From render to reality: real footage of the buildings cut together with animated plans, sizes and features in the brand's navy and gold, plus short ads and occasion reels.", ar: "من التصميم إلى الواقع: لقطات حقيقية للمباني مع مخططات ومقاسات ومميزات متحركة بألوان العلامة الكحلي والذهبي، بالإضافة لإعلانات قصيرة وريلز للمناسبات." },
+      development: { en: "Edited in Premiere Pro and animated in After Effects, delivered in 9:16 for reels and stories.", ar: "تم المونتاج على بريمير والتحريك على أفتر إفكتس، بمقاس 9:16 للريلز والستوري." },
     },
-    deliverables: [{ en: "Project montage", ar: "مونتاج المشروع" }, { en: "Project reel", ar: "ريل المشروع" }, { en: "7 reasons reel", ar: "ريل 7 أسباب" }],
+    deliverables: [{ en: "Project montages & reels", ar: "مونتاج وريلز المشاريع" }, { en: "Ads", ar: "إعلانات" }, { en: "Occasion reels", ar: "ريلز المناسبات" }],
     gallery: [
       { type: "video", src: "assets/work/icon18-reels/montage.mp4", poster: "assets/work/icon18-reels/montage-poster.webp", caption: { en: "ICON 18 montage: from render to reality", ar: "مونتاج ايكون 18: إلى الواقع" } },
       { type: "video", src: "assets/work/icon18-reels/reel.mp4", poster: "assets/work/icon18-reels/reel-poster.webp", caption: { en: "ICON 18 project reel", ar: "ريل مشروع ايكون 18" } },
       { type: "video", src: "assets/work/icon18-reels/seven-reasons.mp4", poster: "assets/work/icon18-reels/seven-reasons-poster.webp", caption: { en: "7 reasons to choose ICON 18", ar: "7 أسباب تخليك تختار ايكون 18" } },
-    ],
-  },
-
-  /* -------------------------------------------------------- ICON FILMS */
-  {
-    slug: "icon-films",
-    featured: false,
-    category: "motion",
-    year: "2026",
-    title: { en: "ICON Real Estate Films", ar: "أفلام ايكون العقارية" },
-    client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
-    summary: {
-      en: "Motion pieces for Icon Real Estate: a 30-second ad that answers a buyer’s questions, and an animated walkthrough of the ICON 19 unit types.",
-      ar: "أعمال موشن لايكون العقارية: إعلان 30 ثانية يجاوب على أسئلة المشتري، وعرض متحرك لنماذج وحدات ايكون 19.",
-    },
-    cover: "assets/work/icon-films/ad-30s-poster.webp",
-    coverAlt: { en: "Frame from the ICON ad with icons for location and costs", ar: "لقطة من إعلان ايكون بأيقونات الموقع والتكاليف" },
-    services: [{ en: "Motion graphics", ar: "موشن جرافيك" }, { en: "Editing", ar: "مونتاج" }],
-    palette: [],
-    sections: {
-      concept: {
-        en: "“Want to buy property?” The ad walks through what buyers worry about (location, price, total costs) and lands on ICON as the answer.",
-        ar: "«تبي تشتري عقار؟» الإعلان يمر على ما يقلق المشتري (الموقع، السعر، التكاليف كلها) وينتهي بايكون كإجابة.",
-      },
-      development: {
-        en: "Designed and animated in After Effects in 9:16 for reels and stories. The ICON 19 film presents unit plans, areas and prices one by one.",
-        ar: "تم التصميم والتحريك على أفتر إفكتس بمقاس 9:16 للريلز والستوري. فيلم ايكون 19 يعرض مخططات الوحدات ومساحاتها وأسعارها واحدة تلو الأخرى.",
-      },
-    },
-    deliverables: [
-      { en: "30-second ad", ar: "إعلان 30 ثانية" },
-      { en: "ICON 19 unit film", ar: "فيلم وحدات ايكون 19" },
-    ],
-    gallery: [
       { type: "video", src: "assets/work/icon-films/ad-30s.mp4", poster: "assets/work/icon-films/ad-30s-poster.webp", caption: { en: "30-second ad", ar: "إعلان 30 ثانية" } },
       { type: "video", src: "assets/work/icon-films/icon19.mp4", poster: "assets/work/icon-films/icon19-poster.webp", caption: { en: "ICON 19 unit types", ar: "نماذج وحدات ايكون 19" } },
       { type: "video", src: "assets/work/icon-films/every-home.mp4", poster: "assets/work/icon-films/every-home-poster.webp", caption: { en: "Not every home is a choice", ar: "مو كل بيت اختيار" } },
