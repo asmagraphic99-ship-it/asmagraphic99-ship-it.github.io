@@ -138,11 +138,11 @@ html[lang="ar"] .slug { letter-spacing: 0; font-size: .85rem; }
 .g-title .g-main { font-family: var(--serif); display: block; }
 html[lang="ar"] .g-title .g-main { font-family: var(--arabic); line-height: 1.3; }
 .g-title .g-alt {
-  position: absolute; inset-inline-end: -.2em; bottom: -.15em;
-  font-family: var(--arabic); color: var(--ink); font-size: .42em; line-height: 1; white-space: nowrap;
-  transform: rotate(-4deg);
+  display: block; text-align: end; margin-top: .25em;
+  font-family: var(--arabic); color: var(--ink); font-size: .42em; line-height: 1.3; white-space: nowrap;
+  transform: none;
 }
-html[lang="ar"] .g-title .g-alt { font-family: var(--script); color: var(--copper-hi); font-size: .55em; transform: rotate(-6deg); }
+html[lang="ar"] .g-title .g-alt { font-family: var(--script); color: var(--copper-hi); font-size: .55em; line-height: 1.1; margin-top: .1em; }
 
 /* ------------------------------------------------------------- Buttons -- */
 .btn {
@@ -251,7 +251,7 @@ html[lang="ar"] .box > legend { font-family: var(--arabic); line-height: 1.4; }
   position: absolute; inset-inline-start: 38%; top: 30%; font-family: var(--script); color: var(--copper);
   font-size: .62em; transform: rotate(-8deg); -webkit-text-fill-color: var(--copper); white-space: nowrap;
 }
-.hero-ar { font-family: var(--arabic); font-size: clamp(2.4rem, 1.4rem + 3.4vw, 4.6rem); line-height: 1.2; color: var(--ink); justify-self: end; margin-top: -.4em; }
+.hero-ar { font-family: var(--arabic); font-size: clamp(2.4rem, 1.4rem + 3.4vw, 4.6rem); line-height: 1.2; color: var(--ink); justify-self: end; margin-top: 0; }
 html[lang="ar"] .hero-title .l1, html[lang="ar"] .hero-title .l2 { font-family: var(--arabic); line-height: 1.2; }
 html[lang="ar"] .hero-title { font-size: clamp(3.4rem, 1.4rem + 8vw, 9rem); }
 html[lang="ar"] .hero-ar { font-family: var(--serif); justify-self: start; }
