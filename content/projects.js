@@ -83,6 +83,11 @@ PORTFOLIO.projects = [
       { src: "assets/work/icon-real-estate/system.webp", wide: true, caption: { en: "Social media system: promotional, educational and engagement posts", ar: "النظام البصري: منشورات ترويجية وتوعوية وتفاعلية" } },
       { src: "assets/work/icon-reels/cover.webp", wide: true, caption: { en: "Reels for the ICON 21 launch", ar: "ريلز إطلاق ايكون 21" } },
       { type: "video", src: "assets/work/icon-films/ad-30s.mp4", poster: "assets/work/icon-films/ad-30s-poster.webp", caption: { en: "30-second ad: “Want to buy property?”", ar: "إعلان 30 ثانية: «تبي تشتري عقار؟»" } },
+      { type: "video", src: "assets/work/icon18-reels/reel.mp4", poster: "assets/work/icon18-reels/reel-poster.webp", caption: { en: "ICON 18 project reel", ar: "ريل مشروع ايكون 18" } },
+      { type: "video", src: "assets/work/icon18-reels/seven-reasons.mp4", poster: "assets/work/icon18-reels/seven-reasons-poster.webp", caption: { en: "7 reasons to choose ICON 18", ar: "7 أسباب تخليك تختار ايكون 18" } },
+      { src: "assets/work/icon-real-estate/al-safa-ready.webp", wide: true, caption: { en: "Our projects in Al Safa, ready now", ar: "مشاريعنا في حي الصفا، جاهزة الآن" } },
+      { src: "assets/work/icon-real-estate/build-more.webp", caption: { en: "Story: we build more than buildings", ar: "ستوري: نبني أكثر من مجرد مباني" } },
+      { src: "assets/work/icon-real-estate/quality-foundation.webp", caption: { en: "Story: quality starts from the foundation", ar: "ستوري: الجودة تبدأ من الأساس" } },
       { src: "assets/work/icon-real-estate/story-1.webp", caption: { en: "ICON 18 story 1", ar: "ستوري ايكون 18 رقم 1" } },
       { src: "assets/work/icon-real-estate/story-2.webp", caption: { en: "ICON 18 story 2", ar: "ستوري ايكون 18 رقم 2" } },
       { src: "assets/work/icon-real-estate/story-3.webp", caption: { en: "ICON 18 story 3", ar: "ستوري ايكون 18 رقم 3" } },
@@ -523,6 +528,35 @@ PORTFOLIO.projects = [
     gallery: [{ type: "video", src: "assets/work/icaur-v27/reel.mp4", poster: "assets/work/icaur-v27/cover.webp", caption: { en: "Showcase reel", ar: "ريل العرض" } }],
   },
 
+  /* --------------------------------------------------------- ICON 18 REELS */
+  {
+    slug: "icon18-reels",
+    featured: false,
+    category: "motion",
+    year: "2026",
+    title: { en: "ICON 18 Reels & Montage", ar: "ريلز ومونتاج ايكون 18" },
+    client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
+    summary: {
+      en: "Edited reels for ICON 18 in Al Nuzha, Jeddah: real footage of the building cut together with animated unit plans, room sizes and features.",
+      ar: "ريلز مونتاج لمشروع ايكون 18 في حي النزهة بجدة: لقطات حقيقية للمبنى مع مخططات الوحدات ومقاساتها ومميزاتها بشكل متحرك.",
+    },
+    cover: "assets/work/icon18-reels/reel-poster.webp",
+    coverAlt: { en: "Frame from the ICON 18 reel", ar: "لقطة من ريل ايكون 18" },
+    services: [{ en: "Video editing", ar: "مونتاج" }, { en: "Motion graphics", ar: "موشن جرافيك" }],
+    palette: [],
+    sections: {
+      brief: { en: "Show buyers the finished ICON 18 building and its six unit types in short, vertical videos.", ar: "عرض مبنى ايكون 18 المكتمل ونماذج وحداته الستة للمشترين في فيديوهات قصيرة طولية." },
+      concept: { en: "From render to reality: the real building and interiors, with plans, sizes and features layered on top in the brand's navy and gold.", ar: "من التصميم إلى الواقع: المبنى والتشطيبات الحقيقية، مع المخططات والمقاسات والمميزات فوقها بألوان العلامة الكحلي والذهبي." },
+      development: { en: "Footage was cut in Premiere Pro and the graphics animated in After Effects, delivered in 9:16 for reels and stories.", ar: "تم المونتاج على بريمير والتحريك على أفتر إفكتس، بمقاس 9:16 للريلز والستوري." },
+    },
+    deliverables: [{ en: "Project montage", ar: "مونتاج المشروع" }, { en: "Project reel", ar: "ريل المشروع" }, { en: "7 reasons reel", ar: "ريل 7 أسباب" }],
+    gallery: [
+      { type: "video", src: "assets/work/icon18-reels/montage.mp4", poster: "assets/work/icon18-reels/montage-poster.webp", caption: { en: "ICON 18 montage: from render to reality", ar: "مونتاج ايكون 18: إلى الواقع" } },
+      { type: "video", src: "assets/work/icon18-reels/reel.mp4", poster: "assets/work/icon18-reels/reel-poster.webp", caption: { en: "ICON 18 project reel", ar: "ريل مشروع ايكون 18" } },
+      { type: "video", src: "assets/work/icon18-reels/seven-reasons.mp4", poster: "assets/work/icon18-reels/seven-reasons-poster.webp", caption: { en: "7 reasons to choose ICON 18", ar: "7 أسباب تخليك تختار ايكون 18" } },
+    ],
+  },
+
   /* -------------------------------------------------------- ICON FILMS */
   {
     slug: "icon-films",
@@ -556,6 +590,9 @@ PORTFOLIO.projects = [
     gallery: [
       { type: "video", src: "assets/work/icon-films/ad-30s.mp4", poster: "assets/work/icon-films/ad-30s-poster.webp", caption: { en: "30-second ad", ar: "إعلان 30 ثانية" } },
       { type: "video", src: "assets/work/icon-films/icon19.mp4", poster: "assets/work/icon-films/icon19-poster.webp", caption: { en: "ICON 19 unit types", ar: "نماذج وحدات ايكون 19" } },
+      { type: "video", src: "assets/work/icon-films/every-home.mp4", poster: "assets/work/icon-films/every-home-poster.webp", caption: { en: "Not every home is a choice", ar: "مو كل بيت اختيار" } },
+      { type: "video", src: "assets/work/icon-films/national-day.mp4", poster: "assets/work/icon-films/national-day-poster.webp", caption: { en: "Saudi National Day", ar: "اليوم الوطني السعودي" } },
+      { type: "video", src: "assets/work/icon-films/new-project.mp4", poster: "assets/work/icon-films/new-project-poster.webp", caption: { en: "New project teaser", ar: "مشروع جديد في انتظارك" } },
     ],
   },
 
