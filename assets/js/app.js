@@ -156,6 +156,7 @@
       <nav class="nav" aria-label="Main">${navLinks(path)}</nav>
       <div class="header-tools">
         ${langButton()}
+        <a class="btn btn--proof btn--sm header-cta" href="#/contact">${esc(t("lets_talk"))}</a>
         <button class="menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="menu-panel"><span>${esc(t("menu"))}</span><span class="bars" aria-hidden="true"></span></button>
       </div>`;
     $menu.innerHTML = `
@@ -196,6 +197,7 @@
         <div class="footer-grid">
           <div><h2>${esc(L(SITE.name))}</h2><p class="muted" style="margin-top:8px">${esc(L(SITE.role))}<br>${esc(L(SITE.location))}</p><p class="footer-sign" lang="en" aria-hidden="true">${esc(L(SITE.name, "en"))}</p></div>
           <ul class="footer-list">${NAV.map((n) => `<li><a href="${n.href}">${esc(t(n.key))}</a></li>`).join("")}</ul>
+          <ul class="footer-list">${(SITE.services || []).slice(0, 5).map((sv) => `<li>${esc(L(sv))}</li>`).join("")}</ul>
           <ul class="footer-list">
             <li><a href="mailto:${esc(SITE.email)}">${esc(SITE.email)}</a></li>
             ${socials.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ${ARROW_UP}</a></li>`).join("")}
@@ -225,21 +227,14 @@
     const year = new Date().getFullYear();
     const yearsExp = SITE.since ? year - SITE.since : 0;
 
-    let features = "";
-    for (let i = 0; i < featured.length; i++) {
-      const p = featured[i];
-      const slot = i % 4;
-      if (slot === 2 && featured[i + 1]) {
-        features += `<div class="feature-pair">${featureItem(p, "ratio-45")}${featureItem(featured[i + 1], "ratio-45")}</div>`;
-        i++;
-      } else {
-        features += featureItem(p, "ratio-32", slot === 1 ? "is-flip" : "");
-      }
+    function pfCard(p) {
+      return `
+      <a class="pf-card" href="#/work/${esc(p.slug)}" data-reveal>
+        <div class="crop"><div class="media ratio-43">${img(p.cover, L(p.coverAlt))}</div>
+          <div class="pf-cap"><h3>${esc(L(p.title))}</h3><p>${esc(L(p.client))}</p></div>
+        </div>
+      </a>`;
     }
-    function featureItem(p, ratio, cls = "") {
-      return workCard(p, { cls: `feature ${cls}`, ratio, summary: true, link: true });
-    }
-
     const motionProjects = PROJECTS.filter((p) => p.category === "motion");
     const counts = Object.keys(CATS).map((k) => ({ k, n: PROJECTS.filter((p) => p.category === k).length })).filter((c) => c.n);
     const about = (SITE.about && SITE.about[lang]) || [];
@@ -267,17 +262,31 @@
               <a class="btn" href="#/contact">${esc(t("start_project"))}</a>
               ${SITE.cv ? `<a class="btn" href="${esc(SITE.cv)}" target="_blank" rel="noopener">${esc(t("cv"))} <span aria-hidden="true">↓</span></a>` : ""}
             </div>
-            ${yearsExp > 0 ? `<div class="hero-meta"><span class="stat"><b class="grain">+${num(yearsExp)}</b><span class="slug">${esc(t("years_exp"))}</span></span><span class="stat"><b class="grain">${num(PROJECTS.length)}</b><span class="slug">${esc(t("projects_label"))}</span></span></div>` : ""}
           </div>
         </div>
+      </section>
+
+      <section class="wrap stats-band" data-tone="espresso" aria-label="${esc(t("years_exp"))}">
+        <div class="stats-row">
+          ${yearsExp > 0 ? `<span class="stat"><b class="grain">+${num(yearsExp)}</b><span class="slug">${esc(t("years_exp"))}</span></span>` : ""}
+          <span class="stat"><b class="grain">${num(PROJECTS.length)}</b><span class="slug">${esc(t("projects_label"))}</span></span>
+          <span class="stat"><b class="grain">${num(counts.length)}</b><span class="slug">${esc(t("stat_disciplines"))}</span></span>
+        </div>
+      </section>
+
+      <section class="wrap section" data-tone="espresso" aria-labelledby="svc-title">
+        <div class="section-head">${gTitle(t("services_title"), uiOther("services_title"), "h2", "svc-title")}</div>
+        <ol class="svc-grid">
+          ${(SITE.services || []).map((sv, i) => `<li class="svc" data-reveal><span class="slug accent">${num(pad(i + 1))}</span><h3>${esc(L(sv))}</h3><p class="svc-alt" lang="${other()}">${esc(L(sv, other()))}</p></li>`).join("")}
+        </ol>
       </section>
 
       <section class="wrap section" data-tone="copper" aria-labelledby="sel-title">
         <div class="section-head">
           ${gTitle(t("selected_work"), uiOther("selected_work"), "h2", "sel-title")}
-          <a class="text-link" href="#/work">${esc(t("view_all"))} (${num(PROJECTS.length)}) ${ARROW}</a>
         </div>
-        <div class="feature-list">${features || `<p class="empty">${esc(t("gallery_empty"))}</p>`}</div>
+        <div class="pf-grid">${featured.map(pfCard).join("") || `<p class="empty">${esc(t("gallery_empty"))}</p>`}</div>
+        <div class="center-cta"><a class="btn btn--proof" href="#/work">${esc(t("view_all"))} (${num(PROJECTS.length)}) ${ARROW}</a></div>
       </section>
 
       ${motionProjects.length ? `
@@ -287,15 +296,12 @@
         <div class="motion-grid">${motionProjects.map(motionTile).join("")}</div>
       </section>` : ""}
 
-      <section class="wrap section" data-tone="espresso" aria-labelledby="disc-title">
-        <div class="section-head">${gTitle(t("disciplines"), uiOther("disciplines"), "h2", "disc-title")}<span class="slug">${esc(t("projects_count", PROJECTS.length))}</span></div>
-        <ul class="disciplines">
-          ${counts.map((c) => `<li><a href="#/work?c=${esc(c.k)}" data-reveal>
-              <span class="d-name">${esc(catName(c.k))}</span>
-              <span class="d-ar" lang="${other()}">${esc(catName(c.k, other()))}</span>
-              <span class="slug">${num(pad(c.n))} ${ARROW}</span></a></li>`).join("")}
-        </ul>
-      </section>
+      ${(SITE.brands || []).length ? `
+      <section class="section brands" data-tone="espresso" aria-labelledby="brands-title">
+        <div class="wrap section-head">${gTitle(t("brands_title"), uiOther("brands_title"), "h2", "brands-title")}</div>
+        <div class="marquee" aria-hidden="true"><div class="marquee-track">${[0, 1].map(() => SITE.brands.map((b) => `<span>${esc(b)}</span>`).join("")).join("")}</div></div>
+        <p class="visually-hidden">${esc(SITE.brands.join(", "))}</p>
+      </section>` : ""}
 
       <section class="wrap section" data-tone="espresso" aria-labelledby="about-title">
         <div class="split">
