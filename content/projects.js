@@ -155,8 +155,8 @@ PORTFOLIO.projects = [
     title: { en: "Rashf", ar: "رشف" },
     client: { en: "Rashf Café", ar: "رشف كافيه" },
     summary: {
-      en: "Café branding for a contemporary Arabic coffee shop: a modern, warm take on the coffee experience, from logo to cups, bags, menu, storefront and social media.",
-      ar: "هوية بصرية لكافيه عربي معاصر تعكس تجربة القهوة بأسلوب حديث ودافئ، من الشعار إلى الأكواب والأكياس والمنيو والواجهة والسوشيال ميديا.",
+      en: "Café branding for a contemporary Arabic coffee shop: a modern, warm take on the coffee experience, from logo to cups, bags, storefront and social media.",
+      ar: "هوية بصرية لكافيه عربي معاصر تعكس تجربة القهوة بأسلوب حديث ودافئ، من الشعار إلى الأكواب والأكياس والواجهة والسوشيال ميديا.",
     },
     cover: "assets/work/rashf/cover.webp",
     coverAlt: { en: "Rashf wordmark in white over a dark espresso machine", ar: "شعار رشف باللون الأبيض فوق ماكينة إسبريسو داكنة" },
