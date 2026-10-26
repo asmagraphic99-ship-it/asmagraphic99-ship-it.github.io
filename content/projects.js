@@ -916,8 +916,8 @@ PORTFOLIO.projects = [
     title: { en: "Government Infographics", ar: "إنفوجرافيك حكومي" },
     client: { en: "Information design", ar: "تصميم معلومات" },
     summary: {
-      en: "Infographics on digital transformation and the entertainment sector that turn dense figures into a clear visual story.",
-      ar: "إنفوجرافيك عن التحول الرقمي وقطاع الترفيه، يحوّل الأرقام الكثيفة إلى قصة بصرية واضحة.",
+      en: "Infographics on digital transformation, the entertainment sector, NEOM and the Saudi Green Initiative that turn dense figures into a clear visual story.",
+      ar: "إنفوجرافيك عن التحول الرقمي وقطاع الترفيه ونيوم والسعودية الخضراء، يحوّل الأرقام الكثيفة إلى قصة بصرية واضحة.",
     },
     cover: "assets/work/infographics/cover.webp",
     coverAlt: { en: "Two dark infographic posters with green headlines and city skylines", ar: "ملصقا إنفوجرافيك داكنان بعناوين خضراء وأفق مدن" },
@@ -930,10 +930,12 @@ PORTFOLIO.projects = [
       visual: { en: "Dark navy backgrounds, signal green and violet accents, large tabular numbers and simple line icons.", ar: "خلفيات كحلية داكنة، ولمسات أخضر وبنفسجي، وأرقام كبيرة، وأيقونات خطية بسيطة." },
       development: { en: "Content was structured into sections before layout, then each figure was checked against its source text.", ar: "تم تنظيم المحتوى في أقسام قبل الإخراج، ثم مراجعة كل رقم مع نصه الأصلي." },
     },
-    deliverables: [{ en: "2 long-form infographics", ar: "2 إنفوجرافيك طويل" }, { en: "Custom icon set", ar: "مجموعة أيقونات خاصة" }],
+    deliverables: [{ en: "4 long-form infographics", ar: "4 إنفوجرافيك طويل" }, { en: "Custom icon set", ar: "مجموعة أيقونات خاصة" }],
     gallery: [
       { src: "assets/work/infographics/digital.webp", caption: { en: "Digital transformation", ar: "التحول الرقمي" } },
       { src: "assets/work/infographics/entertainment.webp", caption: { en: "Entertainment sector", ar: "قطاع الترفيه" } },
+      { src: "assets/work/infographics/neom.webp", caption: { en: "NEOM", ar: "نيوم" } },
+      { src: "assets/work/infographics/green-saudi.webp", caption: { en: "Saudi Green Initiative", ar: "السعودية الخضراء" } },
     ],
   },
 
