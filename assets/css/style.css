@@ -559,3 +559,6 @@ html[dir="rtl"] .marquee-track { animation-name: marquee-rtl; }
 .footer-grid > :nth-child(3) { grid-column: 7 / 10; }
 .footer-grid > :nth-child(4) { grid-column: 10 / 13; }
 .footer-grid > :nth-child(3) li { color: var(--beige); }
+.ratio-916 { aspect-ratio: 9 / 16; }
+.motion-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
+.motion-tile h3 { font-size: var(--t-lg); line-height: 1.25; }
