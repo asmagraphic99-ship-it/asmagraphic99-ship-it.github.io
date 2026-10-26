@@ -118,7 +118,7 @@
 
   // One tile per video: plays silently while on screen, opens the motion page.
   function videoTile(p, g) {
-    const cap = L(g.caption || {}) || L(p.title);
+    const cap = p.category === "ai-video" ? L(p.title) : (L(g.caption || {}) || L(p.title));
     return `
       <a class="motion-tile" href="#/work/${esc(p.slug)}" data-reveal>
         <div class="crop"><div class="media ratio-916"><video src="${esc(g.src)}" poster="${esc(g.poster || p.cover)}" muted loop playsinline preload="none" data-autoplay aria-label="${esc(cap)}"></video><span class="play-tag">▶ ${esc(t("reel"))}</span></div></div>
@@ -245,7 +245,7 @@
         </div>
       </a>`;
     }
-    const motionProjects = PROJECTS.filter((p) => p.category === "motion");
+    const motionProjects = PROJECTS.filter((p) => p.category === "motion" || p.category === "ai-video");
     const counts = Object.keys(CATS).map((k) => ({ k, n: PROJECTS.filter((p) => p.category === k).length })).filter((c) => c.n);
     const about = (SITE.about && SITE.about[lang]) || [];
 
@@ -301,7 +301,7 @@
 
       ${motionProjects.length ? `
       <section class="wrap section" data-tone="olive" aria-labelledby="motion-title">
-        <div class="section-head">${gTitle(t("motion_title"), uiOther("motion_title"), "h2", "motion-title")}<a class="text-link" href="#/work/${esc(motionProjects[0].slug)}">${esc(t("view_all"))} ${ARROW}</a></div>
+        <div class="section-head">${gTitle(t("motion_title"), uiOther("motion_title"), "h2", "motion-title")}<a class="text-link" href="#/work/${esc((motionProjects.find((p) => p.category === "motion") || motionProjects[0]).slug)}">${esc(t("view_all"))} ${ARROW}</a></div>
         <p class="lead muted" style="margin-top:-24px;margin-bottom:clamp(32px,4vw,56px)">${esc(t("motion_lead"))}</p>
         <div class="motion-grid">${motionProjects.flatMap((p) => (p.gallery || []).filter((g) => g.type === "video").map((g) => videoTile(p, g))).join("")}</div>
       </section>` : ""}
