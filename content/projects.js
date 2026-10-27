@@ -672,7 +672,7 @@ PORTFOLIO.projects = [
     slug: "club-925",
     featured: false,
     category: "brand-identity",
-    year: "2026",
+    year: "2023",
     title: { en: "925 Club", ar: "925 كلوب" },
     client: { en: "925 Club", ar: "925 كلوب" },
     summary: {
