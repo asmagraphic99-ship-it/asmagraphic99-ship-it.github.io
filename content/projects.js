@@ -419,7 +419,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/chillpop/apron.webp", caption: { en: "Staff apron", ar: "مريلة الفريق" } },
       { src: "assets/work/chillpop/cups.webp", caption: { en: "Takeaway cup, cone sleeve and napkin", ar: "كوب السفري وغلاف الكون والمناديل" } },
       { src: "assets/work/chillpop/thanks.webp", caption: { en: "Storefront", ar: "واجهة المحل" } },
-      { src: "assets/work/chillpop/brand-board.webp", caption: { en: "Brand board: logo, palette, type and applications", ar: "لوحة الهوية: الشعار والألوان والخطوط والتطبيقات" } },
     ],
   },
 
