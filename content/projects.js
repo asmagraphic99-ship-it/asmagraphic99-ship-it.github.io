@@ -757,33 +757,6 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* ---------------------------------------------------- PRODUCT CAMPAIGNS */
-  {
-    slug: "product-campaigns",
-    featured: false,
-    category: "advertising",
-    year: "",
-    title: { en: "Product Campaigns", ar: "حملات المنتجات" },
-    client: { en: "Consumer electronics retail", ar: "تجزئة إلكترونيات" },
-    summary: {
-      en: "Commercial social designs for headphones, laptops and smartphones, built around one benefit and one clear call to action each.",
-      ar: "تصاميم تجارية لسماعات ولابتوبات وهواتف ذكية، كل تصميم مبني على ميزة واحدة وزر واحد واضح.",
-    },
-    cover: "assets/work/product-campaigns/cover.webp",
-    coverAlt: { en: "Three ice-blue product ads for headphones, laptop and foldable phone", ar: "ثلاثة إعلانات بالأزرق الثلجي لسماعة ولابتوب وهاتف قابل للطي" },
-    services: [{ en: "Visual design", ar: "التصميم البصري" }, { en: "Campaign design", ar: "تصميم الحملات" }, { en: "Art direction", ar: "الإدارة الفنية" }],
-    palette: [],
-    sections: {
-      brief: { en: "Sell three product categories in one consistent look, with features that read at a glance.", ar: "بيع ثلاث فئات منتجات بشكل موحّد، مع مميزات تُقرأ من نظرة." },
-      concept: { en: "Products float in a cool, liquid light, with short Arabic headlines: \"sound that surrounds you\", \"power wherever you are\".", ar: "المنتجات تطفو في ضوء سائل بارد، مع عناوين عربية قصيرة مثل «صوت يغمرك بالكامل» و«قوة الأداء أينما كنت»." },
-      strategy: { en: "One benefit per headline, four feature icons, one button: a structure customers can scan in two seconds.", ar: "ميزة واحدة لكل عنوان، وأربع أيقونات، وزر واحد: بنية يقرؤها العميل في ثانيتين." },
-      visual: { en: "Ice blue and royal blue, clean product renders, and a shared icon set across all three products.", ar: "أزرق ثلجي وأزرق ملكي، وصور منتجات نظيفة، ومجموعة أيقونات موحّدة للمنتجات الثلاثة." },
-      development: { en: "Designed as a modular template so new products can be dropped in without redesigning the layout.", ar: "صُممت كقالب مرن تُضاف إليه منتجات جديدة دون إعادة تصميم." },
-    },
-    deliverables: [{ en: "3 product key visuals", ar: "3 تصاميم رئيسية للمنتجات" }, { en: "Feature icon set", ar: "مجموعة أيقونات المميزات" }],
-    gallery: [{ src: "assets/work/product-campaigns/board.webp", wide: true, caption: { en: "Campaign overview", ar: "عرض الحملة" } }],
-  },
-
   /* --------------------------------------------------------- INFOGRAPHICS */
   {
     slug: "infographics",
