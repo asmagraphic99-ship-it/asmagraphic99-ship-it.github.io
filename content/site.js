@@ -68,7 +68,7 @@ PORTFOLIO.site = {
   ],
 
   // Brand names shown in the moving strip on the home page (all from projects in this portfolio).
-  brands: ["ICON Real Estate", "Safari", "Rashf", "CareDrive", "Zeina", "Visory", "ChillPop", "Wasabi", "925 Club", "Piattino Café", "Synexcell", "YZDAD", "Gate A", "Koki's Beauty", "Bassem El-Bahkery", "Dating Boat", "Awen", "Brown House", "Khawalid", "Venue Hotel"],
+  brands: ["ICON Real Estate", "Safari", "Rashf", "CareDrive", "Zeina", "Visory", "ChillPop", "iCAUR", "Wasabi", "925 Club", "Piattino Café", "Synexcell", "YZDAD", "Gate A", "Koki's Beauty", "Bassem El-Bahkery", "Dating Boat", "Awen", "Brown House", "Khawalid", "Venue Hotel"],
 
 
   // Most recent first. Dates and cities from your CV.

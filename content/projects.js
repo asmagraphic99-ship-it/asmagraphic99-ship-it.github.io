@@ -427,6 +427,56 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* ------------------------------------------------------------ iCAUR V27 */
+  {
+    slug: "icaur-v27",
+    featured: false,
+    category: "social-media",
+    year: "2026",
+    title: { en: "iCAUR V27", ar: "إيكار V27" },
+    client: { en: "iCAUR V27", ar: "إيكار V27" },
+    summary: {
+      en: "A cinematic social media series for the iCAUR V27 SUV: six posts that read as one campaign, from the desert to the city.",
+      ar: "سلسلة سوشيال ميديا سينمائية لسيارة إيكار V27: ستة منشورات تُقرأ كحملة واحدة، من الصحراء إلى المدينة.",
+    },
+    cover: "assets/work/icaur-v27/cover.webp",
+    coverAlt: { en: "iCAUR V27 in the desert at sunset with the line “the adventure starts here”", ar: "إيكار V27 في الصحراء وقت الغروب مع عبارة «المغامرة تبدأ هنا»" },
+    services: [{ en: "Social media design", ar: "تصميم السوشيال" }, { en: "Campaign art direction", ar: "التوجيه الفني للحملة" }, { en: "AI-assisted imagery", ar: "صور بمساعدة الذكاء الاصطناعي" }],
+    palette: [],
+    sections: {
+      brief: {
+        en: "Present the V27 as a capable, premium SUV for both the city and the desert, in a set of posts that feel like one campaign.",
+        ar: "تقديم V27 كسيارة SUV قوية وفاخرة للمدينة والصحراء، في مجموعة منشورات تبدو حملة واحدة.",
+      },
+      concept: {
+        en: "Each post is a scene: open desert, mountain road, canyon at sunset, a desert highway and Riyadh at night. Together they tell one journey with short Arabic lines like “the adventure starts here”.",
+        ar: "كل منشور مشهد: صحراء مفتوحة، وطريق جبلي، ووادٍ وقت الغروب، وطريق صحراوي، والرياض ليلًا. معًا تحكي رحلة واحدة بعبارات عربية قصيرة مثل «المغامرة تبدأ هنا».",
+      },
+      strategy: {
+        en: "The key specs (AWD, 449 hp, 995 km range) and the “book a test drive” button sit in the same place on every post, so the series reads as a system and each fact is easy to find.",
+        ar: "المواصفات الأساسية (دفع رباعي، 449 حصانًا، مدى 995 كم) وزر «احجز تجربة قيادتك» في نفس المكان في كل منشور، فتُقرأ السلسلة كنظام ويسهل إيجاد كل معلومة.",
+      },
+      visual: {
+        en: "Deep blue gradients, warm sand tones matching the car colour, and a cinematic colour grade across every scene.",
+        ar: "تدرجات أزرق داكن، ودرجات رملية دافئة تتناغم مع لون السيارة، وتلوين سينمائي موحّد في كل المشاهد.",
+      },
+      development: {
+        en: "Designed in Photoshop with AI-assisted imagery, keeping the car itself accurate in every scene.",
+        ar: "صُممت على فوتوشوب بصور بمساعدة الذكاء الاصطناعي، مع الحفاظ على دقة شكل السيارة في كل مشهد.",
+      },
+    },
+    deliverables: [{ en: "Social post series (4:5)", ar: "سلسلة منشورات (4:5)" }],
+    gallery: [
+      { src: "assets/work/icaur-v27/overview.webp", wide: true, caption: { en: "The full series", ar: "السلسلة كاملة" } },
+      { src: "assets/work/icaur-v27/adventure.webp", caption: { en: "The adventure starts here", ar: "المغامرة تبدأ هنا" } },
+      { src: "assets/work/icaur-v27/no-limits.webp", caption: { en: "Go without limits", ar: "انطلق بلا حدود" } },
+      { src: "assets/work/icaur-v27/presence.webp", caption: { en: "A presence you will not forget", ar: "حضور لا يُنسى" } },
+      { src: "assets/work/icaur-v27/range.webp", caption: { en: "Further than you expect: 995 km", ar: "أبعد مما تتوقع: 995 كم" } },
+      { src: "assets/work/icaur-v27/power.webp", caption: { en: "Power that arrives before you", ar: "قوة تسبق حضورك" } },
+      { src: "assets/work/icaur-v27/price.webp", caption: { en: "Launch price post", ar: "منشور سعر الإطلاق" } },
+    ],
+  },
+
   /* --------------------------------------------------- AI · NATIONAL DAY */
   {
     slug: "ai-national-day",
