@@ -91,5 +91,5 @@ PORTFOLIO.site = {
   tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premiere Pro", "Figma", "ChatGPT", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI", "Higgsfield AI"],
 
   portrait: "assets/work/about/portrait-2.webp",
-  heroPhoto: "assets/work/about/hero.webp", // large photo on the home page
+  heroPhoto: "assets/work/about/portrait-2.webp", // large photo on the home page
 };
