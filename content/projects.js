@@ -659,44 +659,6 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* -------------------------------------------------------- ZIONHEALTH */
-  {
-    slug: "zionhealth",
-    featured: false,
-    category: "social-media",
-    year: "2025",
-    title: { en: "ZionHealth", ar: "زايون هيلث" },
-    client: { en: "ZionHealth", ar: "زايون هيلث" },
-    summary: {
-      en: "Arabic social media posts for a natural skincare and haircare brand, each built around one product and its benefits.",
-      ar: "منشورات سوشيال ميديا عربية لعلامة عناية طبيعية بالبشرة والشعر، كل منشور مبني على منتج واحد وفوائده.",
-    },
-    cover: "assets/work/zionhealth/cover.webp",
-    coverAlt: { en: "ZionHealth face scrub post with sunflowers and coconut", ar: "منشور مقشر الوجه من زايون هيلث مع دوار الشمس وجوز الهند" },
-    services: [{ en: "Social media design", ar: "تصميم السوشيال" }, { en: "Product posts", ar: "منشورات المنتجات" }],
-    palette: [],
-    sections: {
-      concept: {
-        en: "Every post pairs the product with the natural ingredient it comes from, so the benefit is understood before the text is read.",
-        ar: "كل منشور يضع المنتج بجانب المكوّن الطبيعي المأخوذ منه، فتُفهم الفائدة قبل قراءة النص.",
-      },
-      visual: {
-        en: "Fresh greens, white space and ingredient photography, with benefit icons and short Arabic headlines.",
-        ar: "أخضر منعش ومساحات بيضاء وتصوير للمكونات، مع أيقونات للفوائد وعناوين عربية قصيرة.",
-      },
-    },
-    deliverables: [
-      { en: "Product posts", ar: "منشورات المنتجات" },
-      { en: "Carousel", ar: "كاروسيل" },
-    ],
-    gallery: [
-      { src: "assets/work/zionhealth/hair-mask.webp", caption: { en: "Hair mask", ar: "ماسك الشعر" } },
-      { src: "assets/work/zionhealth/moisturiser.webp", caption: { en: "Deodorant", ar: "مزيل العرق" } },
-      { src: "assets/work/zionhealth/sunscreen.webp", caption: { en: "Sunscreen", ar: "واقي الشمس" } },
-      { src: "assets/work/zionhealth/carousel.webp", caption: { en: "Carousel on Instagram", ar: "كاروسيل على انستجرام" } },
-    ],
-  },
-
   /* ---------------------------------------------------- PRODUCT CAMPAIGNS */
   {
     slug: "product-campaigns",
