@@ -477,6 +477,54 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* -------------------------------------------------------- DALLAH SUKKAR */
+  {
+    slug: "dallah-sukkar",
+    featured: false,
+    category: "social-media",
+    year: "",
+    title: { en: "Dallah Sukkar", ar: "دلة سكر" },
+    client: { en: "Dallah Sukkar", ar: "دلة سكر" },
+    summary: {
+      en: "A warm social media campaign for a Saudi dessert brand, pairing appetising imagery with playful Arabic headlines.",
+      ar: "حملة سوشيال ميديا دافئة لعلامة حلويات سعودية، تجمع صورًا شهية مع عناوين عربية مرحة.",
+    },
+    cover: "assets/work/dallah-sukkar/cover-2.webp",
+    coverAlt: { en: "Hands serving a plate of dates and cream with Arabic coffee cups", ar: "يدان تقدّمان طبق حلى بالتمر والقشطة مع فناجين القهوة" },
+    services: [{ en: "Social media design", ar: "تصميم السوشيال" }, { en: "Campaign visuals", ar: "تصاميم الحملة" }, { en: "Visual storytelling", ar: "السرد البصري" }],
+    palette: [],
+    sections: {
+      brief: {
+        en: "Make the brand's desserts look as good on a phone screen as they taste, and connect the brand with Saudi hospitality.",
+        ar: "إظهار حلويات العلامة على شاشة الجوال بنفس جودة طعمها، وربط العلامة بالضيافة السعودية.",
+      },
+      concept: {
+        en: "Short, conversational Arabic lines (“a sweet served with taste”, “one bite changes your mood”) set against honey, dates, Arabic coffee and the dallah.",
+        ar: "عبارات عربية قصيرة بلغة الحديث مثل «حلى يُقدَّم بذوق» و«في لقمة تغيّر مودك»، مع العسل والتمر والقهوة العربية والدلة.",
+      },
+      strategy: {
+        en: "Mix product hero shots with people enjoying the dessert and sharing it at gatherings, so the feed sells both the product and the moment around it.",
+        ar: "المزج بين صور المنتج وصور أشخاص يستمتعون بالحلى ويتشاركونه في اللمّة، ليبيع الحساب المنتج واللحظة التي حوله.",
+      },
+      visual: {
+        en: "Warm beige light, glossy syrup, calligraphic headline type and a small, consistent call-to-action pill on every post.",
+        ar: "إضاءة بيج دافئة، وقطر لامع، وعناوين بخط مستوحى من الخط العربي، وزر طلب صغير ثابت في كل منشور.",
+      },
+    },
+    deliverables: [{ en: "9 social media posts (4:5)", ar: "9 منشورات سوشيال ميديا (4:5)" }, { en: "Headline copy layout", ar: "إخراج العناوين" }],
+    gallery: [
+      { src: "assets/work/dallah-sukkar/post-1.webp", caption: { en: "A sweet served with taste", ar: "حلى يُقدَّم بذوق" } },
+      { src: "assets/work/dallah-sukkar/post-2.webp", caption: { en: "One bite changes your mood", ar: "في لقمة تغيّر مودك" } },
+      { src: "assets/work/dallah-sukkar/post-3.webp", caption: { en: "From the first look you know it's right", ar: "من أوّل نظرة تعرف إنها بتضبط" } },
+      { src: "assets/work/dallah-sukkar/post-4.webp", caption: { en: "Gone fast, because it's that good", ar: "ينتهي بسرعة من لذّته" } },
+      { src: "assets/work/dallah-sukkar/post-5.webp", caption: { en: "Balanced sugar, guaranteed taste", ar: "سُكر موزون وطعم مضمون" } },
+      { src: "assets/work/dallah-sukkar/post-6.webp", caption: { en: "Our story starts with a bite and ends with a reorder", ar: "حكايتنا تبدأ بلقمة وتنتهي بإعادة الطلب" } },
+      { src: "assets/work/dallah-sukkar/post-7.webp", caption: { en: "Sweets served the way you like", ar: "حلى تنقدّم على مزاج" } },
+      { src: "assets/work/dallah-sukkar/post-8.webp", caption: { en: "Sweets made for gatherings", ar: "حلى يليق باللمة" } },
+      { src: "assets/work/dallah-sukkar/post-9.webp", caption: { en: "The break tells it all", ar: "الكسرة تحكي كل شيء" } },
+    ],
+  },
+
   /* --------------------------------------------------- AI · NATIONAL DAY */
   {
     slug: "ai-national-day",
