@@ -36,8 +36,8 @@ PORTFOLIO.projects = [
     title: { en: "ICON Real Estate", ar: "ايكون العقارية" },
     client: { en: "Icon Real Estate, Jeddah", ar: "ايكون العقارية، جدة" },
     summary: {
-      en: "Art direction for a Saudi real estate developer: I set up the brand's social media and lead how ICON looks across every channel, from ICON 18 in Al Nuzha to ICON 19 and ICON 21 in Al Safa, Jeddah.",
-      ar: "إدارة فنية لمطوّر عقاري سعودي: أسّست السوشيال ميديا للعلامة وأقود شكل ايكون في كل المنصات، من ايكون 18 في حي النزهة إلى ايكون 19 وايكون 21 في حي الصفا بجدة.",
+      en: "Art direction for a Saudi real estate developer. I built ICON's social media from the ground up and set one visual idea for every project: show each building at dusk, when it looks most like a home worth owning, in night blue, warm light and gold type. That one system now runs across posts, stories, reels, print and sales material, from ICON 18 to ICON 21.",
+      ar: "إدارة فنية لمطوّر عقاري سعودي. أسّست حسابات ايكون على السوشيال ميديا من الصفر، ووضعت فكرة بصرية واحدة لكل المشاريع: عرض كل مبنى وقت الغروب، حين يبدو أقرب لبيت يستحق التملّك، بالأزرق الليلي والإضاءة الدافئة والخط الذهبي. هذا النظام الواحد يُطبَّق اليوم على المنشورات والستوريز والريلز والمطبوعات ومواد المبيعات، من ايكون 18 إلى ايكون 21.",
     },
     cover: "assets/work/icon-real-estate/cover.webp",
     coverAlt: { en: "Collage of ICON Real Estate social posts with night-lit towers", ar: "مجموعة من منشورات ايكون العقارية بأبراج مضاءة ليلًا" },
@@ -94,14 +94,15 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------ SAFARI */
   {
     slug: "safari",
+    selfInitiated: true,
     featured: true,
     category: "brand-identity",
     year: "2026",
     title: { en: "Safari", ar: "سفاري" },
     client: { en: "Safari Specialty Coffee", ar: "سفاري للقهوة المختصة" },
     summary: {
-      en: "A contemporary Saudi specialty coffee brand that celebrates the spirit of the journey and the joy of discovery. Inspired by desert dunes and their warm sunsets, it turns every cup into a stop along the road: a taste truly worth the journey.",
-      ar: "سفاري علامة قهوة مختصة سعودية، تحتفي بروح الرحلة ومتعة الاكتشاف. مستوحاة من رمال الصحراء وغروب شمسها الدافئ، تحوّل كل كوب إلى محطة في الطريق، وكل رشفة إلى ذكرى من رحلة تستحق أن تُعاش.",
+      en: "A Saudi specialty coffee brand built on one idea: the journey. Every cup is the end of a long road, so a dune-and-sun symbol and the tagline “a taste worth the journey” tell the same story. I kept one simple symbol for small items and a dune pattern for large surfaces, then carried the system through a brand book, cups, coffee bags, shopping bags, signage and a drive-through scene.",
+      ar: "علامة قهوة مختصة سعودية مبنية على فكرة واحدة: الرحلة. كل كوب هو نهاية طريق طويل، لذلك يحكي رمز الكثبان والشمس وعبارة «مذاق يستحق الرحلة» القصة نفسها. اخترت رمزًا بسيطًا للعناصر الصغيرة ونقشًا من الكثبان للمساحات الكبيرة، ثم طبّقت النظام في كتيّب الهوية والأكواب وأكياس البن والشنط واللوحات ومشهد التسليم من نافذة السيارة.",
     },
     cover: "assets/work/safari/cover.webp",
     coverAlt: { en: "A hand holding a navy Safari coffee cup with stickers", ar: "يد تمسك كوب قهوة سفاري الكحلي مع ملصقات" },
@@ -154,14 +155,15 @@ PORTFOLIO.projects = [
   /* ---------------------------------------------------------------- RASHF */
   {
     slug: "rashf",
+    selfInitiated: true,
     featured: true,
     category: "brand-identity",
     year: "2025",
     title: { en: "Rashf", ar: "رشف" },
     client: { en: "Rashf Café", ar: "رشف كافيه" },
     summary: {
-      en: "Café branding for a contemporary Arabic coffee shop: a modern, warm take on the coffee experience, from logo to cups, bags, storefront and social media.",
-      ar: "هوية بصرية لكافيه عربي معاصر تعكس تجربة القهوة بأسلوب حديث ودافئ، من الشعار إلى الأكواب والأكياس والواجهة والسوشيال ميديا.",
+      en: "A contemporary Arabic café identity built on one idea: a modern coffee experience with an authentic Arabic spirit. Coffee brown with a lively orange keeps it warm and energetic, and an Arabic logotype gives the mark its character while the Latin type stays simple. The system runs from the logo to cups in three sizes, coffee and paper bags, stickers, a donut box, the storefront and social media.",
+      ar: "هوية لمقهى عربي معاصر مبنية على فكرة واحدة: تجربة قهوة حديثة بروح عربية أصيلة. البني المستوحى من القهوة مع البرتقالي الحيوي يمنحانها الدفء والطاقة، والشعار العربي يعطي العلامة شخصيتها بينما يبقى الخط اللاتيني بسيطًا. يمتد النظام من الشعار إلى الأكواب بثلاثة مقاسات وأكياس البن والأكياس الورقية والملصقات وعلبة الدونات وواجهة المحل والسوشيال ميديا.",
     },
     cover: "assets/work/rashf/cover.webp",
     coverAlt: { en: "Rashf wordmark in white over a dark espresso machine", ar: "شعار رشف باللون الأبيض فوق ماكينة إسبريسو داكنة" },
@@ -217,173 +219,18 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* --------------------------------------------------------- CAREDRIVE */
-  {
-    slug: "caredrive",
-    featured: true,
-    category: "brand-identity",
-    year: "2026",
-    title: { en: "CareDrive", ar: "كير درايف" },
-    client: { en: "CareDrive", ar: "كير درايف" },
-    summary: {
-      en: "Logo design for a child transportation platform for families who value safety, trust and peace of mind.",
-      ar: "تصميم شعار لمنصة نقل أطفال موجهة للعائلات التي تهتم بالأمان والثقة وراحة البال.",
-    },
-    cover: "assets/work/caredrive/cover.webp",
-    coverAlt: { en: "CareDrive logo on a dark navy presentation slide", ar: "شعار كير درايف على شريحة عرض كحلية" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand presentation", ar: "عرض الهوية" }],
-    palette: ["#2D8CFF", "#4CCB6B", "#E08F2C", "#00BFCB"],
-    sections: {
-      brief: {
-        en: "Parents are not looking for transportation, they are looking for reassurance. The identity had to communicate care, protection and trust before movement.",
-        ar: "الأهل لا يبحثون عن مواصلات، بل عن الاطمئنان. كان على الهوية أن توصل الرعاية والحماية والثقة قبل الحركة.",
-      },
-      concept: {
-        en: "The symbol combines the initials C and D into one mark: the outer shapes form a protective enclosure and the central circle represents the child.",
-        ar: "يجمع الرمز الحرفين C وD في علامة واحدة: الأشكال الخارجية تكوّن حضنًا يحمي، والدائرة في المنتصف تمثل الطفل.",
-      },
-      visual: {
-        en: "Drive Blue, Care Green, Child Orange and Protect Teal; Poppins for headlines and Inter for text.",
-        ar: "أزرق القيادة، وأخضر الرعاية، وبرتقالي الطفل، وفيروزي الحماية؛ مع خط Poppins للعناوين وInter للنصوص.",
-      },
-      development: {
-        en: "Built from simple circles and balanced curves, with a defined clear space, then tested on business cards, an app icon, letterhead, ID badges and vehicle branding.",
-        ar: "بُني الشعار من دوائر بسيطة ومنحنيات متوازنة مع مساحة أمان محددة، ثم جُرّب على الكروت وأيقونة التطبيق والأوراق الرسمية وبطاقات الموظفين وتغليف السيارات.",
-      },
-    },
-    deliverables: [
-      { en: "Logo & construction", ar: "الشعار وبناؤه" },
-      { en: "Colour palette & typography", ar: "الألوان والخطوط" },
-      { en: "Applications", ar: "التطبيقات" },
-      { en: "Logo presentation deck", ar: "عرض تقديمي للشعار" },
-    ],
-    gallery: [
-      { src: "assets/work/caredrive/p02.webp", wide: true, caption: { en: "About the brand", ar: "عن العلامة" } },
-      { src: "assets/work/caredrive/p03.webp", wide: true, caption: { en: "The challenge", ar: "التحدي" } },
-      { src: "assets/work/caredrive/p04.webp", wide: true, caption: { en: "Logo concept", ar: "فكرة الشعار" } },
-      { src: "assets/work/caredrive/p05.webp", wide: true, caption: { en: "Construction", ar: "بناء الشعار" } },
-      { src: "assets/work/caredrive/p06.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
-      { src: "assets/work/caredrive/p07.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
-      { src: "assets/work/caredrive/p08.webp", wide: true, caption: { en: "Applications", ar: "التطبيقات" } },
-      { src: "assets/work/caredrive/p09.webp", wide: true, caption: { en: "Brand feel", ar: "روح العلامة" } },
-      { src: "assets/work/caredrive/p10.webp", wide: true, caption: { en: "Brand in use", ar: "العلامة في الاستخدام" } },
-    ],
-  },
-
-  /* ---------------------------------------------------------------- ZEINA */
-  {
-    slug: "zeina",
-    featured: true,
-    category: "brand-identity",
-    year: "2023",
-    title: { en: "Zeina", ar: "زينة" },
-    client: { en: "Zeina & More Jewellery", ar: "زينة للمجوهرات" },
-    summary: {
-      en: "Identity and packaging for a jewellery brand that celebrates femininity, softness and detail.",
-      ar: "هوية وتغليف لعلامة مجوهرات تحتفي بالأنوثة والنعومة والتفاصيل.",
-    },
-    cover: "assets/work/zeina/cover.webp",
-    coverAlt: { en: "Model wearing Zeina jewellery in coral light with the Zeina logo", ar: "عارضة ترتدي مجوهرات زينة بإضاءة مرجانية مع شعار زينة" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
-    palette: ["#DF5F50", "#D87965", "#EBDDD5", "#AD897D"],
-    sections: {
-      brief: {
-        en: "Create a brand that feels delicate and timeless, and that makes every piece feel like a gift from the moment it is unboxed.",
-        ar: "بناء علامة تبدو رقيقة وخالدة، وتجعل كل قطعة تبدو هدية من لحظة فتح العلبة.",
-      },
-      concept: {
-        en: "A soft, flower-like symbol drawn from interlocking curves, like links in a chain, paired with a light, open wordmark.",
-        ar: "رمز ناعم يشبه الزهرة من منحنيات متشابكة كحلقات السلسلة، مع شعار كتابي خفيف ومفتوح.",
-      },
-      strategy: {
-        en: "In jewellery the packaging is part of the product. The identity is built to look its best on velvet, card and foil.",
-        ar: "في المجوهرات، التغليف جزء من المنتج. لذلك بُنيت الهوية لتظهر بأفضل شكل على المخمل والكرتون والفويل.",
-      },
-      visual: {
-        en: "Coral, blush and pearl tones with a warm taupe; generous spacing; gold foil on cream for the premium line.",
-        ar: "درجات المرجاني والوردي واللؤلؤي مع بيج دافئ، ومساحات واسعة، وفويل ذهبي على كريمي للخط الفاخر.",
-      },
-      development: {
-        en: "The mark was refined for small sizes such as tags and ring boxes, then applied across boxes, cards and swing tags.",
-        ar: "تم ضبط الرمز ليظهر بوضوح في المقاسات الصغيرة كالبطاقات وعلب الخواتم، ثم تطبيقه على العلب والكروت وبطاقات التعليق.",
-      },
-    },
-    deliverables: [
-      { en: "Logo & symbol", ar: "الشعار والرمز" },
-      { en: "Colour palette", ar: "لوحة الألوان" },
-      { en: "Jewellery boxes, cards & tags", ar: "علب المجوهرات والكروت والبطاقات" },
-    ],
-    gallery: [
-      { src: "assets/work/zeina/logos.webp", caption: { en: "Logo on coral and pearl", ar: "الشعار على المرجاني واللؤلؤي" } },
-      { src: "assets/work/zeina/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
-      { src: "assets/work/zeina/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
-    ],
-  },
-
-  /* ------------------------------------------------------------ VISORY */
-  {
-    slug: "visory",
-    featured: false,
-    category: "brand-identity",
-    year: "2026",
-    title: { en: "Visory", ar: "فيزوري" },
-    client: { en: "Visory", ar: "فيزوري" },
-    summary: {
-      en: "A brand guideline for Visory, a visual production brand: “Where Vision Becomes Story”.",
-      ar: "دليل هوية بصرية لعلامة فيزوري للإنتاج المرئي: «حيث تتحول الرؤية إلى قصة».",
-    },
-    cover: "assets/work/visory/cover.webp",
-    coverAlt: { en: "Cover of the Visory brand guideline", ar: "غلاف دليل الهوية لفيزوري" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand guidelines", ar: "دليل الهوية" }],
-    palette: ["#FF6B35", "#E53946", "#6B7280", "#000000"],
-    sections: {
-      brief: {
-        en: "Give a visual production brand a clear, energetic identity and a guideline that keeps it consistent across website, social media and print.",
-        ar: "منح علامة إنتاج مرئي هوية واضحة ونشيطة، ودليلًا يحافظ على اتساقها في الموقع والسوشيال ميديا والمطبوعات.",
-      },
-      concept: {
-        en: "The mark combines a V with a play button, so the name and the act of telling stories through video are one shape.",
-        ar: "يجمع الشعار حرف V مع زر التشغيل، فيصبح الاسم وفكرة رواية القصص بالفيديو شكلًا واحدًا.",
-      },
-      visual: {
-        en: "Primary orange for the logo and key elements, dark orange for highlights, gray for secondary text, on white and black. Montserrat for Latin and Noto Kufi Arabic for Arabic.",
-        ar: "برتقالي أساسي للشعار والعناصر الرئيسية، وبرتقالي داكن للتمييز، ورمادي للنصوص الثانوية، على الأبيض والأسود. خط Montserrat للاتيني وNoto Kufi Arabic للعربي.",
-      },
-      development: {
-        en: "The guideline covers logo and symbol construction, usage, colour, typography and brand applications on equipment, backdrops and merchandise.",
-        ar: "يغطي الدليل بناء الشعار والرمز، وطرق الاستخدام، والألوان، والخطوط، وتطبيقات الهوية على المعدات والخلفيات والمنتجات.",
-      },
-    },
-    deliverables: [
-      { en: "Logo & symbol", ar: "الشعار والرمز" },
-      { en: "Brand guideline", ar: "دليل الهوية" },
-      { en: "Brand applications", ar: "تطبيقات الهوية" },
-    ],
-    gallery: [
-      { src: "assets/work/visory/p02.webp", wide: true, caption: { en: "Logo construction", ar: "بناء الشعار" } },
-      { src: "assets/work/visory/p03.webp", wide: true, caption: { en: "Symbol construction", ar: "بناء الرمز" } },
-      { src: "assets/work/visory/p04.webp", wide: true, caption: { en: "Logo usage", ar: "استخدام الشعار" } },
-      { src: "assets/work/visory/p05.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
-      { src: "assets/work/visory/p06.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
-      { src: "assets/work/visory/p07.webp", wide: true, caption: { en: "Arabic typography", ar: "الخط العربي" } },
-      { src: "assets/work/visory/p08.webp", wide: true, caption: { en: "Brand applications", ar: "تطبيقات الهوية" } },
-      { src: "assets/work/visory/p09.webp", wide: true, caption: { en: "Studio backdrop", ar: "خلفية الاستوديو" } },
-      { src: "assets/work/visory/p10.webp", wide: true, caption: { en: "Backpack", ar: "الحقيبة" } },
-      { src: "assets/work/visory/p11.webp", wide: true, caption: { en: "Camera", ar: "الكاميرا" } },
-    ],
-  },
-
   /* ------------------------------------------------------------- CHILLPOP */
   {
     slug: "chillpop",
+    selfInitiated: true,
     featured: true,
     category: "brand-identity",
     year: "2025",
     title: { en: "ChillPop", ar: "تشيل بوب" },
     client: { en: "ChillPop Ice Cream", ar: "تشيل بوب آيس كريم" },
     summary: {
-      en: "A playful, colourful ice cream brand that brings together refreshing flavours and cheerful colours, turning every bite into a small moment of joy to share with the people you love.",
-      ar: "تشيل بوب علامة آيس كريم مرحة وملوّنة، تجمع بين النكهات المنعشة والألوان المبهجة، لتحوّل كل لقمة إلى لحظة فرح صغيرة تشاركها مع من تحب.",
+      en: "An ice cream brand built on “refresh with every bite”: a glossy, bubbly wordmark that looks like it is melting with colour. Candy pink and grape purple with drops of flavour make it feel fun and generous at first glance, in Arabic and English. I applied it to cups, a family tub, takeaway cups, stickers, an apron and the storefront, and presented it as a 9-slide Instagram showcase.",
+      ar: "علامة آيس كريم مبنية على «انتعش مع كل لقمة»: شعار لامع ومنتفخ يبدو كأنه يذوب بالألوان. الوردي والبنفسجي مع قطرات النكهات يجعلانها مرحة وكريمة من أول نظرة، بالعربي والإنجليزي. طبّقتها على الأكواب والعلبة العائلية وأكواب السفري والملصقات والمريلة وواجهة المحل، وقدّمتها في عرض انستجرام من 9 شرائح.",
     },
     cover: "assets/work/chillpop/cover.webp",
     coverAlt: { en: "ChillPop logo in pink and purple with the line “Refresh with every bite”", ar: "شعار تشيل بوب بالوردي والبنفسجي مع عبارة «انتعش بكل لقمة»" },
@@ -426,17 +273,322 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* ---------------------------------------------------------------- ZEINA */
+  {
+    slug: "zeina",
+    selfInitiated: true,
+    featured: true,
+    category: "brand-identity",
+    year: "2023",
+    title: { en: "Zeina", ar: "زينة" },
+    client: { en: "Zeina & More Jewellery", ar: "زينة للمجوهرات" },
+    summary: {
+      en: "A jewellery identity built on one idea: every piece should feel like a gift. A soft, flower-like symbol drawn from interlocking curves, like links in a chain, sits with a light wordmark in coral, blush and pearl tones. In jewellery the packaging is part of the product, so the mark was refined for tags and ring boxes and applied across boxes, cards and swing tags, with gold foil for the premium line.",
+      ar: "هوية مجوهرات مبنية على فكرة واحدة: أن تبدو كل قطعة كهدية. رمز ناعم يشبه الزهرة مرسوم من منحنيات متداخلة كحلقات السلسلة، مع شعار خفيف بدرجات المرجاني والوردي واللؤلؤي. في المجوهرات التغليف جزء من المنتج، لذلك تم ضبط الرمز للبطاقات الصغيرة وعلب الخواتم، وتطبيقه على العلب والبطاقات والتاجات، مع الفويل الذهبي للخط الفاخر.",
+    },
+    cover: "assets/work/zeina/cover.webp",
+    coverAlt: { en: "Model wearing Zeina jewellery in coral light with the Zeina logo", ar: "عارضة ترتدي مجوهرات زينة بإضاءة مرجانية مع شعار زينة" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
+    palette: ["#DF5F50", "#D87965", "#EBDDD5", "#AD897D"],
+    sections: {
+      brief: {
+        en: "Create a brand that feels delicate and timeless, and that makes every piece feel like a gift from the moment it is unboxed.",
+        ar: "بناء علامة تبدو رقيقة وخالدة، وتجعل كل قطعة تبدو هدية من لحظة فتح العلبة.",
+      },
+      concept: {
+        en: "A soft, flower-like symbol drawn from interlocking curves, like links in a chain, paired with a light, open wordmark.",
+        ar: "رمز ناعم يشبه الزهرة من منحنيات متشابكة كحلقات السلسلة، مع شعار كتابي خفيف ومفتوح.",
+      },
+      strategy: {
+        en: "In jewellery the packaging is part of the product. The identity is built to look its best on velvet, card and foil.",
+        ar: "في المجوهرات، التغليف جزء من المنتج. لذلك بُنيت الهوية لتظهر بأفضل شكل على المخمل والكرتون والفويل.",
+      },
+      visual: {
+        en: "Coral, blush and pearl tones with a warm taupe; generous spacing; gold foil on cream for the premium line.",
+        ar: "درجات المرجاني والوردي واللؤلؤي مع بيج دافئ، ومساحات واسعة، وفويل ذهبي على كريمي للخط الفاخر.",
+      },
+      development: {
+        en: "The mark was refined for small sizes such as tags and ring boxes, then applied across boxes, cards and swing tags.",
+        ar: "تم ضبط الرمز ليظهر بوضوح في المقاسات الصغيرة كالبطاقات وعلب الخواتم، ثم تطبيقه على العلب والكروت وبطاقات التعليق.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & symbol", ar: "الشعار والرمز" },
+      { en: "Colour palette", ar: "لوحة الألوان" },
+      { en: "Jewellery boxes, cards & tags", ar: "علب المجوهرات والكروت والبطاقات" },
+    ],
+    gallery: [
+      { src: "assets/work/zeina/logos.webp", caption: { en: "Logo on coral and pearl", ar: "الشعار على المرجاني واللؤلؤي" } },
+      { src: "assets/work/zeina/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
+      { src: "assets/work/zeina/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
+    ],
+  },
+
+  /* --------------------------------------------------------- CAREDRIVE */
+  {
+    slug: "caredrive",
+    featured: true,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "CareDrive", ar: "كير درايف" },
+    client: { en: "CareDrive", ar: "كير درايف" },
+    summary: {
+      en: "A logo for a child transportation platform, built on the idea that parents look for reassurance, not transport. The C and D form one mark: the outer shapes make a protective enclosure around a central circle, the child. Simple circles and balanced curves keep it clear at every size, tested on an app icon, business cards, letterhead, ID badges and vehicle branding.",
+      ar: "شعار لمنصة نقل الأطفال، مبني على فكرة أن الأهل يبحثون عن الطمأنينة لا عن وسيلة نقل. الحرفان C وD يشكّلان رمزًا واحدًا: الأشكال الخارجية تصنع حماية حول دائرة في المنتصف هي الطفل. الدوائر البسيطة والمنحنيات المتوازنة تبقيه واضحًا في كل الأحجام، وتمت تجربته على أيقونة التطبيق وكروت العمل والأوراق الرسمية وبطاقات التعريف وتغليف المركبات.",
+    },
+    cover: "assets/work/caredrive/cover.webp",
+    coverAlt: { en: "CareDrive logo on a dark navy presentation slide", ar: "شعار كير درايف على شريحة عرض كحلية" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand presentation", ar: "عرض الهوية" }],
+    palette: ["#2D8CFF", "#4CCB6B", "#E08F2C", "#00BFCB"],
+    sections: {
+      brief: {
+        en: "Parents are not looking for transportation, they are looking for reassurance. The identity had to communicate care, protection and trust before movement.",
+        ar: "الأهل لا يبحثون عن مواصلات، بل عن الاطمئنان. كان على الهوية أن توصل الرعاية والحماية والثقة قبل الحركة.",
+      },
+      concept: {
+        en: "The symbol combines the initials C and D into one mark: the outer shapes form a protective enclosure and the central circle represents the child.",
+        ar: "يجمع الرمز الحرفين C وD في علامة واحدة: الأشكال الخارجية تكوّن حضنًا يحمي، والدائرة في المنتصف تمثل الطفل.",
+      },
+      visual: {
+        en: "Drive Blue, Care Green, Child Orange and Protect Teal; Poppins for headlines and Inter for text.",
+        ar: "أزرق القيادة، وأخضر الرعاية، وبرتقالي الطفل، وفيروزي الحماية؛ مع خط Poppins للعناوين وInter للنصوص.",
+      },
+      development: {
+        en: "Built from simple circles and balanced curves, with a defined clear space, then tested on business cards, an app icon, letterhead, ID badges and vehicle branding.",
+        ar: "بُني الشعار من دوائر بسيطة ومنحنيات متوازنة مع مساحة أمان محددة، ثم جُرّب على الكروت وأيقونة التطبيق والأوراق الرسمية وبطاقات الموظفين وتغليف السيارات.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & construction", ar: "الشعار وبناؤه" },
+      { en: "Colour palette & typography", ar: "الألوان والخطوط" },
+      { en: "Applications", ar: "التطبيقات" },
+      { en: "Logo presentation deck", ar: "عرض تقديمي للشعار" },
+    ],
+    gallery: [
+      { src: "assets/work/caredrive/p02.webp", wide: true, caption: { en: "About the brand", ar: "عن العلامة" } },
+      { src: "assets/work/caredrive/p03.webp", wide: true, caption: { en: "The challenge", ar: "التحدي" } },
+      { src: "assets/work/caredrive/p04.webp", wide: true, caption: { en: "Logo concept", ar: "فكرة الشعار" } },
+      { src: "assets/work/caredrive/p05.webp", wide: true, caption: { en: "Construction", ar: "بناء الشعار" } },
+      { src: "assets/work/caredrive/p06.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
+      { src: "assets/work/caredrive/p07.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
+      { src: "assets/work/caredrive/p08.webp", wide: true, caption: { en: "Applications", ar: "التطبيقات" } },
+      { src: "assets/work/caredrive/p09.webp", wide: true, caption: { en: "Brand feel", ar: "روح العلامة" } },
+      { src: "assets/work/caredrive/p10.webp", wide: true, caption: { en: "Brand in use", ar: "العلامة في الاستخدام" } },
+    ],
+  },
+
+  /* ------------------------------------------------------------ VISORY */
+  {
+    slug: "visory",
+    featured: false,
+    category: "brand-identity",
+    year: "2026",
+    title: { en: "Visory", ar: "فيزوري" },
+    client: { en: "Visory", ar: "فيزوري" },
+    summary: {
+      en: "A brand guideline for Visory, a visual production brand: “Where Vision Becomes Story”. The mark merges a V with a play button, so the name and the act of telling stories through video become one shape. A bold orange palette keeps it energetic, and the guideline sets construction, colour, type and applications on equipment, backdrops and merchandise.",
+      ar: "دليل هوية لـ Visory، علامة إنتاج بصري: «حيث تتحول الرؤية إلى قصة». يدمج الرمز حرف V مع زر التشغيل، فيصبح الاسم وفعل الحكي بالفيديو شكلًا واحدًا. البرتقالي الجريء يمنحها الطاقة، والدليل يحدد بناء الشعار والألوان والخطوط والتطبيقات على المعدات والخلفيات والهدايا الدعائية.",
+    },
+    cover: "assets/work/visory/cover.webp",
+    coverAlt: { en: "Cover of the Visory brand guideline", ar: "غلاف دليل الهوية لفيزوري" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand guidelines", ar: "دليل الهوية" }],
+    palette: ["#FF6B35", "#E53946", "#6B7280", "#000000"],
+    sections: {
+      brief: {
+        en: "Give a visual production brand a clear, energetic identity and a guideline that keeps it consistent across website, social media and print.",
+        ar: "منح علامة إنتاج مرئي هوية واضحة ونشيطة، ودليلًا يحافظ على اتساقها في الموقع والسوشيال ميديا والمطبوعات.",
+      },
+      concept: {
+        en: "The mark combines a V with a play button, so the name and the act of telling stories through video are one shape.",
+        ar: "يجمع الشعار حرف V مع زر التشغيل، فيصبح الاسم وفكرة رواية القصص بالفيديو شكلًا واحدًا.",
+      },
+      visual: {
+        en: "Primary orange for the logo and key elements, dark orange for highlights, gray for secondary text, on white and black. Montserrat for Latin and Noto Kufi Arabic for Arabic.",
+        ar: "برتقالي أساسي للشعار والعناصر الرئيسية، وبرتقالي داكن للتمييز، ورمادي للنصوص الثانوية، على الأبيض والأسود. خط Montserrat للاتيني وNoto Kufi Arabic للعربي.",
+      },
+      development: {
+        en: "The guideline covers logo and symbol construction, usage, colour, typography and brand applications on equipment, backdrops and merchandise.",
+        ar: "يغطي الدليل بناء الشعار والرمز، وطرق الاستخدام، والألوان، والخطوط، وتطبيقات الهوية على المعدات والخلفيات والمنتجات.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & symbol", ar: "الشعار والرمز" },
+      { en: "Brand guideline", ar: "دليل الهوية" },
+      { en: "Brand applications", ar: "تطبيقات الهوية" },
+    ],
+    gallery: [
+      { src: "assets/work/visory/p02.webp", wide: true, caption: { en: "Logo construction", ar: "بناء الشعار" } },
+      { src: "assets/work/visory/p03.webp", wide: true, caption: { en: "Symbol construction", ar: "بناء الرمز" } },
+      { src: "assets/work/visory/p04.webp", wide: true, caption: { en: "Logo usage", ar: "استخدام الشعار" } },
+      { src: "assets/work/visory/p05.webp", wide: true, caption: { en: "Colour palette", ar: "لوحة الألوان" } },
+      { src: "assets/work/visory/p06.webp", wide: true, caption: { en: "Typography", ar: "الخطوط" } },
+      { src: "assets/work/visory/p07.webp", wide: true, caption: { en: "Arabic typography", ar: "الخط العربي" } },
+      { src: "assets/work/visory/p08.webp", wide: true, caption: { en: "Brand applications", ar: "تطبيقات الهوية" } },
+      { src: "assets/work/visory/p09.webp", wide: true, caption: { en: "Studio backdrop", ar: "خلفية الاستوديو" } },
+      { src: "assets/work/visory/p10.webp", wide: true, caption: { en: "Backpack", ar: "الحقيبة" } },
+      { src: "assets/work/visory/p11.webp", wide: true, caption: { en: "Camera", ar: "الكاميرا" } },
+    ],
+  },
+
+  /* --------------------------------------------------------------- WASABI */
+  {
+    slug: "wasabi",
+    selfInitiated: true,
+    featured: false,
+    category: "editorial-print",
+    year: "",
+    title: { en: "Wasabi", ar: "وسابي" },
+    client: { en: "Wasabi Sushi Restaurant", ar: "مطعم وسابي للسوشي" },
+    summary: {
+      en: "A sushi restaurant identity built on one symbol: chopsticks lifting a red sun, saying Japan, food and freshness at once. A restaurant brand is read in the hand, so the menu leads the system, with clear sections in deep green and wasabi green. It extends to business cards, chopstick sleeves, cups, bags and takeaway boxes.",
+      ar: "هوية مطعم سوشي مبنية على رمز واحد: عيدان تحمل شمسًا حمراء، تقول اليابان والطعام والانتعاش في آن واحد. هوية المطعم تُقرأ باليد، لذلك يقود المنيو النظام بأقسام واضحة بالأخضر الداكن وأخضر الوسابي. وتمتد إلى كروت العمل وأغلفة العيدان والأكواب والشنط وعلب السفري.",
+    },
+    cover: "assets/work/wasabi/w3.webp",
+    coverAlt: { en: "Wasabi restaurant storefront at night", ar: "واجهة مطعم وسابي ليلًا" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Menu design", ar: "تصميم المنيو" }],
+    palette: ["#161C18", "#809632", "#CC1F25", "#E6DED1"],
+    sections: {
+      brief: {
+        en: "Give a sushi restaurant a bold identity that works in Arabic and English, from the menu to takeaway packaging.",
+        ar: "منح مطعم سوشي هوية جريئة تعمل بالعربي والإنجليزي، من المنيو إلى تغليف الطلبات الخارجية.",
+      },
+      concept: {
+        en: "Chopsticks lifting a red sun: one symbol that says Japan, food and freshness at once.",
+        ar: "عيدان أكل ترفع شمسًا حمراء: رمز واحد يقول اليابان والطعام والانتعاش في نفس الوقت.",
+      },
+      strategy: {
+        en: "A restaurant identity is read in the hand. The menu is treated as the main brand object, with clear sections and generous spacing.",
+        ar: "هوية المطعم تُقرأ في اليد، لذلك عوملت المنيو كأهم عنصر في العلامة، بأقسام واضحة ومساحات مريحة.",
+      },
+      visual: {
+        en: "Deep green, wasabi green and a single red dot; a brush-style Latin wordmark with DIN Next Arabic for the Arabic name.",
+        ar: "أخضر داكن وأخضر الوسابي ونقطة حمراء واحدة، وشعار لاتيني بأسلوب الفرشاة مع DIN Next Arabic للاسم العربي.",
+      },
+      development: {
+        en: "Applied to the menu, business cards, chopstick sleeves, cups, bags and takeaway boxes, with a wave pattern for backgrounds.",
+        ar: "تم التطبيق على المنيو، والكروت، وأغلفة العيدان، والأكواب، والأكياس، وعلب الطلبات، مع نقشة أمواج للخلفيات.",
+      },
+    },
+    deliverables: [
+      { en: "Logo & bilingual lock-up", ar: "الشعار والتوقيع ثنائي اللغة" },
+      { en: "Menu design", ar: "تصميم المنيو" },
+      { en: "Stationery & packaging", ar: "المطبوعات والتغليف" },
+    ],
+    gallery: [
+      { src: "assets/work/wasabi/logos.webp", caption: { en: "Logo variations", ar: "تنويعات الشعار" } },
+      { src: "assets/work/wasabi/applications.webp", caption: { en: "Menu, packaging and stationery", ar: "المنيو والتغليف والمطبوعات" } },
+      { src: "assets/work/wasabi/w1.webp", caption: { en: "Identity applications", ar: "تطبيقات الهوية" } },
+      { src: "assets/work/wasabi/w3.webp", caption: { en: "Restaurant storefront", ar: "واجهة المطعم" } },
+      { src: "assets/work/wasabi/w2.webp", caption: { en: "Instagram on mobile", ar: "حساب انستجرام على الجوال" } },
+      { src: "assets/work/wasabi/w4.webp", caption: { en: "Takeaway packaging and stationery", ar: "تغليف الطلبات والمطبوعات" } },
+      { src: "assets/work/wasabi/w5.webp", caption: { en: "Table setting", ar: "تجهيز الطاولة" } },
+      { src: "assets/work/wasabi/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
+    ],
+  },
+
+  /* ------------------------------------------------------------- PIATTINO */
+  {
+    slug: "piattino",
+    selfInitiated: true,
+    featured: false,
+    category: "brand-identity",
+    year: "2024",
+    title: { en: "Piattino Café", ar: "بياتينو كافيه" },
+    client: { en: "Piattino Café", ar: "بياتينو كافيه" },
+    summary: {
+      en: "A café identity led by a character. Piattino is Italian for the small plate a coffee cup sits on, so the mascot, a smiling waiter, offers that cup to you. A character gives a small café a personality that is easy to remember, and it carries across cups, bags and carriers with an orange brush ring, teal and mint, and a hand-lettered wordmark.",
+      ar: "هوية مقهى تقودها شخصية. كلمة Piattino تعني بالإيطالية الصحن الصغير الذي يوضع عليه فنجان القهوة، لذلك تقدّم لك الشخصية، نادل مبتسم، ذلك الفنجان. الشخصية تمنح المقهى الصغير طابعًا يسهل تذكّره، وتمتد إلى الأكواب والأكياس والحوامل مع حلقة برتقالية بضربة فرشاة، والتركواز والنعناعي، وشعار مكتوب باليد.",
+    },
+    cover: "assets/work/piattino/cover.webp",
+    coverAlt: { en: "Piattino Café illustrated logo in a warm café interior", ar: "شعار بياتينو كافيه المرسوم داخل مقهى دافئ" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
+    palette: ["#E2701A", "#162021", "#ADC2A3", "#592913"],
+    sections: {
+      brief: {
+        en: "Create a warm, approachable café brand that customers recognise instantly on cups and bags.",
+        ar: "بناء علامة مقهى دافئة وقريبة من الناس، يتعرف عليها العميل فورًا على الأكواب والأكياس.",
+      },
+      concept: {
+        en: "Piattino is Italian for the small plate a coffee cup sits on. The mascot, a smiling waiter, offers that cup to you.",
+        ar: "بياتينو كلمة إيطالية تعني الصحن الصغير الذي يوضع عليه فنجان القهوة. والشخصية، نادل مبتسم، يقدّم لك هذا الفنجان.",
+      },
+      strategy: {
+        en: "A character gives a small café a personality that is easy to remember and easy to extend across packaging and social.",
+        ar: "الشخصية تمنح المقهى الصغير طابعًا سهل التذكر وسهل التوسع على التغليف والسوشيال.",
+      },
+      visual: {
+        en: "Orange brush ring, teal and mint, chocolate brown, and a hand-lettered script wordmark; a playful swirl pattern for packaging.",
+        ar: "حلقة فرشاة برتقالية، وتيل ونعناعي، وبني شوكولاتة، وشعار بخط يدوي، مع نقشة دوامات مرحة للتغليف.",
+      },
+      development: {
+        en: "The logo was tested on dark, cream and mint grounds, then applied to cups, bags and carriers.",
+        ar: "تم اختبار الشعار على خلفيات داكنة وكريمية ونعناعية، ثم تطبيقه على الأكواب والأكياس وحاملات الأكواب.",
+      },
+    },
+    deliverables: [{ en: "Character logo & variations", ar: "الشعار بالشخصية وتنويعاته" }, { en: "Packaging pattern", ar: "نقشة التغليف" }, { en: "Cups, bags & carriers", ar: "الأكواب والأكياس والحاملات" }],
+    gallery: [
+      { src: "assets/work/piattino/logos.webp", caption: { en: "Logo variations", ar: "تنويعات الشعار" } },
+      { src: "assets/work/piattino/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
+      { src: "assets/work/piattino/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
+    ],
+  },
+
+  /* ---------------------------------------------------------- 925 CLUB */
+  {
+    slug: "club-925",
+    selfInitiated: true,
+    featured: false,
+    category: "brand-identity",
+    year: "2023",
+    title: { en: "925 Club", ar: "925 كلوب" },
+    client: { en: "925 Club", ar: "925 كلوب" },
+    summary: {
+      en: "A sporty identity for 925 Club under the line “Together, we thrive from 9 to 5”. The numbers 9, 2 and 5 interlock into one mark with a hand-written “Club” for a human touch, in royal blue and lime green that stay recognisable on fabric. It is applied to t-shirts, jackets, bags, bottles, cups, caps and gym imagery.",
+      ar: "هوية رياضية لـ 925 كلوب تحت عبارة «معًا نزدهر من 9 إلى 5». الأرقام 9 و2 و5 متداخلة في رمز واحد مع كلمة «Club» مكتوبة باليد لِلمسة إنسانية، بالأزرق الملكي والأخضر الليموني اللذين يبقيان واضحين على القماش. مطبّقة على التيشيرتات والجاكيتات والشنط والزجاجات والأكواب والكابات وصور الجيم.",
+    },
+    cover: "assets/work/club-925/cover.webp",
+    coverAlt: { en: "925 Club logo and applications on sportswear", ar: "شعار 925 كلوب وتطبيقاته على الملابس الرياضية" },
+    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Merchandise", ar: "المنتجات الترويجية" }],
+    palette: ["#0C56B3", "#B0CC3E", "#183E7A", "#FFFFFF"],
+    sections: {
+      concept: {
+        en: "The numbers 9, 2 and 5 are interlocked into one mark, with a hand-written “Club” for a friendly, human touch.",
+        ar: "الأرقام 9 و2 و5 متداخلة في علامة واحدة، مع كلمة «Club» بخط يدوي لإحساس ودود وإنساني.",
+      },
+      visual: {
+        en: "Royal blue and lime green with a blue-to-green gradient: energetic, sporty and easy to recognise on fabric.",
+        ar: "أزرق ملكي وأخضر ليموني مع تدرج من الأزرق للأخضر: طاقة وروح رياضية وسهولة تمييز على القماش.",
+      },
+      development: {
+        en: "Applied to t-shirts, jackets, drawstring and duffel bags, bottles, cups, caps and gym imagery.",
+        ar: "تم التطبيق على التيشيرتات والجاكيتات والشنط والزجاجات والأكواب والكابات وصور الجيم.",
+      },
+    },
+    deliverables: [
+      { en: "Logo", ar: "الشعار" },
+      { en: "Apparel & merchandise", ar: "الملابس والمنتجات" },
+      { en: "Social visuals", ar: "تصاميم السوشيال" },
+    ],
+    gallery: [
+      { src: "assets/work/club-925/p2.webp", caption: { en: "Logo", ar: "الشعار" } },
+      { src: "assets/work/club-925/p3.webp", caption: { en: "Cups and cap", ar: "الأكواب والكاب" } },
+      { src: "assets/work/club-925/p4.webp", caption: { en: "Cups and t-shirt", ar: "الأكواب والتيشيرت" } },
+      { src: "assets/work/club-925/p5.webp", caption: { en: "In the gym", ar: "في الجيم" } },
+    ],
+  },
+
   /* ------------------------------------------------------------ iCAUR V27 */
   {
     slug: "icaur-v27",
-    featured: false,
+    selfInitiated: true,
+    featured: true,
     category: "social-media",
     year: "2026",
     title: { en: "iCAUR V27", ar: "إيكار V27" },
     client: { en: "iCAUR V27", ar: "إيكار V27" },
     summary: {
-      en: "A cinematic social media series for the iCAUR V27 SUV: six posts that read as one campaign, from the desert to the city.",
-      ar: "سلسلة سوشيال ميديا سينمائية لسيارة إيكار V27: ستة منشورات تُقرأ كحملة واحدة، من الصحراء إلى المدينة.",
+      en: "A social campaign for the iCAUR V27 SUV built as one journey: open desert, mountain road, canyon at sunset, a desert highway and Riyadh at night. Each post is a scene with a short Arabic line, while the key specs and the “book a test drive” button sit in the same place every time, so six posts read as one campaign.",
+      ar: "حملة سوشيال لسيارة إيكار V27 مبنية كرحلة واحدة: صحراء مفتوحة، وطريق جبلي، ووادٍ وقت الغروب، وطريق صحراوي، والرياض ليلًا. كل منشور مشهد بعبارة عربية قصيرة، بينما تبقى المواصفات الأساسية وزر «احجز تجربة قيادتك» في المكان نفسه دائمًا، فتُقرأ المنشورات الستة كحملة واحدة.",
     },
     cover: "assets/work/icaur-v27/cover.webp",
     coverAlt: { en: "iCAUR V27 in the desert at sunset with the line “the adventure starts here”", ar: "إيكار V27 في الصحراء وقت الغروب مع عبارة «المغامرة تبدأ هنا»" },
@@ -479,14 +631,15 @@ PORTFOLIO.projects = [
   /* -------------------------------------------------------- DALLAH SUKKAR */
   {
     slug: "dallah-sukkar",
+    selfInitiated: true,
     featured: false,
     category: "social-media",
     year: "",
     title: { en: "Dallah Sukkar", ar: "دلة سكر" },
     client: { en: "Dallah Sukkar", ar: "دلة سكر" },
     summary: {
-      en: "A warm social media campaign for a Saudi dessert brand, pairing appetising imagery with playful Arabic headlines.",
-      ar: "حملة سوشيال ميديا دافئة لعلامة حلويات سعودية، تجمع صورًا شهية مع عناوين عربية مرحة.",
+      en: "A social media campaign for a Saudi dessert brand, built on hospitality. Short, conversational Arabic lines sit against honey, dates, Arabic coffee and the dallah, and product hero shots alternate with people sharing the desserts, so the feed sells both the product and the moment. Warm beige light and a consistent call-to-action pill tie nine posts together.",
+      ar: "حملة سوشيال ميديا لعلامة حلويات سعودية مبنية على الضيافة. عبارات عربية قصيرة بلغة الحديث مع العسل والتمر والقهوة العربية والدلة، وصور المنتج تتناوب مع أشخاص يتشاركون الحلى، فيبيع الحساب المنتج واللحظة معًا. الإضاءة البيج الدافئة وزر الطلب الثابت يربطان المنشورات التسعة.",
     },
     cover: "assets/work/dallah-sukkar/cover-2.webp",
     coverAlt: { en: "Hands serving a plate of dates and cream with Arabic coffee cups", ar: "يدان تقدّمان طبق حلى بالتمر والقشطة مع فناجين القهوة" },
@@ -527,14 +680,15 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------- AI · NATIONAL DAY */
   {
     slug: "ai-national-day",
-    featured: false,
+    selfInitiated: true,
+    featured: true,
     category: "ai-video",
     year: "2026",
     title: { en: "AI Creator · Saudi National Day Film", ar: "AI Creator · فيلم اليوم الوطني" },
     client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
     summary: {
-      en: "A 46-second Saudi National Day ad film for Icon Real Estate, created entirely with AI on Higgsfield: from a written concept and storyboard to generated scenes, animation and the final edit.",
-      ar: "فيلم إعلاني لليوم الوطني السعودي مدته 46 ثانية لايكون العقارية، مصنوع بالكامل بالذكاء الاصطناعي على Higgsfield: من الفكرة المكتوبة والستوري بورد إلى توليد المشاهد وتحريكها والمونتاج النهائي.",
+      en: "A 46-second Saudi National Day film for Icon Real Estate, from roots to skyline: the values Saudis grow up with pass from an elder to a boy, who ends by looking over a modern city. The brand stays light so people share it as a greeting. I wrote the concept and a 14-scene storyboard, then generated and directed every shot with AI on Higgsfield and edited the final film.",
+      ar: "فيلم لليوم الوطني السعودي مدته 46 ثانية لـ ايكون العقارية، من الجذور إلى الأفق: القيم التي يكبر عليها السعوديون تنتقل من شيخ إلى طفل، ينتهي به المشهد وهو يطل على مدينة حديثة. العلامة حاضرة بخفة حتى يشاركه الناس كتهنئة. كتبت الفكرة وستوري بورد من 14 مشهدًا، ثم ولّدت ووجّهت كل لقطة بالذكاء الاصطناعي على Higgsfield، وأنهيت المونتاج.",
     },
     cover: "assets/work/ai-national-day/scene-12.webp",
     coverAlt: { en: "A boy in a green Sadu cloak with the Saudi emblem, facing the sunset", ar: "طفل بعباءة سدو خضراء عليها شعار المملكة يواجه الغروب" },
@@ -587,8 +741,8 @@ PORTFOLIO.projects = [
     title: { en: "Motion & Editing", ar: "موشن ومونتاج" },
     client: { en: "Icon Real Estate", ar: "ايكون العقارية" },
     summary: {
-      en: "All my motion and video work in one place: reels, montages and ads for Icon Real Estate, from ICON 18 in Al Nuzha to ICON 19 and new launches.",
-      ar: "كل أعمال الموشن والمونتاج في مكان واحد: ريلز ومونتاج وإعلانات لايكون العقارية، من ايكون 18 في حي النزهة إلى ايكون 19 والإطلاقات الجديدة.",
+      en: "All my motion and video work in one place: reels, montages and ads for Icon Real Estate. Real footage of the buildings is cut with animated plans, sizes and features in the brand's navy and gold, so buyers see the projects, the unit types and the brand between launches, from ICON 18 to ICON 19 and new projects.",
+      ar: "كل أعمال الموشن والفيديو في مكان واحد: ريلز ومونتاج وإعلانات لـ ايكون العقارية. لقطات حقيقية للمباني مع مخططات ومساحات ومميزات متحركة بألوان العلامة الكحلي والذهبي، ليرى المشترون المشاريع ونماذج الوحدات والعلامة بين الإطلاقات، من ايكون 18 إلى ايكون 19 والمشاريع الجديدة.",
     },
     cover: "assets/work/icon18-reels/reel-poster.webp",
     coverAlt: { en: "Frame from the ICON 18 reel", ar: "لقطة من ريل ايكون 18" },
@@ -612,161 +766,18 @@ PORTFOLIO.projects = [
     ],
   },
 
-  /* --------------------------------------------------------------- WASABI */
-  {
-    slug: "wasabi",
-    featured: false,
-    category: "editorial-print",
-    year: "",
-    title: { en: "Wasabi", ar: "وسابي" },
-    client: { en: "Wasabi Sushi Restaurant", ar: "مطعم وسابي للسوشي" },
-    summary: {
-      en: "Identity and menu design for a sushi restaurant that brings authentic Japanese flavours into a modern dining experience.",
-      ar: "هوية وتصميم منيو لمطعم سوشي يقدّم النكهات اليابانية الأصيلة في تجربة عصرية.",
-    },
-    cover: "assets/work/wasabi/w3.webp",
-    coverAlt: { en: "Wasabi restaurant storefront at night", ar: "واجهة مطعم وسابي ليلًا" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Menu design", ar: "تصميم المنيو" }],
-    palette: ["#161C18", "#809632", "#CC1F25", "#E6DED1"],
-    sections: {
-      brief: {
-        en: "Give a sushi restaurant a bold identity that works in Arabic and English, from the menu to takeaway packaging.",
-        ar: "منح مطعم سوشي هوية جريئة تعمل بالعربي والإنجليزي، من المنيو إلى تغليف الطلبات الخارجية.",
-      },
-      concept: {
-        en: "Chopsticks lifting a red sun: one symbol that says Japan, food and freshness at once.",
-        ar: "عيدان أكل ترفع شمسًا حمراء: رمز واحد يقول اليابان والطعام والانتعاش في نفس الوقت.",
-      },
-      strategy: {
-        en: "A restaurant identity is read in the hand. The menu is treated as the main brand object, with clear sections and generous spacing.",
-        ar: "هوية المطعم تُقرأ في اليد، لذلك عوملت المنيو كأهم عنصر في العلامة، بأقسام واضحة ومساحات مريحة.",
-      },
-      visual: {
-        en: "Deep green, wasabi green and a single red dot; a brush-style Latin wordmark with DIN Next Arabic for the Arabic name.",
-        ar: "أخضر داكن وأخضر الوسابي ونقطة حمراء واحدة، وشعار لاتيني بأسلوب الفرشاة مع DIN Next Arabic للاسم العربي.",
-      },
-      development: {
-        en: "Applied to the menu, business cards, chopstick sleeves, cups, bags and takeaway boxes, with a wave pattern for backgrounds.",
-        ar: "تم التطبيق على المنيو، والكروت، وأغلفة العيدان، والأكواب، والأكياس، وعلب الطلبات، مع نقشة أمواج للخلفيات.",
-      },
-    },
-    deliverables: [
-      { en: "Logo & bilingual lock-up", ar: "الشعار والتوقيع ثنائي اللغة" },
-      { en: "Menu design", ar: "تصميم المنيو" },
-      { en: "Stationery & packaging", ar: "المطبوعات والتغليف" },
-    ],
-    gallery: [
-      { src: "assets/work/wasabi/logos.webp", caption: { en: "Logo variations", ar: "تنويعات الشعار" } },
-      { src: "assets/work/wasabi/applications.webp", caption: { en: "Menu, packaging and stationery", ar: "المنيو والتغليف والمطبوعات" } },
-      { src: "assets/work/wasabi/w1.webp", caption: { en: "Identity applications", ar: "تطبيقات الهوية" } },
-      { src: "assets/work/wasabi/w3.webp", caption: { en: "Restaurant storefront", ar: "واجهة المطعم" } },
-      { src: "assets/work/wasabi/w2.webp", caption: { en: "Instagram on mobile", ar: "حساب انستجرام على الجوال" } },
-      { src: "assets/work/wasabi/w4.webp", caption: { en: "Takeaway packaging and stationery", ar: "تغليف الطلبات والمطبوعات" } },
-      { src: "assets/work/wasabi/w5.webp", caption: { en: "Table setting", ar: "تجهيز الطاولة" } },
-      { src: "assets/work/wasabi/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
-    ],
-  },
-
-  /* ---------------------------------------------------------- 925 CLUB */
-  {
-    slug: "club-925",
-    featured: false,
-    category: "brand-identity",
-    year: "2023",
-    title: { en: "925 Club", ar: "925 كلوب" },
-    client: { en: "925 Club", ar: "925 كلوب" },
-    summary: {
-      en: "A sporty identity for 925 Club, applied to apparel, bags, bottles and gym content under the line “Together, we thrive from 9 to 5”.",
-      ar: "هوية رياضية لـ 925 كلوب مطبقة على الملابس والشنط والزجاجات ومحتوى الجيم، تحت عبارة «Together, we thrive from 9 to 5».",
-    },
-    cover: "assets/work/club-925/cover.webp",
-    coverAlt: { en: "925 Club logo and applications on sportswear", ar: "شعار 925 كلوب وتطبيقاته على الملابس الرياضية" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Merchandise", ar: "المنتجات الترويجية" }],
-    palette: ["#0C56B3", "#B0CC3E", "#183E7A", "#FFFFFF"],
-    sections: {
-      concept: {
-        en: "The numbers 9, 2 and 5 are interlocked into one mark, with a hand-written “Club” for a friendly, human touch.",
-        ar: "الأرقام 9 و2 و5 متداخلة في علامة واحدة، مع كلمة «Club» بخط يدوي لإحساس ودود وإنساني.",
-      },
-      visual: {
-        en: "Royal blue and lime green with a blue-to-green gradient: energetic, sporty and easy to recognise on fabric.",
-        ar: "أزرق ملكي وأخضر ليموني مع تدرج من الأزرق للأخضر: طاقة وروح رياضية وسهولة تمييز على القماش.",
-      },
-      development: {
-        en: "Applied to t-shirts, jackets, drawstring and duffel bags, bottles, cups, caps and gym imagery.",
-        ar: "تم التطبيق على التيشيرتات والجاكيتات والشنط والزجاجات والأكواب والكابات وصور الجيم.",
-      },
-    },
-    deliverables: [
-      { en: "Logo", ar: "الشعار" },
-      { en: "Apparel & merchandise", ar: "الملابس والمنتجات" },
-      { en: "Social visuals", ar: "تصاميم السوشيال" },
-    ],
-    gallery: [
-      { src: "assets/work/club-925/p2.webp", caption: { en: "Logo", ar: "الشعار" } },
-      { src: "assets/work/club-925/p3.webp", caption: { en: "Cups and cap", ar: "الأكواب والكاب" } },
-      { src: "assets/work/club-925/p4.webp", caption: { en: "Cups and t-shirt", ar: "الأكواب والتيشيرت" } },
-      { src: "assets/work/club-925/p5.webp", caption: { en: "In the gym", ar: "في الجيم" } },
-    ],
-  },
-
-  /* ------------------------------------------------------------- PIATTINO */
-  {
-    slug: "piattino",
-    featured: false,
-    category: "brand-identity",
-    year: "2024",
-    title: { en: "Piattino Café", ar: "بياتينو كافيه" },
-    client: { en: "Piattino Café", ar: "بياتينو كافيه" },
-    summary: {
-      en: "A friendly character-led identity and packaging for a café serving hot and cold drinks and cold food.",
-      ar: "هوية ودودة قائمة على شخصية مرسومة، مع تغليف لمقهى يقدّم المشروبات الساخنة والباردة والأطعمة الباردة.",
-    },
-    cover: "assets/work/piattino/cover.webp",
-    coverAlt: { en: "Piattino Café illustrated logo in a warm café interior", ar: "شعار بياتينو كافيه المرسوم داخل مقهى دافئ" },
-    services: [{ en: "Logo design", ar: "تصميم الشعار" }, { en: "Brand identity", ar: "الهوية البصرية" }, { en: "Packaging", ar: "التغليف" }],
-    palette: ["#E2701A", "#162021", "#ADC2A3", "#592913"],
-    sections: {
-      brief: {
-        en: "Create a warm, approachable café brand that customers recognise instantly on cups and bags.",
-        ar: "بناء علامة مقهى دافئة وقريبة من الناس، يتعرف عليها العميل فورًا على الأكواب والأكياس.",
-      },
-      concept: {
-        en: "Piattino is Italian for the small plate a coffee cup sits on. The mascot, a smiling waiter, offers that cup to you.",
-        ar: "بياتينو كلمة إيطالية تعني الصحن الصغير الذي يوضع عليه فنجان القهوة. والشخصية، نادل مبتسم، يقدّم لك هذا الفنجان.",
-      },
-      strategy: {
-        en: "A character gives a small café a personality that is easy to remember and easy to extend across packaging and social.",
-        ar: "الشخصية تمنح المقهى الصغير طابعًا سهل التذكر وسهل التوسع على التغليف والسوشيال.",
-      },
-      visual: {
-        en: "Orange brush ring, teal and mint, chocolate brown, and a hand-lettered script wordmark; a playful swirl pattern for packaging.",
-        ar: "حلقة فرشاة برتقالية، وتيل ونعناعي، وبني شوكولاتة، وشعار بخط يدوي، مع نقشة دوامات مرحة للتغليف.",
-      },
-      development: {
-        en: "The logo was tested on dark, cream and mint grounds, then applied to cups, bags and carriers.",
-        ar: "تم اختبار الشعار على خلفيات داكنة وكريمية ونعناعية، ثم تطبيقه على الأكواب والأكياس وحاملات الأكواب.",
-      },
-    },
-    deliverables: [{ en: "Character logo & variations", ar: "الشعار بالشخصية وتنويعاته" }, { en: "Packaging pattern", ar: "نقشة التغليف" }, { en: "Cups, bags & carriers", ar: "الأكواب والأكياس والحاملات" }],
-    gallery: [
-      { src: "assets/work/piattino/logos.webp", caption: { en: "Logo variations", ar: "تنويعات الشعار" } },
-      { src: "assets/work/piattino/packaging.webp", caption: { en: "Packaging applications", ar: "تطبيقات التغليف" } },
-      { src: "assets/work/piattino/board.webp", wide: true, caption: { en: "Identity overview board", ar: "لوحة عرض الهوية كاملة" } },
-    ],
-  },
-
   /* --------------------------------------------------------- INFOGRAPHICS */
   {
     slug: "infographics",
+    selfInitiated: true,
     featured: false,
     category: "editorial-print",
     year: "",
     title: { en: "Government Infographics", ar: "إنفوجرافيك حكومي" },
     client: { en: "Information design", ar: "تصميم معلومات" },
     summary: {
-      en: "Infographics on digital transformation, the entertainment sector, NEOM and the Saudi Green Initiative that turn dense figures into a clear visual story.",
-      ar: "إنفوجرافيك عن التحول الرقمي وقطاع الترفيه ونيوم والسعودية الخضراء، يحوّل الأرقام الكثيفة إلى قصة بصرية واضحة.",
+      en: "Infographics on digital transformation, the entertainment sector, NEOM and the Saudi Green Initiative. Each poster leads with one big idea, then breaks the figures into short, scannable blocks, because a clear hierarchy matters more than decoration. Every figure was checked against its source text.",
+      ar: "إنفوجرافيك عن التحول الرقمي وقطاع الترفيه ونيوم ومبادرة السعودية الخضراء. كل ملصق يبدأ بفكرة كبيرة واحدة، ثم يقسّم الأرقام إلى كتل قصيرة سهلة القراءة، لأن وضوح التسلسل أهم من الزخرفة. وتمت مراجعة كل رقم مقابل نصّه الأصلي.",
     },
     cover: "assets/work/infographics/cover.webp",
     coverAlt: { en: "Two dark infographic posters with green headlines and city skylines", ar: "ملصقا إنفوجرافيك داكنان بعناوين خضراء وأفق مدن" },
@@ -791,21 +802,22 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------ LOGO COLLECTION */
   {
     slug: "logo-collection",
+    selfInitiated: true,
     featured: false,
     category: "brand-identity",
     year: "",
     title: { en: "Logo Collection", ar: "مجموعة شعارات" },
-    client: { en: "Various clients", ar: "عملاء متعددون" },
+    client: { en: "Logo explorations", ar: "استكشافات شعارات" },
     summary: {
-      en: "A selection of logos for different industries: hospitality, beauty, mobility, marketing and more.",
-      ar: "مختارات من شعارات لقطاعات مختلفة: الضيافة، والتجميل، والتنقل، والتسويق، وغيرها.",
+      en: "A selection of self-initiated logos for different industries: hospitality, beauty, mobility, marketing and more. Each mark is built on one idea, a symbol or letterform that captures the brand's purpose and still works at small sizes, and is shown in one colour on black so the drawing speaks for itself.",
+      ar: "مختارات من شعارات ذاتية لقطاعات مختلفة: الضيافة، والتجميل، والتنقل، والتسويق، وغيرها. كل شعار مبني على فكرة واحدة، رمز أو حرف يلخّص هدف العلامة ويعمل في المقاسات الصغيرة، ومعروض بلون واحد على الأسود لتتكلم رسمته عن نفسها.",
     },
     cover: "assets/work/logo-collection/cover.webp",
     coverAlt: { en: "Grid of twelve logos in cream on black", ar: "شبكة من اثني عشر شعارًا بالكريمي على الأسود" },
     services: [{ en: "Logo design", ar: "تصميم الشعارات" }],
     palette: [],
     sections: {
-      brief: { en: "Each logo answers a different brief, from a hotel to a dog shelter.", ar: "كل شعار يجيب على بريف مختلف، من فندق إلى ملجأ للكلاب." },
+      brief: { en: "Each mark is a self-set challenge for a different kind of brand, from a hotel to a dog shelter.", ar: "كل شعار تحدٍّ وضعته لنفسي لنوع مختلف من العلامات، من فندق إلى ملجأ للكلاب." },
       concept: { en: "One idea per mark: a symbol or letterform that captures the brand's purpose and still works at small sizes.", ar: "فكرة واحدة لكل شعار: رمز أو حرف يلخّص هدف العلامة ويعمل في المقاسات الصغيرة." },
       strategy: { en: "", ar: "" },
       visual: { en: "Shown here in one colour on black, so the drawing of each mark speaks for itself.", ar: "معروضة هنا بلون واحد على الأسود، لتتكلم رسمة كل شعار عن نفسها." },
@@ -814,6 +826,7 @@ PORTFOLIO.projects = [
     deliverables: [{ en: "12 logos", ar: "12 شعارًا" }],
     gallery: [],
   },
+
 ];
 
 /* =========================================================================

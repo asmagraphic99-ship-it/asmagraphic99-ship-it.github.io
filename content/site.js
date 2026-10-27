@@ -7,7 +7,7 @@ window.PORTFOLIO = window.PORTFOLIO || {};
 
 PORTFOLIO.site = {
   name: { en: "Asma Othman", ar: "أسماء عثمان" },
-  role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" },
+  role: { en: "Art Director · Senior Graphic Designer", ar: "آرت دايركتور · مصممة جرافيك أولى" },
   location: { en: "Jeddah, Saudi Arabia", ar: "جدة، المملكة العربية السعودية" },
   since: 2019, // first year of professional work (used in the hero slug line)
 
@@ -30,8 +30,8 @@ PORTFOLIO.site = {
 
   // ---- Home page copy -------------------------------------------------------
   headline: {
-    en: "I build visual identities and campaigns with a clear point of view.",
-    ar: "أبني هويات بصرية وحملات إعلانية بوجهة نظر واضحة.",
+    en: "I develop ideas into clear visual directions, brand identities and campaigns—from concept through execution.",
+    ar: "أطوّر الأفكار إلى اتجاهات بصرية واضحة وهويات وحملات، من الفكرة حتى التنفيذ.",
   },
   intro: {
     en: "From the idea and creative direction to execution and motion. Seven years designing for brands across Saudi Arabia, the Gulf, Egypt and Turkey.",
@@ -54,18 +54,21 @@ PORTFOLIO.site = {
     ar: "التصميم الجيد لا يُرى فقط، بل يُحَسّ.",
   },
 
-  // Services exactly as listed under "Expertise" in the CV.
+  // Core services shown first on the home page.
   services: [
-    { en: "Brand Identity & Logo Design", ar: "الهوية البصرية وتصميم الشعارات" },
-    { en: "Visual Identity Systems", ar: "أنظمة الهوية البصرية" },
-    { en: "Social Media Design", ar: "تصميم السوشيال ميديا" },
-    { en: "Marketing & Advertising Design", ar: "التصميم التسويقي والإعلاني" },
-    { en: "Print & Digital Design", ar: "تصميم المطبوعات والتصميم الرقمي" },
-    { en: "Packaging Design", ar: "تصميم التغليف" },
+    { en: "Art Direction", ar: "الإدارة الفنية" },
+    { en: "Brand Identity & Visual Systems", ar: "الهوية البصرية وأنظمتها" },
+    { en: "Advertising & Marketing Campaigns", ar: "الحملات الإعلانية والتسويقية" },
+    { en: "Cross-platform Design: social, print, digital & packaging", ar: "التصميم عبر المنصات: سوشيال، مطبوعات، رقمي وتغليف" },
+  ],
+
+  // Smaller "additional skills" box under the services.
+  skills: [
     { en: "UI/UX Design", ar: "تصميم واجهات وتجربة المستخدم" },
     { en: "AI-Assisted Design", ar: "التصميم بمساعدة الذكاء الاصطناعي" },
-    { en: "Creative Direction", ar: "الإدارة الإبداعية" },
+    { en: "Motion & Video Editing", ar: "الموشن والمونتاج" },
   ],
+
 
   // Brand names shown in the moving strip on the home page (all from projects in this portfolio).
   brands: ["ICON Real Estate", "Safari", "Rashf", "CareDrive", "Zeina", "Visory", "ChillPop", "iCAUR", "Dallah Sukkar", "Wasabi", "925 Club", "Piattino Café", "Synexcell", "YZDAD", "Gate A", "Koki's Beauty", "Bassem El-Bahkery", "Dating Boat", "Awen", "Brown House", "Khawalid", "Venue Hotel"],
