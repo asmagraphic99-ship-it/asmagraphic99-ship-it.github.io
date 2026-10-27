@@ -156,7 +156,7 @@ PORTFOLIO.projects = [
     slug: "rashf",
     featured: true,
     category: "brand-identity",
-    year: "2026",
+    year: "2025",
     title: { en: "Rashf", ar: "رشف" },
     client: { en: "Rashf Café", ar: "رشف كافيه" },
     summary: {
@@ -275,7 +275,7 @@ PORTFOLIO.projects = [
     slug: "zeina",
     featured: true,
     category: "brand-identity",
-    year: "",
+    year: "2023",
     title: { en: "Zeina", ar: "زينة" },
     client: { en: "Zeina & More Jewellery", ar: "زينة للمجوهرات" },
     summary: {
@@ -378,7 +378,7 @@ PORTFOLIO.projects = [
     slug: "chillpop",
     featured: true,
     category: "brand-identity",
-    year: "2026",
+    year: "2025",
     title: { en: "ChillPop", ar: "تشيل بوب" },
     client: { en: "ChillPop Ice Cream", ar: "تشيل بوب آيس كريم" },
     summary: {
@@ -715,7 +715,7 @@ PORTFOLIO.projects = [
     slug: "piattino",
     featured: false,
     category: "brand-identity",
-    year: "",
+    year: "2024",
     title: { en: "Piattino Café", ar: "بياتينو كافيه" },
     client: { en: "Piattino Café", ar: "بياتينو كافيه" },
     summary: {
