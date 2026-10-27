@@ -90,7 +90,7 @@
     const { cls = "", ratio = "ratio-32", headingTag = "h3" } = opts;
     const n = projectIndex(p);
     const alt = L(p.title, other());
-    const meta = [catName(p.category), p.year].filter(Boolean).map(esc).join(" · ");
+    const meta = [catName(p.category)].filter(Boolean).map(esc).join(" · ");
     return `
       <a class="work-item ${cls}" href="#/work/${esc(p.slug)}" data-reveal>
         <div class="fig crop"><div class="media ${ratio}">${img(p.cover, L(p.coverAlt))}</div></div>
@@ -112,7 +112,7 @@
     return `
       <a class="motion-tile" href="#/work/${esc(p.slug)}" data-reveal>
         <div class="crop"><div class="media ratio-45">${media}${vid ? `<span class="play-tag">▶ ${esc(t("reel"))}</span>` : ""}</div></div>
-        <div class="cap"><p class="slug"><span class="accent">${esc(catName(p.category))}</span>${p.year ? ` · ${num(p.year)}` : ""}</p><h3>${esc(L(p.title))}</h3></div>
+        <div class="cap"><p class="slug"><span class="accent">${esc(catName(p.category))}</span></p><h3>${esc(L(p.title))}</h3></div>
       </a>`;
   }
 
@@ -241,7 +241,7 @@
       return `
       <a class="pf-card" href="#/work/${esc(p.slug)}" data-reveal>
         <div class="crop"><div class="media ratio-43">${img(p.cover, L(p.coverAlt))}</div>
-          <div class="pf-cap"><h3>${esc(L(p.title))}</h3><p>${esc(L(p.client))}</p></div>
+          <div class="pf-cap"><h3>${esc(L(p.title))}</h3><p>${esc(p.selfInitiated ? t("self_initiated") : L(p.client))}</p></div>
         </div>
       </a>`;
     }
@@ -290,7 +290,8 @@
           ${(SITE.services || []).map((sv, i) => `<li class="svc" data-reveal><span class="slug accent">${num(pad(i + 1))}</span><h3>${esc(L(sv))}</h3><p class="svc-alt" lang="${other()}">${esc(L(sv, other()))}</p></li>`).join("")}
         </ol>
         <div class="ai-kit" data-reveal>
-          <span class="slug accent">${esc(t("ai_toolkit"))}</span>
+          <span class="slug accent">${esc(t("extra_skills"))}</span>
+          <ul class="ai-tools extra-skills">${(SITE.skills || []).map((x) => `<li>${esc(L(x))}</li>`).join("")}</ul>
           <p class="ai-hf">${esc(t("ai_hf"))}</p>
           <ul class="ai-tools">${["ChatGPT", "Higgsfield AI", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI"].map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
         </div>
@@ -400,7 +401,7 @@
     const order = ["brief", "audience", "concept", "strategy", "visual", "development", "role"];
     const rows = [];
     order.filter((k) => L(s[k]).trim()).forEach((k) => {
-      rows.push({ label: t("s_" + k), body: `<p class="body">${esc(L(s[k]))}</p>` });
+      rows.push({ label: t(k === "brief" && p.selfInitiated ? "s_brief_self" : "s_" + k), body: `<p class="body">${esc(L(s[k]))}</p>` });
       if (k === "visual" && p.palette && p.palette.length) {
         rows.push({ label: t("palette"), body: `<div class="body chips">${p.palette.map((c) => `<span class="chip"><i style="background:${esc(c)}"></i><span class="slug" dir="ltr">${esc(c)}</span></span>`).join("")}</div>` });
       }
@@ -432,13 +433,13 @@
       html: `
       <article>
         <header class="wrap case-head" data-tone="espresso">
-          <p class="slug"><span class="accent">${num(pad(i + 1))} / ${num(pad(PROJECTS.length))}</span> · <a href="#/work?c=${esc(p.category)}">${esc(catName(p.category))}</a>${p.year ? ` · ${num(p.year)}` : ""}</p>
+          <p class="slug"><span class="accent">${num(pad(i + 1))} / ${num(pad(PROJECTS.length))}</span> · <a href="#/work?c=${esc(p.category)}">${esc(catName(p.category))}</a></p>
           ${gTitle(L(p.title), alt !== L(p.title) ? alt : "", "h1")}
+          ${p.selfInitiated ? `<p class="self-note"><span class="slug accent">${esc(t("self_initiated"))}</span> <span>${esc(t("self_initiated_note"))}</span></p>` : ""}
           <p class="lead">${esc(L(p.summary))}</p>
           <fieldset class="box"><legend>${esc(t("project_info"))}</legend>
             <dl class="meta-grid">
-              <div><dt class="slug">${esc(t("client"))}</dt><dd>${esc(L(p.client))}</dd></div>
-              <div><dt class="slug">${esc(t("year"))}</dt><dd>${p.year ? num(p.year) : "—"}</dd></div>
+              <div><dt class="slug">${esc(t(p.selfInitiated ? "brand" : "client"))}</dt><dd>${esc(L(p.client))}${p.selfInitiated ? `<br><span class="muted">${esc(t("self_initiated"))}</span>` : ""}</dd></div>
               <div><dt class="slug">${esc(t("category"))}</dt><dd>${esc(catName(p.category))}</dd></div>
               <div><dt class="slug">${esc(t("services"))}</dt><dd>${services || "—"}</dd></div>
             </dl>
@@ -481,7 +482,7 @@
             <div class="prose" style="display:grid;gap:1em;max-width:none">${paras.map((x, j) => `<p class="${j === 0 ? "lead" : ""}" style="max-width:none">${esc(x)}</p>`).join("")}</div></fieldset>
           ${SITE.quote ? `<blockquote class="pull" data-reveal>${esc(L(SITE.quote))}</blockquote>` : ""}
           <fieldset class="box" data-reveal><legend>${esc(t("capabilities"))}</legend>
-            <ul class="cols-2">${(SITE.services || []).map((s) => `<li>${esc(L(s))}</li>`).join("")}</ul></fieldset>
+            <ul class="cols-2">${(SITE.services || []).concat(SITE.skills || []).map((s) => `<li>${esc(L(s))}</li>`).join("")}</ul></fieldset>
           <fieldset class="box" data-reveal data-tone="olive"><legend>${esc(t("experience"))}</legend>
             <div class="xp-grid">
               ${xp.map((x) => `<div class="xp-item"><span class="yr">${esc(x.years)}</span><span class="co">${esc(L(x.company))}</span><span class="pl">${esc(L(x.place))}</span><span class="rl">${esc(L(x.role))}</span></div>`).join("")}
