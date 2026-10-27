@@ -255,7 +255,7 @@
       html: `
       <section class="wrap hero" data-tone="espresso" aria-labelledby="hero-title">
         <div class="hero-grid">
-          <div class="hero-photo">${SITE.heroPhoto ? `<img src="${esc(SITE.heroPhoto)}" alt="${esc(L(SITE.name))}" fetchpriority="high" data-fallback>` : ""}</div>
+          <div class="hero-photo"><span class="hero-poly" aria-hidden="true"></span>${SITE.heroPhoto ? `<img src="${esc(SITE.heroPhoto)}" alt="${esc(L(SITE.name))}" fetchpriority="high" data-fallback>` : ""}</div>
           <div class="hero-copy">
             <p class="slug">${esc(t("portfolio"))} · <span class="accent">${num(SITE.since || "")}—${num(year)}</span> · ${esc(L(SITE.location))}</p>
             <h1 class="hero-title" id="hero-title">
