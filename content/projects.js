@@ -144,7 +144,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/safari/book-6.webp", caption: { en: "Tagline: a taste worth the journey", ar: "العبارة: مذاق يستحق الرحلة" } },
       { src: "assets/work/safari/drive-through.webp", wide: true, caption: { en: "Drive-through handoff", ar: "التسليم من نافذة السيارة" } },
       { src: "assets/work/safari/pour.webp", caption: { en: "Arabic coffee pour", ar: "صب القهوة" } },
-      { src: "assets/work/safari/sticker-showcase.webp", caption: { en: "Sticker showcase", ar: "عرض الملصقات" } },
       { src: "assets/work/safari/bags.webp", wide: true, caption: { en: "Specialty coffee bags on roasted beans", ar: "أكياس القهوة المختصة على حبوب محمّصة" } },
       { src: "assets/work/safari/desert-brew.webp", caption: { en: "Desert brew", ar: "قهوة الصحراء" } },
       { src: "assets/work/safari/sticker.webp", caption: { en: "Icon sticker", ar: "ملصق الأيقونة" } },
