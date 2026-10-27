@@ -84,7 +84,7 @@ PORTFOLIO.projects = [
       { src: "assets/work/icon-real-estate/build-more.webp", caption: { en: "Story: we build more than buildings", ar: "ستوري: نبني أكثر من مجرد مباني" } },
       { src: "assets/work/icon-real-estate/quality-foundation.webp", caption: { en: "Story: quality starts from the foundation", ar: "ستوري: الجودة تبدأ من الأساس" } },
       { src: "assets/work/icon-real-estate/stories-1.webp", wide: true, caption: { en: "Stories: project launches for ICON 21, ICON 18 and ICON 20", ar: "ستوريز: إطلاق مشاريع ايكون 21 وايكون 18 وايكون 20" } },
-      { src: "assets/work/icon-real-estate/stories-2.webp", wide: true, caption: { en: "Stories: project features, locations and unit types", ar: "ستوريز: مميزات المشاريع ومواقعها ونماذج الوحدات" } },
+      { src: "assets/work/icon-real-estate/stories-2b.webp", wide: true, caption: { en: "Stories: project features, locations and unit types", ar: "ستوريز: مميزات المشاريع ومواقعها ونماذج الوحدات" } },
       { src: "assets/work/icon-real-estate/stories-3.webp", wide: true, caption: { en: "Stories: engagement, real estate advice and investment messages", ar: "ستوريز: محتوى تفاعلي ونصائح عقارية ورسائل استثمارية" } },
       { src: "assets/work/icon-real-estate/stories-4.webp", wide: true, caption: { en: "Stories: sales updates, from “sales open” to “sold out”", ar: "ستوريز: تحديثات المبيعات، من «بدأ البيع» إلى «تم البيع بالكامل»" } },
       { src: "assets/work/icon-real-estate/stories-5.webp", wide: true, caption: { en: "Stories: brand story and lifestyle", ar: "ستوريز: قصة العلامة وأسلوب الحياة" } },
