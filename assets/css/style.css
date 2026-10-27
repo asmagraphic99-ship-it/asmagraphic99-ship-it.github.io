@@ -526,7 +526,7 @@ html[lang="ar"] .contact-band h2 { line-height: 1.45; }
 .stats-band { padding-block: clamp(8px, 2vw, 24px) clamp(40px, 6vw, 80px); }
 .stats-row { display: flex; flex-wrap: wrap; gap: 18px clamp(32px, 6vw, 96px); padding-top: 24px; border-top: 1px solid var(--rule); }
 
-.svc-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
+.svc-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
 .svc { border: 1px solid var(--rule); border-radius: var(--radius); padding: clamp(20px, 2.4vw, 32px); display: grid; gap: 10px; align-content: start; background: color-mix(in srgb, var(--bg-2) 60%, transparent); transition: border-color .3s, transform .4s var(--ease); }
 .svc:hover { border-color: var(--copper); transform: translateY(-3px); }
 .svc h3 { font-family: var(--serif); font-size: var(--t-lg); line-height: 1.2; font-weight: 400; color: var(--ink); }
@@ -571,3 +571,7 @@ html[dir="rtl"] .marquee-track { animation-name: marquee-rtl; }
 html[lang="ar"] .ai-hf { font-family: var(--arabic); line-height: 1.6; }
 .ai-tools { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .ai-tools li { border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: var(--t-sm); color: var(--beige); }
+
+/* Self-initiated note on case studies */
+.self-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin: 0 0 18px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 999px; width: fit-content; max-width: 100%; color: var(--beige); font-size: var(--t-sm); }
+.ai-kit .extra-skills li { color: var(--ink); border-color: var(--copper); }
