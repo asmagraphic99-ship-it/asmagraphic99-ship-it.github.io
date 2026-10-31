@@ -300,7 +300,6 @@
               <a class="btn" href="#/contact">${esc(t("start_project"))}</a>
               ${SITE.cv ? `<a class="btn" href="${esc(SITE.cv)}" target="_blank" rel="noopener">${esc(t("cv"))} <span aria-hidden="true">↓</span></a>` : ""}
             </div>
-            ${(SITE.experience || [])[0] ? `<p class="now-line"><span class="dot" aria-hidden="true"></span><span class="slug accent">${esc(t("now_label"))}</span> ${esc(L(SITE.role))} · ${esc(L(SITE.experience[0].company))}, ${esc(L(SITE.experience[0].place))}</p>` : ""}
           </div>
         </div>
       </section>
