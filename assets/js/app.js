@@ -86,18 +86,28 @@
   }
   const uiOther = (key) => { const v = (UI[other()] || {})[key]; return typeof v === "string" ? v : ""; };
 
+  // Sector line, one-line outcome and up to three discipline tags under a project card.
+  function cardInfo(p) {
+    const tags = (p.services || []).slice(0, 3).map((x) => `<li>${esc(L(x))}</li>`).join("");
+    return `<div class="card-info">
+      ${p.sector ? `<p class="slug sector">${esc(L(p.sector))}</p>` : ""}
+      ${p.oneLine ? `<p class="one-line">${esc(L(p.oneLine))}</p>` : ""}
+      ${tags ? `<ul class="tags">${tags}</ul>` : ""}
+    </div>`;
+  }
+
   function workCard(p, opts = {}) {
     const { cls = "", ratio = "ratio-32", headingTag = "h3" } = opts;
     const n = projectIndex(p);
     const alt = L(p.title, other());
-    const meta = [catName(p.category)].filter(Boolean).map(esc).join(" · ");
+    const meta = [p.sector ? L(p.sector) : catName(p.category), p.selfInitiated ? t("self_initiated") : ""].filter(Boolean).map(esc).join(" · ");
     return `
       <a class="work-item ${cls}" href="#/work/${esc(p.slug)}" data-reveal>
         <div class="fig crop"><div class="media ${ratio}">${img(p.cover, L(p.coverAlt))}</div></div>
         <div class="cap">
           <p class="slug"><span class="accent">${num(pad(n))}</span> — ${meta}</p>
           <${headingTag}><span>${esc(L(p.title))}</span>${alt && alt !== L(p.title) ? `<span class="alt" lang="${other()}" dir="auto">${esc(alt)}</span>` : ""}</${headingTag}>
-          ${opts.summary ? `<p>${esc(L(p.summary))}</p>` : ""}
+          ${opts.summary ? (p.oneLine ? `<p>${esc(L(p.oneLine))}</p>${(p.services || []).length ? `<ul class="tags">${p.services.slice(0, 3).map((x) => `<li>${esc(L(x))}</li>`).join("")}</ul>` : ""}` : `<p>${esc(L(p.summary))}</p>`) : ""}
           ${opts.link ? `<span class="text-link">${esc(t("view_case"))} ${ARROW}</span>` : ""}
         </div>
       </a>`;
@@ -243,7 +253,25 @@
         <div class="crop"><div class="media ratio-43">${img(p.cover, L(p.coverAlt))}</div>
           <div class="pf-cap"><h3>${esc(L(p.title))}</h3><p>${esc(p.selfInitiated ? t("self_initiated") : L(p.client))}</p></div>
         </div>
+        ${cardInfo(p)}
       </a>`;
+    }
+    function xpSection() {
+      const xp = SITE.experience || [];
+      if (!xp.length) return "";
+      const head = (x, plus) => `<span class="yr">${esc(x.years)}</span><span class="rl">${esc(L(x.role))}</span><span class="co">${esc(L(x.company))} · ${esc(L(x.place))}</span>${plus ? `<span class="plus" aria-hidden="true">+</span>` : "<span></span>"}`;
+      const row = (x, i) => (x.summary || x.highlights)
+        ? `<details class="xp-row"${i === 0 ? " open" : ""}><summary>${head(x, true)}</summary>
+          <div class="xp-detail">${x.summary ? `<p>${esc(L(x.summary))}</p>` : ""}${x.highlights ? `<ul>${x.highlights.map((h) => `<li>${esc(L(h))}</li>`).join("")}</ul>` : ""}</div></details>`
+        : `<div class="xp-row"><div class="xp-static">${head(x, false)}</div></div>`;
+      const recent = xp.slice(0, 3), earlier = xp.slice(3);
+      return `<section class="wrap section" data-tone="espresso" aria-labelledby="xp-title">
+        <div class="section-head">${gTitle(t("xp_home_title"), uiOther("xp_home_title"), "h2", "xp-title")}<a class="text-link" href="#/about">${esc(t("more_about"))} ${ARROW}</a></div>
+        <p class="lead muted sel-lead">${esc(t("xp_home_lead"))}</p>
+        <div class="xp-list">${recent.map(row).join("")}
+          ${earlier.length ? `<details class="xp-more"><summary class="text-link"><span class="when-closed">${esc(t("show_earlier"))} ↓</span><span class="when-open">${esc(t("hide_earlier"))} ↑</span></summary>${earlier.map((x, i) => row(x, i + 3)).join("")}</details>` : ""}
+        </div>
+      </section>`;
     }
     const motionProjects = PROJECTS.filter((p) => p.category === "motion" || p.category === "ai-video");
     const counts = Object.keys(CATS).map((k) => ({ k, n: PROJECTS.filter((p) => p.category === k).length })).filter((c) => c.n);
@@ -272,6 +300,7 @@
               <a class="btn" href="#/contact">${esc(t("start_project"))}</a>
               ${SITE.cv ? `<a class="btn" href="${esc(SITE.cv)}" target="_blank" rel="noopener">${esc(t("cv"))} <span aria-hidden="true">↓</span></a>` : ""}
             </div>
+            ${(SITE.experience || [])[0] ? `<p class="now-line"><span class="dot" aria-hidden="true"></span><span class="slug accent">${esc(t("now_label"))}</span> ${esc(L(SITE.role))} · ${esc(L(SITE.experience[0].company))}, ${esc(L(SITE.experience[0].place))}</p>` : ""}
           </div>
         </div>
       </section>
@@ -301,6 +330,7 @@
         <div class="section-head">
           ${gTitle(t("selected_work"), uiOther("selected_work"), "h2", "sel-title")}
         </div>
+        <p class="lead muted sel-lead">${esc(t("sel_lead"))}</p>
         <div class="pf-grid">${featured.map(pfCard).join("") || `<p class="empty">${esc(t("gallery_empty"))}</p>`}</div>
         <div class="center-cta"><a class="btn btn--proof" href="#/work">${esc(t("view_all"))} (${num(PROJECTS.length)}) ${ARROW}</a></div>
       </section>
@@ -311,6 +341,8 @@
         <p class="lead muted" style="margin-top:-24px;margin-bottom:clamp(32px,4vw,56px)">${esc(t("motion_lead"))}</p>
         <div class="motion-grid">${motionProjects.flatMap((p) => (p.gallery || []).filter((g) => g.type === "video").map((g) => videoTile(p, g))).join("")}</div>
       </section>` : ""}
+
+      ${xpSection()}
 
       ${(SITE.brands || []).length ? `
       <section class="section brands" data-tone="espresso" aria-labelledby="brands-title">
@@ -347,6 +379,7 @@
         <div class="wrap">
           <fieldset class="box">
             <legend>${esc(t("nav_contact"))}</legend>
+            <p class="now-line avail"><span class="dot" aria-hidden="true"></span>${esc(t("availability"))}</p>
             <h2 id="cta-title">${esc(t("contact_big"))}</h2>
             <div><a class="big-email" href="mailto:${esc(SITE.email)}">${esc(SITE.email)}</a></div>
             <div class="contact-actions">
@@ -489,6 +522,8 @@
             </div></fieldset>
           ${SITE.education ? `<fieldset class="box" data-reveal><legend>${esc(t("education"))}</legend>
             <div class="xp-item"><span class="yr">${esc(SITE.education.years)}</span><span class="co">${esc(L(SITE.education.detail))}</span><span class="rl">${esc(L(SITE.education.title))}</span></div></fieldset>` : ""}
+          ${(SITE.languages || []).length ? `<fieldset class="box" data-reveal><legend>${esc(t("languages"))}</legend>
+            <div class="xp-grid">${SITE.languages.map((l) => `<div class="xp-item"><span class="co">${esc(L(l.name))}</span><span class="rl">${esc(L(l.level))}</span></div>`).join("")}</div></fieldset>` : ""}
           <fieldset class="box" data-reveal><legend>${esc(t("tools"))}</legend>
             <ul class="tools">${(SITE.tools || []).map((x) => `<li dir="ltr">${esc(L(x))}</li>`).join("")}</ul></fieldset>
           <div class="cta-row" data-reveal>${cvBtn}<a class="btn" href="#/contact">${esc(t("get_in_touch"))} ${ARROW}</a></div>
@@ -548,6 +583,7 @@
         <p class="slug">${esc(L(SITE.location))} · <span dir="ltr">21.54°N 39.17°E</span></p>
         ${gTitle(t("contact_title_big"), uiOther("contact_title_big"), "h1")}
         <p class="lead muted">${esc(t("contact_intro"))}</p>
+        <p class="now-line avail"><span class="dot" aria-hidden="true"></span>${esc(t("availability"))}</p>
       </section>
       <div class="wrap contact-page" data-tone="copper">
         <fieldset class="box"><legend>${esc(t("email"))}</legend>
