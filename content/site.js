@@ -76,7 +76,13 @@ PORTFOLIO.site = {
 
   // Most recent first. Dates and cities from your CV.
   experience: [
-    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" } },
+    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" },
+      summary: { en: "I lead how ICON looks everywhere it appears, and design the work myself: social media, launch campaigns, print, sales material and video.", ar: "أقود شكل ايكون في كل مكان تظهر فيه، وأصمّم الشغل بنفسي: السوشيال ميديا وحملات الإطلاق والمطبوعات ومواد المبيعات والفيديو." },
+      highlights: [
+        { en: "Built the brand's social media from scratch", ar: "أسّست السوشيال ميديا للعلامة من الصفر" },
+        { en: "One visual system for every launch, ICON 18 to ICON 21", ar: "نظام بصري واحد لكل إطلاق، من ايكون 18 إلى ايكون 21" },
+        { en: "Posts, stories, reels, print and sales material", ar: "منشورات وستوريز وريلز ومطبوعات ومواد مبيعات" },
+      ] },
     { years: "Jun 2023 — Jun 2025", company: "Happenize", place: { en: "Dubai, UAE", ar: "دبي، الإمارات" }, role: { en: "Senior Graphic Designer · UI/UX Designer", ar: "مصممة جرافيك أولى · مصممة UI/UX" } },
     { years: "Oct 2021 — Dec 2022", company: "Montasher Sa", place: { en: "Riyadh, Saudi Arabia", ar: "الرياض، السعودية" }, role: { en: "Branding Designer", ar: "مصممة هويات" } },
     { years: "Oct 2020 — Jan 2021", company: "Ektsap", place: { en: "Istanbul, Turkey", ar: "إسطنبول، تركيا" }, role: { en: "Graphic Designer", ar: "مصممة جرافيك" } },
@@ -90,6 +96,11 @@ PORTFOLIO.site = {
     title: { en: "Bachelor of Applied Arts", ar: "بكالوريوس الفنون التطبيقية" },
     detail: { en: "Graphic & Advertising Department", ar: "قسم الجرافيك والإعلان" },
   },
+
+  languages: [
+    { name: { en: "Arabic", ar: "العربية" }, level: { en: "Native", ar: "اللغة الأم" } },
+    { name: { en: "English", ar: "الإنجليزية" }, level: { en: "Working language for design", ar: "لغة عمل في التصميم" } },
+  ],
 
   tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premiere Pro", "Figma", "ChatGPT", "Adobe Firefly", "Midjourney", "Microsoft Copilot", "Canva AI", "Higgsfield AI"],
 

@@ -30,6 +30,8 @@ PORTFOLIO.projects = [
   /* ---------------------------------------------------- ICON REAL ESTATE */
   {
     slug: "icon-real-estate",
+    sector: { en: "Real estate · Jeddah", ar: "عقارات · جدة" },
+    oneLine: { en: "Built the brand's social media from scratch and set one look for every launch, from ICON 18 to ICON 21.", ar: "أسّست السوشيال ميديا للعلامة من الصفر ووضعت شكلًا واحدًا لكل إطلاق، من ايكون 18 إلى ايكون 21." },
     featured: true,
     category: "real-estate",
     year: "2026",
@@ -94,6 +96,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------ SAFARI */
   {
     slug: "safari",
+    sector: { en: "Specialty coffee · Saudi Arabia", ar: "قهوة مختصة · السعودية" },
+    oneLine: { en: "A coffee brand built on one idea, the journey, carried from the logo to cups, bags and a drive-through.", ar: "علامة قهوة مبنية على فكرة واحدة، الرحلة، من الشعار إلى الأكواب والأكياس ونافذة السيارة." },
     selfInitiated: true,
     featured: true,
     category: "brand-identity",
@@ -155,6 +159,8 @@ PORTFOLIO.projects = [
   /* ---------------------------------------------------------------- RASHF */
   {
     slug: "rashf",
+    sector: { en: "Café", ar: "مقهى" },
+    oneLine: { en: "A modern coffee experience with an Arabic spirit, from the logotype to cups, packaging and the storefront.", ar: "تجربة قهوة حديثة بروح عربية، من الشعار إلى الأكواب والتغليف وواجهة المحل." },
     selfInitiated: true,
     featured: true,
     category: "brand-identity",
@@ -222,6 +228,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------- CHILLPOP */
   {
     slug: "chillpop",
+    sector: { en: "Ice cream", ar: "آيس كريم" },
+    oneLine: { en: "A glossy, melting wordmark and candy palette that make the brand feel fun from the first glance.", ar: "شعار لامع يذوب بالألوان ولوحة حلوى تجعل العلامة مرحة من أول نظرة." },
     selfInitiated: true,
     featured: true,
     category: "brand-identity",
@@ -276,6 +284,8 @@ PORTFOLIO.projects = [
   /* ---------------------------------------------------------------- ZEINA */
   {
     slug: "zeina",
+    sector: { en: "Jewellery", ar: "مجوهرات" },
+    oneLine: { en: "Identity and packaging where every piece feels like a gift, down to the ring box and the foil.", ar: "هوية وتغليف تجعل كل قطعة تبدو كهدية، حتى علبة الخاتم والفويل." },
     selfInitiated: true,
     featured: true,
     category: "brand-identity",
@@ -327,6 +337,8 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------------- CAREDRIVE */
   {
     slug: "caredrive",
+    sector: { en: "Child transport", ar: "نقل الأطفال" },
+    oneLine: { en: "A C and D that form one protective mark around a child, built to read at app-icon size.", ar: "حرفا C وD يشكّلان رمزًا واحدًا يحمي الطفل، واضحًا حتى بحجم أيقونة التطبيق." },
     featured: true,
     category: "brand-identity",
     year: "2026",
@@ -380,6 +392,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------ VISORY */
   {
     slug: "visory",
+    sector: { en: "Visual production", ar: "إنتاج بصري" },
+    oneLine: { en: "A V merged with a play button, plus a guideline that keeps the brand consistent everywhere.", ar: "حرف V مدمج مع زر التشغيل، ودليل يحافظ على اتساق العلامة في كل مكان." },
     featured: false,
     category: "brand-identity",
     year: "2026",
@@ -433,6 +447,8 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------------------- WASABI */
   {
     slug: "wasabi",
+    sector: { en: "Restaurant", ar: "مطعم" },
+    oneLine: { en: "Chopsticks lifting a red sun, with the menu leading a bilingual identity system.", ar: "عيدان تحمل شمسًا حمراء، والمنيو يقود نظام هوية بلغتين." },
     selfInitiated: true,
     featured: false,
     category: "editorial-print",
@@ -489,6 +505,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------- PIATTINO */
   {
     slug: "piattino",
+    sector: { en: "Café", ar: "مقهى" },
+    oneLine: { en: "A smiling-waiter mascot that gives a small café a personality customers remember.", ar: "شخصية نادل مبتسم تمنح المقهى الصغير طابعًا يتذكره الزبائن." },
     selfInitiated: true,
     featured: false,
     category: "brand-identity",
@@ -536,6 +554,8 @@ PORTFOLIO.projects = [
   /* ---------------------------------------------------------- 925 CLUB */
   {
     slug: "club-925",
+    sector: { en: "Sport & lifestyle", ar: "رياضة وأسلوب حياة" },
+    oneLine: { en: "Interlocked 9, 2 and 5 in one mark, built to stay recognisable on fabric.", ar: "الأرقام 9 و2 و5 متداخلة في رمز واحد يبقى واضحًا على القماش." },
     selfInitiated: true,
     featured: false,
     category: "brand-identity",
@@ -580,6 +600,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------------ iCAUR V27 */
   {
     slug: "icaur-v27",
+    sector: { en: "Automotive", ar: "سيارات" },
+    oneLine: { en: "Six posts that read as one journey, from the open desert to Riyadh at night.", ar: "ستة منشورات تُقرأ كرحلة واحدة، من الصحراء المفتوحة إلى الرياض ليلًا." },
     selfInitiated: true,
     featured: true,
     category: "social-media",
@@ -631,6 +653,8 @@ PORTFOLIO.projects = [
   /* -------------------------------------------------------- DALLAH SUKKAR */
   {
     slug: "dallah-sukkar",
+    sector: { en: "Desserts · Saudi Arabia", ar: "حلويات · السعودية" },
+    oneLine: { en: "Hospitality-led posts that sell both the dessert and the moment around it.", ar: "منشورات قائمة على الضيافة تبيع الحلى واللحظة التي حوله." },
     selfInitiated: true,
     featured: false,
     category: "social-media",
@@ -680,6 +704,8 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------- AI · NATIONAL DAY */
   {
     slug: "ai-national-day",
+    sector: { en: "AI film · Saudi National Day", ar: "فيلم بالذكاء الاصطناعي · اليوم الوطني" },
+    oneLine: { en: "A 46-second film, from concept and a 14-scene storyboard to AI-generated shots and the final edit.", ar: "فيلم مدته 46 ثانية، من الفكرة وستوري بورد من 14 مشهدًا إلى لقطات مولّدة بالذكاء الاصطناعي والمونتاج النهائي." },
     selfInitiated: true,
     featured: true,
     category: "ai-video",
@@ -735,6 +761,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------ MOTION & EDITING */
   {
     slug: "motion-editing",
+    sector: { en: "Motion · Real estate", ar: "موشن · عقارات" },
+    oneLine: { en: "Reels, montages and ads that keep ICON's channels moving between launches.", ar: "ريلز ومونتاج وإعلانات تُبقي قنوات ايكون نشطة بين الإطلاقات." },
     featured: false,
     category: "motion",
     year: "2026",
@@ -769,6 +797,8 @@ PORTFOLIO.projects = [
   /* --------------------------------------------------------- INFOGRAPHICS */
   {
     slug: "infographics",
+    sector: { en: "Information design", ar: "تصميم معلوماتي" },
+    oneLine: { en: "Dense national figures turned into posters people actually read.", ar: "أرقام وطنية كثيفة تحوّلت إلى ملصقات يقرأها الناس فعلًا." },
     selfInitiated: true,
     featured: false,
     category: "editorial-print",
@@ -802,6 +832,8 @@ PORTFOLIO.projects = [
   /* ------------------------------------------------------ LOGO COLLECTION */
   {
     slug: "logo-collection",
+    sector: { en: "Logo design", ar: "تصميم شعارات" },
+    oneLine: { en: "One idea per mark, across hospitality, beauty, mobility and more.", ar: "فكرة واحدة لكل شعار، في الضيافة والتجميل والتنقل وغيرها." },
     selfInitiated: true,
     featured: false,
     category: "brand-identity",
