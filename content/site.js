@@ -76,8 +76,8 @@ PORTFOLIO.site = {
 
   // Most recent first. Dates and cities from your CV.
   experience: [
-    { years: "Mar 2025 — Now", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" },
-      summary: { en: "I lead how ICON looks everywhere it appears, and design the work myself: social media, launch campaigns, print, sales material and video.", ar: "أقود شكل ايكون في كل مكان تظهر فيه، وأصمّم الشغل بنفسي: السوشيال ميديا وحملات الإطلاق والمطبوعات ومواد المبيعات والفيديو." },
+    { years: "2025", company: "Icon Real Estate", place: { en: "Jeddah, Saudi Arabia", ar: "جدة، السعودية" }, role: { en: "Senior Graphic Designer · Junior Art Director", ar: "مصممة جرافيك أولى · جونيور آرت دايركتور" },
+      summary: { en: "Responsible for how ICON looks everywhere it appears, designing the work myself: social media, launch campaigns, print, sales material and video.", ar: "مسؤولة عن شكل ايكون في كل مكان تظهر فيه، مع تصميم الشغل بنفسي: السوشيال ميديا وحملات الإطلاق والمطبوعات ومواد المبيعات والفيديو." },
       highlights: [
         { en: "Built the brand's social media from scratch", ar: "أسّست السوشيال ميديا للعلامة من الصفر" },
         { en: "One visual system for every launch, ICON 18 to ICON 21", ar: "نظام بصري واحد لكل إطلاق، من ايكون 18 إلى ايكون 21" },

@@ -71,8 +71,8 @@ PORTFOLIO.projects = [
         ar: "جمهوران في جدة: عائلات تبحث عن بيت في حي مطلوب، ومستثمرون يبحثون عن قيمة طويلة المدى. كل منشور يخاطب واحدًا منهما.",
       },
       role: {
-        en: "I work as Senior Graphic Designer and Junior Art Director for Icon Real Estate. I built the brand's social media presence from the ground up, and I own how ICON looks everywhere it appears: social channels, launch campaigns, print, sales presentations and video. Every project, from ICON 18 to ICON 21, goes through one visual system, so the brand is recognised before the logo is read.",
-        ar: "أعمل مصممة جرافيك أولى وجونيور آرت دايركتور لايكون العقارية. أسّست حضور العلامة على السوشيال ميديا من الصفر، وأنا المسؤولة عن شكل ايكون في كل مكان تظهر فيه: منصات السوشيال، وحملات الإطلاق، والمطبوعات، وعروض المبيعات، والفيديو. كل مشروع من ايكون 18 إلى ايكون 21 يمر بنظام بصري واحد، حتى تُعرف العلامة قبل أن يُقرأ شعارها.",
+        en: "Senior Graphic Designer and Junior Art Director for Icon Real Estate. I built the brand's social media presence from the ground up, and took ownership of how ICON looks everywhere it appears: social channels, launch campaigns, print, sales presentations and video. Every project, from ICON 18 to ICON 21, goes through one visual system, so the brand is recognised before the logo is read.",
+        ar: "مصممة جرافيك أولى وجونيور آرت دايركتور لايكون العقارية. أسّست حضور العلامة على السوشيال ميديا من الصفر، وتولّيت مسؤولية شكل ايكون في كل مكان تظهر فيه: منصات السوشيال، وحملات الإطلاق، والمطبوعات، وعروض المبيعات، والفيديو. كل مشروع من ايكون 18 إلى ايكون 21 يمر بنظام بصري واحد، حتى تُعرف العلامة قبل أن يُقرأ شعارها.",
       },
     },
     deliverables: [
