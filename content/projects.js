@@ -758,6 +758,73 @@ PORTFOLIO.projects = [
     ],
   },
 
+  /* ------------------------------------------------------------- KYU · Q */
+  {
+    slug: "q-ai-ad",
+    sector: { en: "AI ad film · Grocery delivery app", ar: "إعلان بالذكاء الاصطناعي · تطبيق توصيل بقالة" },
+    oneLine: { en: "A 36-second comedy-horror ad: an empty fridge turns the house into a horror film, and one order on the app ends it.", ar: "إعلان كوميدي بطابع الرعب مدته 36 ثانية: ثلاجة فاضية تقلب البيت فيلم رعب، وطلب واحد من التطبيق ينهي القصة." },
+    selfInitiated: true,
+    featured: false,
+    category: "ai-video",
+    year: "2026",
+    title: { en: "Kyu · Horror Story Ad", ar: "كيو · لا تخلّي السالفة رعب" },
+    client: { en: "Kyu (Q), grocery delivery app", ar: "كيو، تطبيق توصيل بقالة" },
+    summary: {
+      en: "A main ad for Kyu, a grocery delivery app that delivers in 20 minutes. Grocery apps usually sell price and speed; I sold a feeling everyone at home knows: the moment someone opens an empty fridge. The ad plays it as a horror film, with a shadow monster growing behind the husband who is busy gaming, then cuts to the way out: one order on the app, a notification, the courier at the door and a wink. I wrote the concept and script, directed every AI-generated shot, built the sound design and the edit, and designed the end-card typography.",
+      ar: "إعلان رئيسي لتطبيق كيو لتوصيل البقالة خلال 20 دقيقة. تطبيقات البقالة عادةً تبيع السعر والسرعة؛ أنا بعت إحساس يعرفه كل بيت: لحظة ما حد يفتح الثلاجة ويلاقيها فاضية. الإعلان يحكيها كفيلم رعب، بظل وحش يكبر ورا الزوج المشغول باللعب، ثم ينتقل للمخرج: طلب واحد من التطبيق، إشعار، المندوب على الباب، وغمزة. كتبت الفكرة والسكريبت، ووجّهت كل لقطة مولّدة بالذكاء الاصطناعي، وبنيت الصوت والمونتاج، وصممت تايبوغرافي الكادر الختامي.",
+    },
+    cover: "assets/work/q-ai-ad/cover.webp",
+    coverAlt: { en: "A man gaming on the sofa while a monster shadow looms on the wall, with the line “Don’t let it turn into a horror story”", ar: "رجل يلعب على الكنبة وظل وحش ضخم على الحائط خلفه، مع عبارة «لا تخلّي السالفة رعب»" },
+    services: [{ en: "Concept & script", ar: "الفكرة والسكريبت" }, { en: "Art direction", ar: "الإدارة الفنية" }, { en: "AI video direction (Higgsfield AI)", ar: "إخراج الفيديو بالذكاء الاصطناعي (Higgsfield AI)" }, { en: "Edit & sound design", ar: "المونتاج وتصميم الصوت" }, { en: "End-card typography", ar: "تايبوغرافي الكادر الختامي" }],
+    palette: ["#0E2236", "#2EC4C0", "#F4F1EA", "#1B1B1F"],
+    sections: {
+      brief: {
+        en: "Make one main ad for a grocery delivery app that people remember and share, and prove a full ad can be concepted, directed and finished with AI, without a crew, a set or actors. The app’s promise: groceries at your door in 20 minutes.",
+        ar: "إعلان رئيسي واحد لتطبيق توصيل بقالة يفتكره الناس ويشاركوه، وإثبات إن إعلان كامل ممكن يتعمل فكرة وإخراج وتنفيذ بالذكاء الاصطناعي بدون فريق تصوير أو لوكيشن أو ممثلين. وعد التطبيق: البقالة عند بابك خلال 20 دقيقة.",
+      },
+      concept: {
+        en: "“Don’t let it turn into a horror story, leave it to Kyu.” An empty fridge is a small domestic crisis, so I shot it like one: the wife opens the fridge, the music drops, and a monster shadow rises on the wall behind the husband, who is still gaming with his headphones on. The genre does the selling. When he finally sees it, he orders on Kyu, the doorbell rings, and the horror turns back into a normal, happy evening.",
+        ar: "«لا تخلّي السالفة رعب، خلّها على كيو». الثلاجة الفاضية أزمة بيتية صغيرة، فصوّرتها كأزمة: الزوجة تفتح الثلاجة، الموسيقى تقع، وظل وحش يطلع على الحيطة ورا الزوج اللي لسه بيلعب والسماعة على ودنه. نوع الفيلم نفسه هو اللي بيبيع. ولما ياخد باله، يطلب من كيو، الجرس يرن، والرعب يرجع سهرة عادية سعيدة.",
+      },
+      strategy: {
+        en: "Grocery delivery is a crowded category where every app says “fast” and “cheap”. Owning a situation instead of a feature makes the brand easier to remember. The structure is built for YouTube: a hook in the first three seconds (an empty fridge and a shocked face), tension in the middle, and the product arriving as the hero that solves it. The app is shown working (browse, order, “your order has arrived”) so the benefit is seen, not claimed, and the brand and line sit alone on the end card.",
+        ar: "توصيل البقالة سوق زحمة وكل تطبيق بيقول «أسرع» و«أرخص». امتلاك موقف بدل ميزة بيخلّي العلامة أسهل في التذكّر. البناء معمول ليوتيوب: هوك في أول 3 ثواني (ثلاجة فاضية ووش مصدوم)، توتر في النص، والمنتج يدخل كبطل يحلّ المشكلة. التطبيق ظاهر وهو شغّال (تصفّح، طلب، «وصلنا طلبك!») عشان الفايدة تتشاف مش تتقال، والعلامة والجملة لوحدهم في الكادر الختامي.",
+      },
+      visual: {
+        en: "Two worlds, two lights: horror in cold blue and hard shadow, the solution in warm daylight. The monster is only ever a shadow, so it stays funny rather than frightening. The app UI and end card share the brand’s teal and deep navy, and the end-card lettering is a hand-styled Arabic headline with the brand name picked out in teal.",
+        ar: "عالمين بإضاءتين: الرعب بالأزرق البارد والظل القاسي، والحل بضوء النهار الدافي. الوحش طول الوقت ظل بس، عشان يفضل مضحك مش مخيف. واجهة التطبيق والكادر الختامي بنفس الفيروزي والكحلي الغامق للعلامة، وعنوان الختام بخط عربي مرسوم يدويًا مع اسم العلامة بالفيروزي.",
+      },
+      development: {
+        en: "Script and shot list, then reference frames to lock the characters, the kitchen and the living room. Each shot was generated on Higgsfield AI from those references, so faces and wardrobe stay consistent, then animated with image-to-video. I designed the app screens shown on the phone, built the sound in separate stems (dialogue, music, effects and ambience) for a clean final mix, and went through about eleven rounds of edit, grade and sound revisions to the final 36-second 16:9 master.",
+        ar: "سكريبت وقائمة لقطات، ثم صور مرجعية لتثبيت الشخصيات والمطبخ والصالة. كل لقطة اتولّدت على Higgsfield AI من المراجع دي عشان الوشوش والملابس تفضل ثابتة، وبعدين اتحرّكت بتحويل الصورة لفيديو. صممت شاشات التطبيق اللي ظاهرة على الجوال، وبنيت الصوت في مسارات منفصلة (حوار، موسيقى، مؤثرات، أجواء) لميكس نهائي نضيف، وعدّيت على حوالي 11 جولة تعديل في المونتاج والألوان والصوت لحد الماستر النهائي 36 ثانية بمقاس 16:9.",
+      },
+      role: {
+        en: "Concept, script and storyboard; art direction; AI image and video direction; app screen design; edit, sound design and end-card typography.",
+        ar: "الفكرة والسكريبت والستوري بورد، والإدارة الفنية، وإخراج الصور والفيديو بالذكاء الاصطناعي، وتصميم شاشات التطبيق، والمونتاج وتصميم الصوت وتايبوغرافي الكادر الختامي.",
+      },
+    },
+    deliverables: [
+      { en: "36-second main ad (16:9, YouTube)", ar: "إعلان رئيسي 36 ثانية (16:9، يوتيوب)" },
+      { en: "15-second cutdown and 6-second bumper", ar: "نسخة 15 ثانية وبامبر 6 ثواني" },
+      { en: "9:16 and 4:5 versions for Reels and feed", ar: "نسخ 9:16 و4:5 للريلز والفيد" },
+      { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/q-ai-ad/film.mp4", poster: "assets/work/q-ai-ad/film-poster.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { src: "assets/work/q-ai-ad/fridge.webp", caption: { en: "01 The hook: an empty fridge", ar: "01 الهوك: ثلاجة فاضية" } },
+      { src: "assets/work/q-ai-ad/monster.webp", caption: { en: "02 The shadow grows behind him", ar: "02 الظل يكبر وراه" } },
+      { src: "assets/work/q-ai-ad/scream.webp", caption: { en: "03 Peak horror", ar: "03 ذروة الرعب" } },
+      { src: "assets/work/q-ai-ad/husband.webp", caption: { en: "04 He finally notices", ar: "04 أخيرًا ياخد باله" } },
+      { src: "assets/work/q-ai-ad/app.webp", caption: { en: "05 The way out: one order on Kyu", ar: "05 المخرج: طلب واحد من كيو" } },
+      { src: "assets/work/q-ai-ad/notify.webp", caption: { en: "06 “Your order has arrived!”", ar: "06 «وصلنا طلبك!»" } },
+      { src: "assets/work/q-ai-ad/delivery.webp", caption: { en: "07 The courier at the door", ar: "07 المندوب على الباب" } },
+      { src: "assets/work/q-ai-ad/wink.webp", caption: { en: "08 Back to normal, with a wink", ar: "08 رجعت عادي، مع غمزة" } },
+      { src: "assets/work/q-ai-ad/endcard.webp", wide: true, caption: { en: "End card: “Don’t let it turn into a horror story · Leave it to Kyu”", ar: "الكادر الختامي: «لا تخلّي السالفة رعب · خلّها على كيو»" } },
+      { src: "assets/work/q-ai-ad/ref-frame.webp", wide: true, caption: { en: "Process: a reference frame used to lock characters and lighting", ar: "مراحل العمل: صورة مرجعية لتثبيت الشخصيات والإضاءة" } },
+      { src: "assets/work/q-ai-ad/app-ui.webp", caption: { en: "The app screen designed for the ad (20-minute delivery)", ar: "شاشة التطبيق المصممة للإعلان (توصيل خلال 20 دقيقة)" } },
+    ],
+  },
+
   /* ------------------------------------------------------ MOTION & EDITING */
   {
     slug: "motion-editing",
