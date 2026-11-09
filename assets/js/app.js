@@ -447,7 +447,9 @@
     // Numbered because the sections follow the order of the design process.
     const rowsHtml = rows.map((r, j) => `<div class="case-row" data-reveal><p class="label slug"><span class="accent">${num(pad(j + 1))}</span> — ${esc(r.label)}</p>${r.body}</div>`).join("");
 
-    const gallery = (p.gallery || []).map((g, j) => {
+    // A gallery video marked hero takes the cover slot, full width, so the film leads the case study.
+    const heroVid = (p.gallery || []).find((g) => g.type === "video" && g.hero);
+    const gallery = (p.gallery || []).filter((g) => g !== heroVid).map((g, j) => {
       const cap = L(g.caption);
       const inner = g.type === "video"
         ? `<video src="${esc(g.src)}" ${g.poster ? `poster="${esc(g.poster)}"` : ""} controls playsinline preload="metadata" aria-label="${esc(cap || t("play_video"))}"></video>`
@@ -477,7 +479,7 @@
             </dl>
           </fieldset>
         </header>
-        <div class="wrap case-cover" data-tone="copper"><div class="crop"><div class="media" style="background:none">${p.cover ? `<img src="${esc(p.cover)}" alt="${esc(L(p.coverAlt))}" data-fallback>` : `<div class="media is-static">${placeholder("assets/work/" + p.slug + "/cover.webp")}</div>`}</div></div></div>
+        <div class="wrap case-cover${heroVid ? " is-film" : ""}" data-tone="copper"><div class="crop"><div class="media" style="background:none">${heroVid ? `<video src="${esc(heroVid.src)}" poster="${esc(heroVid.poster || p.cover)}" controls playsinline preload="metadata" aria-label="${esc(L(heroVid.caption) || t("play_video"))}"></video>` : p.cover ? `<img src="${esc(p.cover)}" alt="${esc(L(p.coverAlt))}" data-fallback>` : `<div class="media is-static">${placeholder("assets/work/" + p.slug + "/cover.webp")}</div>`}</div></div></div>
         <div class="wrap case-sections" data-tone="espresso">${rowsHtml}</div>
         <div class="wrap" data-tone="olive">
           ${gallery ? `<div class="gallery">${gallery}</div>` : `<p class="empty slug">${esc(t("gallery_empty"))}</p>`}
