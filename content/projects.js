@@ -80,7 +80,7 @@ PORTFOLIO.projects = [
       { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
     ],
     gallery: [
-      { type: "video", src: "assets/work/q-ai-ad/film-final.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { type: "video", hero: true, src: "assets/work/q-ai-ad/film-hd.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
       { src: "assets/work/q-ai-ad/cover.webp", wide: true, caption: { en: "Key visual: the campaign billboard and the ad’s cover", ar: "البوستر الرئيسي: بيلبورد الحملة وغلاف الإعلان" } },
       { src: "assets/work/q-ai-ad/ooh-mall.webp", wide: true, caption: { en: "Out-of-home: mall facade screen and digital totems", ar: "إعلانات خارجية: شاشة واجهة مول وتوتمات رقمية" } },
       { src: "assets/work/q-ai-ad/ooh-billboard.webp", caption: { en: "Highway billboard", ar: "بيلبورد على الطريق السريع" } },
