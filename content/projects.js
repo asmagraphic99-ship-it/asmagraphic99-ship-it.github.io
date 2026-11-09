@@ -80,7 +80,7 @@ PORTFOLIO.projects = [
       { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
     ],
     gallery: [
-      { type: "video", hero: true, src: "assets/work/q-ai-ad/film-hd.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { type: "video", hero: true, src: "assets/work/q-ai-ad/film-hq.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
       { src: "assets/work/q-ai-ad/cover.webp", wide: true, caption: { en: "Key visual: the campaign billboard and the ad’s cover", ar: "البوستر الرئيسي: بيلبورد الحملة وغلاف الإعلان" } },
       { src: "assets/work/q-ai-ad/ooh-mall.webp", wide: true, caption: { en: "Out-of-home: mall facade screen and digital totems", ar: "إعلانات خارجية: شاشة واجهة مول وتوتمات رقمية" } },
       { src: "assets/work/q-ai-ad/ooh-billboard.webp", caption: { en: "Highway billboard", ar: "بيلبورد على الطريق السريع" } },
@@ -95,7 +95,6 @@ PORTFOLIO.projects = [
       { src: "assets/work/q-ai-ad/wink.webp", caption: { en: "08 Back to normal, with a wink", ar: "08 رجعت عادي، مع غمزة" } },
       { src: "assets/work/q-ai-ad/endcard.webp", wide: true, caption: { en: "End card: “Don’t let it turn into a horror story · Leave it to Q”", ar: "الكادر الختامي: «لا تخلّي السالفة رعب · خلّها على كيو»" } },
       { src: "assets/work/q-ai-ad/ref-frame.webp", wide: true, caption: { en: "Process: a reference frame used to lock characters and lighting", ar: "مراحل العمل: صورة مرجعية لتثبيت الشخصيات والإضاءة" } },
-      { src: "assets/work/q-ai-ad/app-ui.webp", caption: { en: "The app screen designed for the ad (20-minute delivery)", ar: "شاشة التطبيق المصممة للإعلان (توصيل خلال 20 دقيقة)" } },
     ],
   },
 
