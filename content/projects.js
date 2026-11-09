@@ -767,7 +767,7 @@ PORTFOLIO.projects = [
     featured: false,
     category: "ai-video",
     year: "2026",
-    title: { en: "Q · Horror Story Campaign", ar: "Q · حملة «لا تخلّي السالفة رعب»" },
+    title: { en: "Q · Horror Story Campaign", ar: "Q · حملة لا تخلّي السالفة رعب" },
     client: { en: "Q, grocery delivery app", ar: "Q، تطبيق توصيل بقالة" },
     summary: {
       en: "A different kind of grocery campaign. Instead of selling price or speed, it grabs attention with a moment everyone recognises and positions Q as the rescuer when things go wrong at home. The hero film plays an empty fridge as a horror story: the wife opens it, a monster shadow rises behind the husband who is busy gaming, and Q saves the evening with one order, a notification, the courier at the door and a wink. The same idea runs across the campaign: the main film, cutdowns for YouTube and social, and a key visual adapted for billboards, mall screens and bus shelters. I wrote the concept and script, directed every AI-generated shot, built the sound and the edit, and designed the campaign typography.",
