@@ -774,7 +774,7 @@ PORTFOLIO.projects = [
       ar: "إعلان رئيسي لتطبيق Q لتوصيل البقالة خلال 20 دقيقة. تطبيقات البقالة عادةً تبيع السعر والسرعة؛ أنا بعت إحساس يعرفه كل بيت: لحظة ما حد يفتح الثلاجة ويلاقيها فاضية. الإعلان يحكيها كفيلم رعب، بظل وحش يكبر ورا الزوج المشغول باللعب، ثم ينتقل للمخرج: طلب واحد من التطبيق، إشعار، المندوب على الباب، وغمزة. كتبت الفكرة والسكريبت، ووجّهت كل لقطة مولّدة بالذكاء الاصطناعي، وبنيت الصوت والمونتاج، وصممت تايبوغرافي الكادر الختامي.",
     },
     cover: "assets/work/q-ai-ad/cover.webp",
-    coverAlt: { en: "A man gaming on the sofa while a monster shadow looms on the wall, with the line “Don’t let it turn into a horror story”", ar: "رجل يلعب على الكنبة وظل وحش ضخم على الحائط خلفه، مع عبارة «لا تخلّي السالفة رعب»" },
+    coverAlt: { en: "Key visual: a husband gaming on the sofa and his wife standing with arms crossed, a monster shadow on the wall behind them, with the line “Don’t let it turn into a horror story · Leave it to Q”", ar: "البوستر الرئيسي: الزوج يلعب على الكنبة والزوجة واقفة مكتّفة إيديها، وظل وحش على الحيطة وراهم، مع جملة «لا تخلّي السالفة رعب · خلّها على كيو»" },
     services: [{ en: "Concept & script", ar: "الفكرة والسكريبت" }, { en: "Art direction", ar: "الإدارة الفنية" }, { en: "AI video direction (Higgsfield AI)", ar: "إخراج الفيديو بالذكاء الاصطناعي (Higgsfield AI)" }, { en: "Edit & sound design", ar: "المونتاج وتصميم الصوت" }, { en: "End-card typography", ar: "تايبوغرافي الكادر الختامي" }],
     palette: ["#0E2236", "#2EC4C0", "#F4F1EA", "#1B1B1F"],
     sections: {
@@ -787,8 +787,8 @@ PORTFOLIO.projects = [
         ar: "«لا تخلّي السالفة رعب، خلّها على كيو». الثلاجة الفاضية أزمة بيتية صغيرة، فصوّرتها كأزمة: الزوجة تفتح الثلاجة، الموسيقى تقع، وظل وحش يطلع على الحيطة ورا الزوج اللي لسه بيلعب والسماعة على ودنه. نوع الفيلم نفسه هو اللي بيبيع. ولما ياخد باله، يطلب من Q، الجرس يرن، والرعب يرجع سهرة عادية سعيدة.",
       },
       strategy: {
-        en: "Grocery delivery is a crowded category where every app says “fast” and “cheap”. Owning a situation instead of a feature makes the brand easier to remember. The structure is built for YouTube: a hook in the first three seconds (an empty fridge and a shocked face), tension in the middle, and the product arriving as the hero that solves it. The app is shown working (browse, order, “your order has arrived”) so the benefit is seen, not claimed, and the brand and line sit alone on the end card.",
-        ar: "توصيل البقالة سوق زحمة وكل تطبيق بيقول «أسرع» و«أرخص». امتلاك موقف بدل ميزة بيخلّي العلامة أسهل في التذكّر. البناء معمول ليوتيوب: هوك في أول 3 ثواني (ثلاجة فاضية ووش مصدوم)، توتر في النص، والمنتج يدخل كبطل يحلّ المشكلة. التطبيق ظاهر وهو شغّال (تصفّح، طلب، «وصلنا طلبك!») عشان الفايدة تتشاف مش تتقال، والعلامة والجملة لوحدهم في الكادر الختامي.",
+        en: "Grocery delivery is a crowded category where every app says “fast” and “cheap”. Owning a situation instead of a feature makes the brand easier to remember. The structure is built for YouTube: a hook in the first three seconds (an empty fridge and a shocked face), tension in the middle, and the product arriving as the hero that solves it. The app is shown working (browse, order, “your order has arrived”) so the benefit is seen, not claimed, and the brand and line sit alone on the end card. The same scene, with the wife now in frame and the monster’s shadow over both of them, became the key visual for billboards and the ad’s cover, so the outdoor and the film tell one story.",
+        ar: "توصيل البقالة سوق زحمة وكل تطبيق بيقول «أسرع» و«أرخص». امتلاك موقف بدل ميزة بيخلّي العلامة أسهل في التذكّر. البناء معمول ليوتيوب: هوك في أول 3 ثواني (ثلاجة فاضية ووش مصدوم)، توتر في النص، والمنتج يدخل كبطل يحلّ المشكلة. التطبيق ظاهر وهو شغّال (تصفّح، طلب، «وصلنا طلبك!») عشان الفايدة تتشاف مش تتقال، والعلامة والجملة لوحدهم في الكادر الختامي. ونفس المشهد، والزوجة في الكادر وظل الوحش فوقهم الاتنين، بقى البوستر الرئيسي للبيلبوردات وغلاف الإعلان، عشان الإعلان الخارجي والفيلم يحكوا نفس القصة.",
       },
       visual: {
         en: "Two worlds, two lights: horror in cold blue and hard shadow, the solution in warm daylight. The monster is only ever a shadow, so it stays funny rather than frightening. The app UI and end card share the brand’s teal and deep navy, and the end-card lettering is a hand-styled Arabic headline with the brand name picked out in teal.",
@@ -807,10 +807,12 @@ PORTFOLIO.projects = [
       { en: "36-second main ad (16:9, YouTube)", ar: "إعلان رئيسي 36 ثانية (16:9، يوتيوب)" },
       { en: "15-second cutdown and 6-second bumper", ar: "نسخة 15 ثانية وبامبر 6 ثواني" },
       { en: "9:16 and 4:5 versions for Reels and feed", ar: "نسخ 9:16 و4:5 للريلز والفيد" },
+      { en: "Key visual for billboards and the ad cover", ar: "البوستر الرئيسي للبيلبوردات وغلاف الإعلان" },
       { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
     ],
     gallery: [
-      { type: "video", src: "assets/work/q-ai-ad/film.mp4", poster: "assets/work/q-ai-ad/film-poster.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { type: "video", src: "assets/work/q-ai-ad/film.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { src: "assets/work/q-ai-ad/cover.webp", wide: true, caption: { en: "Key visual: the campaign billboard and the ad’s cover", ar: "البوستر الرئيسي: بيلبورد الحملة وغلاف الإعلان" } },
       { src: "assets/work/q-ai-ad/fridge.webp", caption: { en: "01 The hook: an empty fridge", ar: "01 الهوك: ثلاجة فاضية" } },
       { src: "assets/work/q-ai-ad/monster.webp", caption: { en: "02 The shadow grows behind him", ar: "02 الظل يكبر وراه" } },
       { src: "assets/work/q-ai-ad/scream.webp", caption: { en: "03 Peak horror", ar: "03 ذروة الرعب" } },
