@@ -421,6 +421,7 @@ html[lang="ar"] .footer-grid h2 { font-family: var(--arabic); }
 @media (max-width: 700px) { .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .case-cover { margin-block: clamp(40px, 6vw, 88px); }
 .case-cover img { width: 100%; height: auto; max-height: 88vh; object-fit: contain; background: var(--bg-2); }
+.case-cover video { display: block; width: 100%; height: auto; max-height: 88vh; aspect-ratio: 16 / 9; background: #000; }
 .case-sections { display: grid; gap: clamp(40px, 5vw, 72px); padding-block: clamp(24px, 4vw, 56px); }
 .case-row { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 12px var(--gap); }
 .case-row .label { grid-column: 1 / 4; }
