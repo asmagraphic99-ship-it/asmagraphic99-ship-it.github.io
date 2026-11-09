@@ -27,6 +27,78 @@ PORTFOLIO.categories = {
 };
 
 PORTFOLIO.projects = [
+  /* ------------------------------------------------------------- KYU · Q */
+  {
+    slug: "q-ai-ad",
+    sector: { en: "Ad campaign · Grocery delivery app", ar: "حملة إعلانية · تطبيق توصيل بقالة" },
+    oneLine: { en: "An attention-grabbing ad campaign that casts Q as the rescuer in life’s awkward moments, starting with the empty fridge.", ar: "حملة إعلانية مختلفة هدفها تشد انتباه الناس وتقدّم Q كالمنقذ في المواقف الصعبة، وأولها الثلاجة الفاضية." },
+    selfInitiated: true,
+    featured: true,
+    category: "ai-video",
+    year: "2026",
+    title: { en: "Q · Horror Story Campaign", ar: "Q · حملة لا تخلّي السالفة رعب" },
+    client: { en: "Q, grocery delivery app", ar: "Q، تطبيق توصيل بقالة" },
+    summary: {
+      en: "A different kind of grocery campaign. Instead of selling price or speed, it grabs attention with a moment everyone recognises and positions Q as the rescuer when things go wrong at home. The hero film plays an empty fridge as a horror story: the wife opens it, a monster shadow rises behind the husband who is busy gaming, and Q saves the evening with one order, a notification, the courier at the door and a wink. The same idea runs across the campaign: the main film, cutdowns for YouTube and social, and a key visual adapted for billboards, mall screens and bus shelters. I wrote the concept and script, directed every AI-generated shot, built the sound and the edit, and designed the campaign typography.",
+      ar: "حملة بقالة مختلفة. بدل ما تبيع السعر أو السرعة، بتشد الانتباه بموقف كل بيت يعرفه، وتقدّم Q كالمنقذ لما الأمور تقلب في البيت. الفيلم الرئيسي بيحكي الثلاجة الفاضية كقصة رعب: الزوجة تفتحها، وظل وحش يطلع ورا الزوج المشغول باللعب، وQ ينقذ السهرة بطلب واحد، وإشعار، والمندوب على الباب، وغمزة. نفس الفكرة ماشية في الحملة كلها: الفيلم الرئيسي، ونسخ قصيرة ليوتيوب والسوشيال، وبوستر رئيسي متكيّف للبيلبوردات وشاشات المولات ومحطات الباص. كتبت الفكرة والسكريبت، ووجّهت كل لقطة مولّدة بالذكاء الاصطناعي، وبنيت الصوت والمونتاج، وصممت تايبوغرافي الحملة.",
+    },
+    cover: "assets/work/q-ai-ad/cover.webp",
+    coverAlt: { en: "Key visual: a husband gaming on the sofa and his wife standing with arms crossed, a monster shadow on the wall behind them, with the line “Don’t let it turn into a horror story · Leave it to Q”", ar: "البوستر الرئيسي: الزوج يلعب على الكنبة والزوجة واقفة مكتّفة إيديها، وظل وحش على الحيطة وراهم، مع جملة «لا تخلّي السالفة رعب · خلّها على كيو»" },
+    services: [{ en: "Concept & script", ar: "الفكرة والسكريبت" }, { en: "Art direction", ar: "الإدارة الفنية" }, { en: "AI video direction (Higgsfield AI)", ar: "إخراج الفيديو بالذكاء الاصطناعي (Higgsfield AI)" }, { en: "Edit & sound design", ar: "المونتاج وتصميم الصوت" }, { en: "Campaign typography & out-of-home", ar: "تايبوغرافي الحملة والإعلانات الخارجية" }],
+    palette: ["#0E2236", "#2EC4C0", "#F4F1EA", "#1B1B1F"],
+    sections: {
+      brief: {
+        en: "Build a campaign for a grocery delivery app that stops people scrolling and driving past, and makes Q the brand they think of when something goes wrong at home. The app’s promise: groceries at your door in 20 minutes. A second goal: prove a full campaign can be concepted, directed and finished with AI, without a crew, a set or actors.",
+        ar: "حملة لتطبيق توصيل بقالة توقّف الناس وهم بيقلّبوا في الجوال أو سايقين في الطريق، وتخلّي Q هو أول اسم ييجي في بالهم لما حاجة تقلب في البيت. وعد التطبيق: البقالة عند بابك خلال 20 دقيقة. وهدف تاني: إثبات إن حملة كاملة ممكن تتعمل فكرة وإخراج وتنفيذ بالذكاء الاصطناعي بدون فريق تصوير أو لوكيشن أو ممثلين.",
+      },
+      concept: {
+        en: "“Don’t let it turn into a horror story, leave it to Q.” An empty fridge is a small domestic crisis, so I shot it like one: the wife opens the fridge, the music drops, and a monster shadow rises on the wall behind the husband, who is still gaming with his headphones on. The genre does the selling. When he finally sees it, he orders on Q, the doorbell rings, and the horror turns back into a normal, happy evening. Q is the rescuer, and the platform is built to carry more of these awkward moments in later executions.",
+        ar: "«لا تخلّي السالفة رعب، خلّها على كيو». الثلاجة الفاضية أزمة بيتية صغيرة، فصوّرتها كأزمة: الزوجة تفتح الثلاجة، الموسيقى تقع، وظل وحش يطلع على الحيطة ورا الزوج اللي لسه بيلعب والسماعة على ودنه. نوع الفيلم نفسه هو اللي بيبيع. ولما ياخد باله، يطلب من Q، الجرس يرن، والرعب يرجع سهرة عادية سعيدة. Q هو المنقذ، والفكرة معمولة عشان تستوعب مواقف صعبة تانية في إعلانات جاية.",
+      },
+      strategy: {
+        en: "Grocery delivery is a crowded category where every app says “fast” and “cheap”. The campaign is built to break that pattern: an unexpected genre that grabs attention, and a single role for the brand, the rescuer in a tough moment. Owning a situation instead of a feature makes Q easier to remember. The structure is built for YouTube: a hook in the first three seconds (an empty fridge and a shocked face), tension in the middle, and the product arriving as the hero that solves it. The app is shown working (browse, order, “your order has arrived”) so the benefit is seen, not claimed, and the brand and line sit alone on the end card. The same scene, with the wife now in frame and the monster’s shadow over both of them, became the key visual and was adapted for highway billboards, mall facade screens, digital totems and bus shelters, so the outdoor and the film tell one story.",
+        ar: "توصيل البقالة سوق زحمة وكل تطبيق بيقول «أسرع» و«أرخص». الحملة معمولة عشان تكسر النمط ده: نوع غير متوقع يشد الانتباه، ودور واحد للعلامة، المنقذ في الموقف الصعب. امتلاك موقف بدل ميزة بيخلّي Q أسهل في التذكّر. البناء معمول ليوتيوب: هوك في أول 3 ثواني (ثلاجة فاضية ووش مصدوم)، توتر في النص، والمنتج يدخل كبطل يحلّ المشكلة. التطبيق ظاهر وهو شغّال (تصفّح، طلب، «وصلنا طلبك!») عشان الفايدة تتشاف مش تتقال، والعلامة والجملة لوحدهم في الكادر الختامي. ونفس المشهد، والزوجة في الكادر وظل الوحش فوقهم الاتنين، بقى البوستر الرئيسي واتكيّف لبيلبوردات الطرق وشاشات واجهات المولات والتوتمات الرقمية ومحطات الباص، عشان الإعلان الخارجي والفيلم يحكوا نفس القصة.",
+      },
+      visual: {
+        en: "Two worlds, two lights: horror in cold blue and hard shadow, the solution in warm daylight. The monster is only ever a shadow, so it stays funny rather than frightening. The app UI and end card share the brand’s teal and deep navy, and the end-card lettering is a hand-styled Arabic headline with the brand name picked out in teal.",
+        ar: "عالمين بإضاءتين: الرعب بالأزرق البارد والظل القاسي، والحل بضوء النهار الدافي. الوحش طول الوقت ظل بس، عشان يفضل مضحك مش مخيف. واجهة التطبيق والكادر الختامي بنفس الفيروزي والكحلي الغامق للعلامة، وعنوان الختام بخط عربي مرسوم يدويًا مع اسم العلامة بالفيروزي.",
+      },
+      development: {
+        en: "Script and shot list, then reference frames to lock the characters, the kitchen and the living room. Each shot was generated on Higgsfield AI from those references, so faces and wardrobe stay consistent, then animated with image-to-video. I designed the app screens shown on the phone, built the sound in separate stems (dialogue, music, effects and ambience) for a clean final mix, and went through about eleven rounds of edit, grade and sound revisions to the final 36-second 16:9 master.",
+        ar: "سكريبت وقائمة لقطات، ثم صور مرجعية لتثبيت الشخصيات والمطبخ والصالة. كل لقطة اتولّدت على Higgsfield AI من المراجع دي عشان الوشوش والملابس تفضل ثابتة، وبعدين اتحرّكت بتحويل الصورة لفيديو. صممت شاشات التطبيق اللي ظاهرة على الجوال، وبنيت الصوت في مسارات منفصلة (حوار، موسيقى، مؤثرات، أجواء) لميكس نهائي نضيف، وعدّيت على حوالي 11 جولة تعديل في المونتاج والألوان والصوت لحد الماستر النهائي 36 ثانية بمقاس 16:9.",
+      },
+      role: {
+        en: "Concept, script and storyboard; art direction; AI image and video direction; app screen design; edit and sound design; campaign typography and out-of-home adaptations.",
+        ar: "الفكرة والسكريبت والستوري بورد، والإدارة الفنية، وإخراج الصور والفيديو بالذكاء الاصطناعي، وتصميم شاشات التطبيق، والمونتاج وتصميم الصوت، وتايبوغرافي الحملة ونسخ الإعلانات الخارجية.",
+      },
+    },
+    deliverables: [
+      { en: "36-second main ad (16:9, YouTube)", ar: "إعلان رئيسي 36 ثانية (16:9، يوتيوب)" },
+      { en: "15-second cutdown and 6-second bumper", ar: "نسخة 15 ثانية وبامبر 6 ثواني" },
+      { en: "9:16 and 4:5 versions for Reels and feed", ar: "نسخ 9:16 و4:5 للريلز والفيد" },
+      { en: "Key visual and out-of-home adaptations (billboard, mall screens, bus shelter)", ar: "البوستر الرئيسي ونسخ الإعلانات الخارجية (بيلبورد، شاشات مول، محطة باص)" },
+      { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
+    ],
+    gallery: [
+      { type: "video", src: "assets/work/q-ai-ad/film.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
+      { src: "assets/work/q-ai-ad/cover.webp", wide: true, caption: { en: "Key visual: the campaign billboard and the ad’s cover", ar: "البوستر الرئيسي: بيلبورد الحملة وغلاف الإعلان" } },
+      { src: "assets/work/q-ai-ad/ooh-mall.webp", wide: true, caption: { en: "Out-of-home: mall facade screen and digital totems", ar: "إعلانات خارجية: شاشة واجهة مول وتوتمات رقمية" } },
+      { src: "assets/work/q-ai-ad/ooh-billboard.webp", caption: { en: "Highway billboard", ar: "بيلبورد على الطريق السريع" } },
+      { src: "assets/work/q-ai-ad/ooh-busstop.webp", caption: { en: "Bus shelter, vertical layout", ar: "محطة باص، تصميم عمودي" } },
+      { src: "assets/work/q-ai-ad/fridge.webp", caption: { en: "01 The hook: an empty fridge", ar: "01 الهوك: ثلاجة فاضية" } },
+      { src: "assets/work/q-ai-ad/monster.webp", caption: { en: "02 The shadow grows behind him", ar: "02 الظل يكبر وراه" } },
+      { src: "assets/work/q-ai-ad/scream.webp", caption: { en: "03 Peak horror", ar: "03 ذروة الرعب" } },
+      { src: "assets/work/q-ai-ad/husband.webp", caption: { en: "04 He finally notices", ar: "04 أخيرًا ياخد باله" } },
+      { src: "assets/work/q-ai-ad/app.webp", caption: { en: "05 The way out: one order on Q", ar: "05 المخرج: طلب واحد من Q" } },
+      { src: "assets/work/q-ai-ad/notify.webp", caption: { en: "06 “Your order has arrived!”", ar: "06 «وصلنا طلبك!»" } },
+      { src: "assets/work/q-ai-ad/delivery.webp", caption: { en: "07 The courier at the door", ar: "07 المندوب على الباب" } },
+      { src: "assets/work/q-ai-ad/wink.webp", caption: { en: "08 Back to normal, with a wink", ar: "08 رجعت عادي، مع غمزة" } },
+      { src: "assets/work/q-ai-ad/endcard.webp", wide: true, caption: { en: "End card: “Don’t let it turn into a horror story · Leave it to Q”", ar: "الكادر الختامي: «لا تخلّي السالفة رعب · خلّها على كيو»" } },
+      { src: "assets/work/q-ai-ad/ref-frame.webp", wide: true, caption: { en: "Process: a reference frame used to lock characters and lighting", ar: "مراحل العمل: صورة مرجعية لتثبيت الشخصيات والإضاءة" } },
+      { src: "assets/work/q-ai-ad/app-ui.webp", caption: { en: "The app screen designed for the ad (20-minute delivery)", ar: "شاشة التطبيق المصممة للإعلان (توصيل خلال 20 دقيقة)" } },
+    ],
+  },
+
   /* ---------------------------------------------------- ICON REAL ESTATE */
   {
     slug: "icon-real-estate",
@@ -755,78 +827,6 @@ PORTFOLIO.projects = [
       { type: "video", src: "assets/work/ai-national-day/film.mp4", poster: "assets/work/ai-national-day/film-poster.webp", caption: { en: "The final film (46 s, 9:16)", ar: "الفيلم النهائي (46 ثانية، 9:16)" } },
       { src: "assets/work/ai-national-day/storyboard-1.webp", wide: true, caption: { en: "Storyboard 1/2 (heritage): 01 Flag over the old mud-brick town at sunrise · 02 Getting ready: adjusting the shemagh · 03 Roasting coffee beans · 04 Pouring Saudi coffee from the dallah · 05 Weaving Sadu in green and white · 06 Walking the old lanes in a Sadu cloak · 07 Greeting the Arabian horse", ar: "الستوري بورد 1/2 (التراث): 01 العلم فوق البلدة الطينية مع الشروق · 02 الاستعداد: تعديل الشماغ · 03 تحميص حبوب القهوة · 04 صبّ القهوة السعودية من الدلة · 05 نسج السدو بالأخضر والأبيض · 06 المشي في الأزقة القديمة بعباءة السدو · 07 تحية الخيل العربية" } },
       { src: "assets/work/ai-national-day/storyboard-2.webp", wide: true, caption: { en: "Storyboard 2/2 (the next generation): 08 Close-up: trust between rider and horse · 09 The horse runs free across the desert · 10 The cloak passes to the next generation · 11 A boy walks through the heritage town · 12 The national emblem on his back · 13 Today: the same boy overlooks a modern skyline · 14 End card: “Dam Izzak Ya Watan · Izzna Bi Tabe’na” with the ICON logo", ar: "الستوري بورد 2/2 (الجيل الجديد): 08 لقطة قريبة: الثقة بين الفارس والخيل · 09 الخيل تنطلق في الصحراء · 10 العباءة تنتقل للجيل الجديد · 11 طفل يمشي في البلدة التراثية · 12 شعار المملكة على ظهره · 13 اليوم: نفس الطفل يطل على مدينة حديثة · 14 الختام: «دام عزك يا وطن · عزنا بطبعنا» مع شعار ايكون" } },
-    ],
-  },
-
-  /* ------------------------------------------------------------- KYU · Q */
-  {
-    slug: "q-ai-ad",
-    sector: { en: "Ad campaign · Grocery delivery app", ar: "حملة إعلانية · تطبيق توصيل بقالة" },
-    oneLine: { en: "An attention-grabbing ad campaign that casts Q as the rescuer in life’s awkward moments, starting with the empty fridge.", ar: "حملة إعلانية مختلفة هدفها تشد انتباه الناس وتقدّم Q كالمنقذ في المواقف الصعبة، وأولها الثلاجة الفاضية." },
-    selfInitiated: true,
-    featured: false,
-    category: "ai-video",
-    year: "2026",
-    title: { en: "Q · Horror Story Campaign", ar: "Q · حملة لا تخلّي السالفة رعب" },
-    client: { en: "Q, grocery delivery app", ar: "Q، تطبيق توصيل بقالة" },
-    summary: {
-      en: "A different kind of grocery campaign. Instead of selling price or speed, it grabs attention with a moment everyone recognises and positions Q as the rescuer when things go wrong at home. The hero film plays an empty fridge as a horror story: the wife opens it, a monster shadow rises behind the husband who is busy gaming, and Q saves the evening with one order, a notification, the courier at the door and a wink. The same idea runs across the campaign: the main film, cutdowns for YouTube and social, and a key visual adapted for billboards, mall screens and bus shelters. I wrote the concept and script, directed every AI-generated shot, built the sound and the edit, and designed the campaign typography.",
-      ar: "حملة بقالة مختلفة. بدل ما تبيع السعر أو السرعة، بتشد الانتباه بموقف كل بيت يعرفه، وتقدّم Q كالمنقذ لما الأمور تقلب في البيت. الفيلم الرئيسي بيحكي الثلاجة الفاضية كقصة رعب: الزوجة تفتحها، وظل وحش يطلع ورا الزوج المشغول باللعب، وQ ينقذ السهرة بطلب واحد، وإشعار، والمندوب على الباب، وغمزة. نفس الفكرة ماشية في الحملة كلها: الفيلم الرئيسي، ونسخ قصيرة ليوتيوب والسوشيال، وبوستر رئيسي متكيّف للبيلبوردات وشاشات المولات ومحطات الباص. كتبت الفكرة والسكريبت، ووجّهت كل لقطة مولّدة بالذكاء الاصطناعي، وبنيت الصوت والمونتاج، وصممت تايبوغرافي الحملة.",
-    },
-    cover: "assets/work/q-ai-ad/cover.webp",
-    coverAlt: { en: "Key visual: a husband gaming on the sofa and his wife standing with arms crossed, a monster shadow on the wall behind them, with the line “Don’t let it turn into a horror story · Leave it to Q”", ar: "البوستر الرئيسي: الزوج يلعب على الكنبة والزوجة واقفة مكتّفة إيديها، وظل وحش على الحيطة وراهم، مع جملة «لا تخلّي السالفة رعب · خلّها على كيو»" },
-    services: [{ en: "Concept & script", ar: "الفكرة والسكريبت" }, { en: "Art direction", ar: "الإدارة الفنية" }, { en: "AI video direction (Higgsfield AI)", ar: "إخراج الفيديو بالذكاء الاصطناعي (Higgsfield AI)" }, { en: "Edit & sound design", ar: "المونتاج وتصميم الصوت" }, { en: "Campaign typography & out-of-home", ar: "تايبوغرافي الحملة والإعلانات الخارجية" }],
-    palette: ["#0E2236", "#2EC4C0", "#F4F1EA", "#1B1B1F"],
-    sections: {
-      brief: {
-        en: "Build a campaign for a grocery delivery app that stops people scrolling and driving past, and makes Q the brand they think of when something goes wrong at home. The app’s promise: groceries at your door in 20 minutes. A second goal: prove a full campaign can be concepted, directed and finished with AI, without a crew, a set or actors.",
-        ar: "حملة لتطبيق توصيل بقالة توقّف الناس وهم بيقلّبوا في الجوال أو سايقين في الطريق، وتخلّي Q هو أول اسم ييجي في بالهم لما حاجة تقلب في البيت. وعد التطبيق: البقالة عند بابك خلال 20 دقيقة. وهدف تاني: إثبات إن حملة كاملة ممكن تتعمل فكرة وإخراج وتنفيذ بالذكاء الاصطناعي بدون فريق تصوير أو لوكيشن أو ممثلين.",
-      },
-      concept: {
-        en: "“Don’t let it turn into a horror story, leave it to Q.” An empty fridge is a small domestic crisis, so I shot it like one: the wife opens the fridge, the music drops, and a monster shadow rises on the wall behind the husband, who is still gaming with his headphones on. The genre does the selling. When he finally sees it, he orders on Q, the doorbell rings, and the horror turns back into a normal, happy evening. Q is the rescuer, and the platform is built to carry more of these awkward moments in later executions.",
-        ar: "«لا تخلّي السالفة رعب، خلّها على كيو». الثلاجة الفاضية أزمة بيتية صغيرة، فصوّرتها كأزمة: الزوجة تفتح الثلاجة، الموسيقى تقع، وظل وحش يطلع على الحيطة ورا الزوج اللي لسه بيلعب والسماعة على ودنه. نوع الفيلم نفسه هو اللي بيبيع. ولما ياخد باله، يطلب من Q، الجرس يرن، والرعب يرجع سهرة عادية سعيدة. Q هو المنقذ، والفكرة معمولة عشان تستوعب مواقف صعبة تانية في إعلانات جاية.",
-      },
-      strategy: {
-        en: "Grocery delivery is a crowded category where every app says “fast” and “cheap”. The campaign is built to break that pattern: an unexpected genre that grabs attention, and a single role for the brand, the rescuer in a tough moment. Owning a situation instead of a feature makes Q easier to remember. The structure is built for YouTube: a hook in the first three seconds (an empty fridge and a shocked face), tension in the middle, and the product arriving as the hero that solves it. The app is shown working (browse, order, “your order has arrived”) so the benefit is seen, not claimed, and the brand and line sit alone on the end card. The same scene, with the wife now in frame and the monster’s shadow over both of them, became the key visual and was adapted for highway billboards, mall facade screens, digital totems and bus shelters, so the outdoor and the film tell one story.",
-        ar: "توصيل البقالة سوق زحمة وكل تطبيق بيقول «أسرع» و«أرخص». الحملة معمولة عشان تكسر النمط ده: نوع غير متوقع يشد الانتباه، ودور واحد للعلامة، المنقذ في الموقف الصعب. امتلاك موقف بدل ميزة بيخلّي Q أسهل في التذكّر. البناء معمول ليوتيوب: هوك في أول 3 ثواني (ثلاجة فاضية ووش مصدوم)، توتر في النص، والمنتج يدخل كبطل يحلّ المشكلة. التطبيق ظاهر وهو شغّال (تصفّح، طلب، «وصلنا طلبك!») عشان الفايدة تتشاف مش تتقال، والعلامة والجملة لوحدهم في الكادر الختامي. ونفس المشهد، والزوجة في الكادر وظل الوحش فوقهم الاتنين، بقى البوستر الرئيسي واتكيّف لبيلبوردات الطرق وشاشات واجهات المولات والتوتمات الرقمية ومحطات الباص، عشان الإعلان الخارجي والفيلم يحكوا نفس القصة.",
-      },
-      visual: {
-        en: "Two worlds, two lights: horror in cold blue and hard shadow, the solution in warm daylight. The monster is only ever a shadow, so it stays funny rather than frightening. The app UI and end card share the brand’s teal and deep navy, and the end-card lettering is a hand-styled Arabic headline with the brand name picked out in teal.",
-        ar: "عالمين بإضاءتين: الرعب بالأزرق البارد والظل القاسي، والحل بضوء النهار الدافي. الوحش طول الوقت ظل بس، عشان يفضل مضحك مش مخيف. واجهة التطبيق والكادر الختامي بنفس الفيروزي والكحلي الغامق للعلامة، وعنوان الختام بخط عربي مرسوم يدويًا مع اسم العلامة بالفيروزي.",
-      },
-      development: {
-        en: "Script and shot list, then reference frames to lock the characters, the kitchen and the living room. Each shot was generated on Higgsfield AI from those references, so faces and wardrobe stay consistent, then animated with image-to-video. I designed the app screens shown on the phone, built the sound in separate stems (dialogue, music, effects and ambience) for a clean final mix, and went through about eleven rounds of edit, grade and sound revisions to the final 36-second 16:9 master.",
-        ar: "سكريبت وقائمة لقطات، ثم صور مرجعية لتثبيت الشخصيات والمطبخ والصالة. كل لقطة اتولّدت على Higgsfield AI من المراجع دي عشان الوشوش والملابس تفضل ثابتة، وبعدين اتحرّكت بتحويل الصورة لفيديو. صممت شاشات التطبيق اللي ظاهرة على الجوال، وبنيت الصوت في مسارات منفصلة (حوار، موسيقى، مؤثرات، أجواء) لميكس نهائي نضيف، وعدّيت على حوالي 11 جولة تعديل في المونتاج والألوان والصوت لحد الماستر النهائي 36 ثانية بمقاس 16:9.",
-      },
-      role: {
-        en: "Concept, script and storyboard; art direction; AI image and video direction; app screen design; edit and sound design; campaign typography and out-of-home adaptations.",
-        ar: "الفكرة والسكريبت والستوري بورد، والإدارة الفنية، وإخراج الصور والفيديو بالذكاء الاصطناعي، وتصميم شاشات التطبيق، والمونتاج وتصميم الصوت، وتايبوغرافي الحملة ونسخ الإعلانات الخارجية.",
-      },
-    },
-    deliverables: [
-      { en: "36-second main ad (16:9, YouTube)", ar: "إعلان رئيسي 36 ثانية (16:9، يوتيوب)" },
-      { en: "15-second cutdown and 6-second bumper", ar: "نسخة 15 ثانية وبامبر 6 ثواني" },
-      { en: "9:16 and 4:5 versions for Reels and feed", ar: "نسخ 9:16 و4:5 للريلز والفيد" },
-      { en: "Key visual and out-of-home adaptations (billboard, mall screens, bus shelter)", ar: "البوستر الرئيسي ونسخ الإعلانات الخارجية (بيلبورد، شاشات مول، محطة باص)" },
-      { en: "App screen design and end card", ar: "تصميم شاشة التطبيق والكادر الختامي" },
-    ],
-    gallery: [
-      { type: "video", src: "assets/work/q-ai-ad/film.mp4", poster: "assets/work/q-ai-ad/cover.webp", caption: { en: "The final ad (36 s, 16:9)", ar: "الإعلان النهائي (36 ثانية، 16:9)" } },
-      { src: "assets/work/q-ai-ad/cover.webp", wide: true, caption: { en: "Key visual: the campaign billboard and the ad’s cover", ar: "البوستر الرئيسي: بيلبورد الحملة وغلاف الإعلان" } },
-      { src: "assets/work/q-ai-ad/ooh-mall.webp", wide: true, caption: { en: "Out-of-home: mall facade screen and digital totems", ar: "إعلانات خارجية: شاشة واجهة مول وتوتمات رقمية" } },
-      { src: "assets/work/q-ai-ad/ooh-billboard.webp", caption: { en: "Highway billboard", ar: "بيلبورد على الطريق السريع" } },
-      { src: "assets/work/q-ai-ad/ooh-busstop.webp", caption: { en: "Bus shelter, vertical layout", ar: "محطة باص، تصميم عمودي" } },
-      { src: "assets/work/q-ai-ad/fridge.webp", caption: { en: "01 The hook: an empty fridge", ar: "01 الهوك: ثلاجة فاضية" } },
-      { src: "assets/work/q-ai-ad/monster.webp", caption: { en: "02 The shadow grows behind him", ar: "02 الظل يكبر وراه" } },
-      { src: "assets/work/q-ai-ad/scream.webp", caption: { en: "03 Peak horror", ar: "03 ذروة الرعب" } },
-      { src: "assets/work/q-ai-ad/husband.webp", caption: { en: "04 He finally notices", ar: "04 أخيرًا ياخد باله" } },
-      { src: "assets/work/q-ai-ad/app.webp", caption: { en: "05 The way out: one order on Q", ar: "05 المخرج: طلب واحد من Q" } },
-      { src: "assets/work/q-ai-ad/notify.webp", caption: { en: "06 “Your order has arrived!”", ar: "06 «وصلنا طلبك!»" } },
-      { src: "assets/work/q-ai-ad/delivery.webp", caption: { en: "07 The courier at the door", ar: "07 المندوب على الباب" } },
-      { src: "assets/work/q-ai-ad/wink.webp", caption: { en: "08 Back to normal, with a wink", ar: "08 رجعت عادي، مع غمزة" } },
-      { src: "assets/work/q-ai-ad/endcard.webp", wide: true, caption: { en: "End card: “Don’t let it turn into a horror story · Leave it to Q”", ar: "الكادر الختامي: «لا تخلّي السالفة رعب · خلّها على كيو»" } },
-      { src: "assets/work/q-ai-ad/ref-frame.webp", wide: true, caption: { en: "Process: a reference frame used to lock characters and lighting", ar: "مراحل العمل: صورة مرجعية لتثبيت الشخصيات والإضاءة" } },
-      { src: "assets/work/q-ai-ad/app-ui.webp", caption: { en: "The app screen designed for the ad (20-minute delivery)", ar: "شاشة التطبيق المصممة للإعلان (توصيل خلال 20 دقيقة)" } },
     ],
   },
 
