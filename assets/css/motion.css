@@ -1,0 +1,25 @@
+/* Scroll-driven motion layer — pairs with assets/js/motion.js.
+   Only adds movement; layout, content and order stay as in style.css. */
+@media (prefers-reduced-motion: no-preference) {
+  /* motion.js drives these every frame, so the older fade-in must not fight it */
+  .mx-on .mx,
+  .mx-on .mx.is-pre,
+  .mx-on .mx.is-in {
+    transition-property: border-color, color, background-color !important;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+  }
+  .mx-on .mx.is-pre { opacity: 0; }
+  .mx-on .mx-fly, .mx-on .mx-card { transform-origin: 50% 100%; }
+  .mx-on .hero-photo { will-change: transform, opacity; transform-origin: 50% 30%; }
+  .mx-on .hero-title .l1, .mx-on .hero-title .l2 { will-change: transform; }
+  .mx-on .hero { overflow: visible; }
+  .mx-on body { overflow-x: clip; }
+
+  /* brand names lean with scroll speed */
+  .mx-on .marquee-track span { display: inline-block; transform: skewX(var(--mx-skew, 0deg)); }
+
+  /* a little depth on hover for the work cards */
+  .mx-on .pf-card .crop, .mx-on .motion-tile .crop { transition: box-shadow .5s ease; }
+  .mx-on .pf-card:hover .crop, .mx-on .motion-tile:hover .crop { box-shadow: 0 30px 60px -20px rgba(0,0,0,.6); }
+}
